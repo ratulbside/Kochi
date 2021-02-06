@@ -1,0 +1,408 @@
+/*
+Theme Name: Kochi-Biennale
+Theme URI: https://afterimagedesigns.com/wp-bootstrap-starter/
+Template: wp-bootstrap-starter
+Author: Afterimage Designs
+Author URI: https://afterimagedesigns.com/
+Description: The best WordPress starter theme based on the most powerful frameworks in the world: "_s" (by Automattic, the main people behind WordPress development), Twitter Bootstrap (the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web) and Font Awesome (or Fontawesome, a full suite of 675+ pictographic icons for easy scalable vector graphics on websites). This theme, like WordPress, is licensed under the GPL. You can use this theme as base for your next WordPress theme project and you are allowed to remove the link at the footer or do whatever you want. Your feedback on how we can continuously improve this WordPress Starter Theme Bootstrap will be highly appreciated. Page templates includes Right-sidebar (default page template), Left-Sidebar, Full-Width, Blank with container, Blank without container Page. Other features - Currently using Bootstrap v4.0.0 , Widgetized footer area, WooCommerce ready, Compatible with Contact Form 7, Compatible with Visual Composer, Compatible with Elementor Page Builder. This theme will be an active project which we will update from time to time. Check this page regularly for the updates.
+Tags: blog,custom-menu,featured-images,threaded-comments,translation-ready,right-sidebar,custom-background,e-commerce,theme-options,sticky-post,full-width-template
+Version: 3.3.6.1612002767
+Updated: 2021-01-30 10:32:47
+
+*/
+#content.site-content{
+	padding-top: 0px;
+}
+div.home-background-area{
+	background-image: url("images/IMG_2615.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 700px;	
+	width: 100%;
+}
+.button-area-position button{
+    width: 80px;
+    height: 80px;
+    background-color: transparent;
+    color: transparent;
+}
+.button-area-position{
+    width: 690px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.button-area-position > div {
+    float: left;
+}
+.button-area-row.first .button-area-position{
+    padding-top: 120px;
+}
+.button-area-row.first .button-area-position .part-one{
+    height: 160px;
+    width: 190px;
+}
+.button-area-row.first .button-area-position .part-two{
+    width: 190px;
+    margin-left: 68px;
+}
+.button-area-row.first .button-area-position .part-three{
+    width: 190px;
+    margin-left: 48px;
+}
+.button-area-row.second .button-area-position{
+    width: 184px;
+    position: relative;
+    top: -15px;
+    height: 120px;
+}
+button#varsha {
+    position: relative;
+    border-radius: 50px;
+    top: 66px;
+    left: 38px;
+}
+button#tanya {
+    margin-right: 9px;
+}
+button#siddhant {
+    border-radius: 50px;
+    position: relative;
+    top: 66px;
+    left: 72px;
+}
+button#shreya {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+button#shwani {
+    float: right;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.button-area-position button:focus, .button-area-position button:active{
+  box-shadow: none;
+  outline:none;
+}
+button {
+  background-color: transparent;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 20px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+@-webkit-keyframes glowing {
+  0% { background-color: transparent; -webkit-box-shadow: 0 0 3px #000; }
+  50% { background-color: transparent; -webkit-box-shadow: 0 0 10px #000; }
+  100% { background-color: transparent; -webkit-box-shadow: 0 0 3px #000; }
+}
+
+@-moz-keyframes glowing {
+  0% { background-color: transparent; -moz-box-shadow: 0 0 3px #000; }
+  50% { background-color: transparent; -moz-box-shadow: 0 0 10px #000; }
+  100% { background-color: transparent; -moz-box-shadow: 0 0 3px #000; }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: transparent; box-shadow: 0 0 3px #000; }
+  50% { background-color: transparent; box-shadow: 0 0 10px #000; }
+  100% { background-color: transparent; box-shadow: 0 0 3px #000; }
+}
+
+@keyframes glowing {
+  0% { background-color: transparent; box-shadow: 0 0 3px #000; }
+  50% { background-color: transparent; box-shadow: 0 0 10px #000; }
+  100% { background-color: transparent; box-shadow: 0 0 3px #000; }
+}
+
+.button-area-row.third {
+    width: 860px;
+    margin: 0 auto;
+    height: 120px;
+    position: relative;
+    top: -45px;
+}
+.button-area-row.third .button-area-position{
+  width: 690px; 
+  margin: 0 auto;
+}
+.button-area-row.third .button-area-position > div {
+    float: left;
+}
+.button-area-row.third .button-area-position .part-one, .button-area-row.four .button-area-position .part-one{
+    margin-right: 65px;
+}
+.button-area-row.third .button-area-position .part-two, .button-area-row.four .button-area-position .part-two {
+    margin-right: 72px;
+}
+.button-area-row.third .button-area-position .part-three, .button-area-row.four .button-area-position .part-three{
+    width: 174px;
+}
+.button-area-row.third .button-area-position .part-one, .button-area-row.third .button-area-position .part-two, 
+.button-area-row.four .button-area-position .part-one, .button-area-row.third .button-area-position .part-two{
+    width: 184px;
+}
+.part-one button#rushikesh, .part-two button#rohit, .part-three button#mukta-kumar, 
+.part-one button#kumar-misal, .part-two button#kasin-patel, .part-three button#manish-rathod{
+    float: right;
+}
+.button-area-row.third.four {
+    overflow: hidden;
+    padding-top: 20px;
+}
+button#rushikesh, button#rohit, button#neha, button#mukta-kumar{
+    margin-top: 10px;
+    margin-bottom: 10px;
+} 
+button#kumar-misal {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-right: 4px;
+}
+button#kasin-patel {
+    margin-top: 10px;
+}
+button#chaitanya-powle {
+    margin-top: 10px;
+    margin-left: 9px;
+}
+button#manish-rathod {
+    position: relative;
+    top: 10px;
+    left: 6px;
+}
+.single-switch a {
+    float: right;
+}
+.single-concept-note {
+    margin-top: 50px;
+}
+
+.single-concept-note p {
+    text-align: justify;
+}
+
+/*individual page*/
+.single-background {
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1100px;
+    height: 1000px;
+    background-size: contain;
+}
+.single-background.varsha{
+  background-image: url(images/flor/Floor-Map-Varsha.jpg);
+}
+.single-row-left {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+.single-row-right {
+    width: 50%;
+    float: right;
+}
+.single-background .single-row {
+    overflow: hidden;
+    width: 629px;
+    margin: 0 auto;
+    height: auto;
+}
+.single-background .single-row-right img {
+    width: 52%;
+}
+.single-row.one {
+    padding-bottom: 221px;
+}
+.single-row.two .single-row-left img{
+  width: 58%;
+}
+.single-row.two {
+    margin-bottom: 25px;
+}
+.single-row.three .single-row-right img {
+    margin-left: 78px;
+}
+.single-row.three{
+  padding-bottom: 247px;
+}
+.single-row.four .single-row-left img{
+  width: 50%;
+  float: right;
+}
+.single-background.varsha .single-row.three{
+  padding-bottom: 235px;
+}
+.single-background.varsha .single-row.two .single-row-left a {
+    margin-left: 8px;
+}
+.single-background.varsha .single-row.one {
+    padding-bottom: 216px;
+    padding-top: 5px;
+}
+
+.single-background.tanya{
+  background-image: url(images/flor/Floor-plan-Tanya.jpg);
+}
+.single-background.tanya .single-row.two{
+  margin-top: 58px;
+}
+.single-background.tanya .single-row.four .single-row-right{
+  margin-top: 60px;
+}
+.single-background.tanya .single-row.four .single-row-right a{
+  margin-left: 90px;
+}
+
+.single-background.sushil{
+  background-image: url(images/flor/Floor-map-sushil.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+  .button-area-position{
+    width: 580px;
+  }
+  .button-area-row.second .button-area-position{
+    top: -35px;
+  }
+  .button-area-row.first .button-area-position .part-one{
+    width: 133px;
+  }
+  .button-area-row.first .button-area-position {
+    padding-top: 140px;
+  }
+  .button-area-row.first .button-area-position .part-two{
+    margin-left: 68px;
+    margin-top: 20px;
+  }
+  .button-area-row.first .button-area-position .part-three{
+    margin-left: 7px;
+    width: 175px;
+  }
+  button#varsha{
+    left: 27px;
+  }
+  .button-area-row.third{
+    width: 580px;
+    top: -70px;
+  }
+  .button-area-row.third .button-area-position .part-one{
+    width: 158px;
+  }
+  .button-area-row.third .button-area-position .part-two{
+    width: 145px;
+    margin-right: 43px;
+  }
+  .button-area-row.third.four{
+    padding-top: 0px;
+  }
+  .button-area-row.four{
+    width: 594px;
+  }
+  .button-area-row.four .button-area-position .part-one{
+    margin-left: 10px;
+  }
+  .button-area-row.four .button-area-position .part-two{
+    margin-right: 33px;
+  }
+}
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .button-area-position{
+    width: 580px;
+  }
+  .button-area-row.second .button-area-position{
+    top: -35px;
+  }
+  .button-area-row.first .button-area-position .part-one{
+    width: 133px;
+  }
+  .button-area-row.first .button-area-position {
+    padding-top: 140px;
+  }
+  .button-area-row.first .button-area-position .part-two{
+    margin-left: 68px;
+    margin-top: 20px;
+  }
+  .button-area-row.first .button-area-position .part-three{
+    margin-left: 7px;
+    width: 175px;
+  }
+  button#varsha{
+    left: 27px;
+  }
+  .button-area-row.third{
+    width: 580px;
+    top: -70px;
+  }
+  .button-area-row.third .button-area-position .part-one{
+    width: 158px;
+  }
+  .button-area-row.third .button-area-position .part-two{
+    width: 145px;
+    margin-right: 43px;
+  }
+  .button-area-row.third.four{
+    padding-top: 0px;
+  }
+  .button-area-row.four{
+    width: 594px;
+  }
+  .button-area-row.four .button-area-position .part-one{
+    margin-left: 10px;
+  }
+  .button-area-row.four .button-area-position .part-two{
+    margin-right: 33px;
+  }
+}
+@media only screen and (max-width: 767px) and (min-width: 576px){
+  .button-area-position{
+    width: 560px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

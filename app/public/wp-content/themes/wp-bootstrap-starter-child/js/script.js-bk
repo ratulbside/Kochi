@@ -1,0 +1,61 @@
+jQuery(function() {
+    jQuery('button').on('click', function () {
+        var id_post = jQuery(this).attr("post-id");
+
+		  jQuery.ajax({
+		    type: 'POST',
+		    url: cm_ajax_object.ajax_url,
+		    data: {
+		        'post_id': id_post,
+		        'action': 'load_ajax_content' //this is the name of the AJAX method called in WordPress
+		    }, success: function (result) {
+		      //console.log(result);
+		      var allData = result;
+      		  var splitVar = allData.split("~");
+
+      		  var title = splitVar[0];
+      		  var postUrl = splitVar[1];
+      		  var conceptNote = splitVar[2];
+      		  var imageUrl = splitVar[3];
+      		  var pageUrl = splitVar[4];
+
+      		  jQuery('div.ajax-content .image-fea a').empty();
+		      if(imageUrl){
+		      	jQuery('div.ajax-content .image-fea a').prepend('<img src="" />');
+		      	jQuery("div.ajax-content .image-fea a img").attr('src', imageUrl);
+		      }
+
+		      jQuery('div.ajax-content h3').text(title).html();
+
+		      jQuery("div.ajax-content a[href='#']").attr('href', pageUrl);
+
+		      jQuery('div.ajax-content .concept-note p').text(conceptNote).html();
+
+		    },
+		    error: function (e) {
+		        alert(e.error);
+		    }
+		  });
+    });
+
+
+ //    jQuery('.some-button').on('click', function (){
+ //    	var url = jQuery('.some-button').attr("image-url");
+ //    	jQuery('.some-button').magnificPopup({
+	// 	    items: {
+	// 	      src: url
+	// 	    },
+	// 	    type: 'image' // this is default type
+	// 	});
+ //    }
+
+    
+ //    jQuery('.some-button').magnificPopup({
+	//     items: {
+	//       src: url
+	//     },
+	//     type: 'image' // this is default type
+	// });
+
+    
+});
