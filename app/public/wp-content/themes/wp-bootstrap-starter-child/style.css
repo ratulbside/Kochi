@@ -23,6 +23,257 @@ div.home-background-area{
     margin: 0 auto;
     height: 750px;
 }
+.home-main-area {
+    width: 74%;
+    padding-top: 155px;
+    float: left;
+}
+.button-area-position button{
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    color: transparent;
+}
+.button-area-position {
+    width: 385px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.button-area-position > div {
+    float: left;
+    width: 33.33%;
+}
+.button-area-row.first {
+    height: 180px;
+}
+.button-area-row.first .button-area-position{
+    padding-top: 108px;
+}
+.button-area-row.first .button-area-position .part-one{
+  margin-bottom: 10px;
+}
+.button-area-row.second .button-area-position .part-one{
+  height: 25px;
+}
+button#varsha {
+    border-radius: 50px;
+    margin-left: 26px;
+    margin-top: 28px;
+    width: 40px;
+    height: 40px;
+}
+button#tanya, button#shreya {
+    margin-left: 28px;
+}
+button#tanya{
+  margin-top: 8px;
+}
+button#sushil, button#sawani {
+    margin-left: 19px;
+}
+button#siddhant {
+    margin-left: 64px;
+    border-radius: 50px;
+    margin-top: 30px;
+    width: 40px;
+    height: 40px;
+}
+button#rushikesh, button#kumar-misal{
+    float: right;
+    margin-right: 32px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+button#rohit, button#kasin-patel {
+  float: right;
+    margin-right: 16px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+button#neha{
+   margin-left: 41px;
+   margin-top: 16px;
+}
+button#mukta-kumar {
+    margin-left: 19px;
+}
+button#chaitanya-powle{
+  margin-left: 41px;
+   margin-top: 15px;
+}
+button#manish-rathod {
+    margin-left: 20px;
+}
+.button-area-row.second {
+    position: relative;
+    top: -10px;
+    margin-bottom: 22px;
+}
+.button-area-row.second .button-area-position{
+  padding: 10px 0px;
+}
+.button-area-row.third{
+  position: relative;
+    top: -22px;
+    padding-top: 5px;
+}
+
+
+.button-area-position button:focus, .button-area-position button:active{
+  box-shadow: none;
+  outline:none;
+}
+.button-area-position button {
+  background-color: transparent;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 20px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+@-webkit-keyframes glowing {
+  0% { background-color: transparent; -webkit-box-shadow: 0 0 3px #000; }
+  50% { background-color: transparent; -webkit-box-shadow: 0 0 10px #000; }
+  100% { background-color: transparent; -webkit-box-shadow: 0 0 3px #000; }
+}
+
+@-moz-keyframes glowing {
+  0% { background-color: transparent; -moz-box-shadow: 0 0 3px #000; }
+  50% { background-color: transparent; -moz-box-shadow: 0 0 10px #000; }
+  100% { background-color: transparent; -moz-box-shadow: 0 0 3px #000; }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: transparent; box-shadow: 0 0 3px #000; }
+  50% { background-color: transparent; box-shadow: 0 0 10px #000; }
+  100% { background-color: transparent; box-shadow: 0 0 3px #000; }
+}
+
+@keyframes glowing {
+  0% { background-color: transparent; box-shadow: 0 0 3px #000; }
+  50% { background-color: transparent; box-shadow: 0 0 10px #000; }
+  100% { background-color: transparent; box-shadow: 0 0 3px #000; }
+}
+
+.home-concept-note {
+    margin-top: 60px;
+}
+
+.home-concept-note p {
+    text-align: justify;
+}
+
+/*invidual page*/
+.single-background {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.single-switch {
+    width: 6%;
+    float: right;
+    margin-top: 20px;
+    margin-right: 10%;
+}
+.single-row-left {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+.single-row-right {
+    width: 50%;
+    float: right;
+}
+h3.single-name, h3.single-institute, h3.single-medium, h3.single-title{
+  font-size: 14px;
+}
+p.single-concept-note{
+  font-size: 12px;
+}
+h3.single-location{
+  font-size: 26px;
+}
+h3.single-duration {
+    font-size: 14px;
+}
+
+.container-sushil {
+    width: 100%;
+    height: 100%;
+    background-color: #b6a897;
+    padding-top: 25px;
+    overflow: hidden;
+}
+.single-background.sushil {
+    background-image: url(images/floor/Floor-map-sushil.jpg);
+    width: 1000px;
+    margin: 0 auto;
+    height: 1076px;
+}
+.single-background.sushil .single-row {
+    padding: 0px 180px;
+    overflow: hidden;
+}
+.single-background.sushil .single-row.one {
+    padding-top: 130px;
+}
+.single-background.sushil .single-row-left img{
+    width: 72%;
+    margin-left: 78px;
+}
+.single-background.sushil .single-row.three{
+  /*padding-top: 383px;*/
+}
+.single-background.sushil .single-row-left{
+  width: 53%;
+}
+.single-background.sushil .single-row-right{
+  width: 47%;
+}
+.single-background.sushil h3.single-name {
+    margin-left: 58px;
+}
+.single-background.sushil h3.single-institute {
+    margin-top: -4px;
+    margin-left: 56px;
+}
+.single-background.sushil h3.single-medium {
+    margin-top: 20px;
+    text-align: right;
+    margin-right: 60px;
+}
+.single-background.sushil p.single-concept-note {
+    margin: 135px 50px 0px 20px;
+    padding: 5px;
+    text-align: justify;
+}
+.single-background.sushil h3.single-title{
+    margin-top: 0px;
+    margin-left: 30px;
+}
+.single-background.sushil h3.single-location {
+    margin-top: 54px;
+}
+.single-background.sushil .single-row.four {
+    padding-top: 6px;
+}
+.single-background.sushil .single-row.five {
+    padding-top: 82px;
+}
+
+
+
 
 @media only screen and (max-width: 399px) and (min-width: 320px){
   div.home-background-area{
