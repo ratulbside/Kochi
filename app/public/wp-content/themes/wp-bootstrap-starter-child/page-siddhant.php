@@ -72,5 +72,3 @@ get_header();
             
         });
     </script>
-
-<?php
