@@ -296,16 +296,72 @@ h3.single-duration {
 
 
 
-@media only screen and (max-width: 399px) and (min-width: 320px){
+/*@media only screen and (max-width: 399px) and (min-width: 320px){
   div.home-background-area{
     width: 320px;
     height: 240px
   }
-}
-@media only screen and (max-width: 479px) and (min-width: 400px){
+}*/
+@media only screen and (max-width: 479px) and (min-width: 320px){
   div.home-background-area{
-    width: 400px;
-    height: 300px
+    width: 320px;
+    height: 240px
+  }
+  .home-main-area{
+    padding-top: 8px;
+  }
+  .button-area-position{
+    width: 282px;
+  }
+  button#varsha {
+    margin-left: unset;
+    float: right;
+    margin-top: 21px;
+    margin-right: 8px;
+    width: 25px;
+    height: 25px;
+  }
+  .button-area-position button{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+  }
+  button#tanya, button#shreya{
+    margin-left: 28px;
+  }
+  button#sushil, button#sawani{
+    margin-left: 1px;
+  }
+  button#tanya {
+    margin-top: 12px;
+  }
+  button#siddhant {
+    width: 25px;
+    height: 25px;
+    margin-left: 12px;
+    margin-top: 22px;
+  }
+  .button-area-row.second{
+    top: -40px;
+    margin-bottom: 0px;
+  }
+  .button-area-row.third{
+    top: -60px;
+  }
+  button#rushikesh, button#kumar-misal{
+    margin-right: -3px;
+  }
+  button#rohit, button#kasin-patel{
+    margin-right: 21px;
+  }
+  button#neha, button#chaitanya-powle{
+    margin-left: 0px;
+  }
+  button#mukta-kumar, button#manish-rathod {
+    margin-left: 3px;
+  }
+  .button-area-row.third.four {
+    top: -82px;
   }
 }
 @media only screen and (max-width: 569px) and (min-width: 480px){
@@ -313,11 +369,122 @@ h3.single-duration {
     width: 480px;
     height: 360px
   }
+  .home-main-area{
+    padding-top: 8px;
+  }
+  .button-area-position{
+    width: 282px;
+  }
+  button#varsha {
+    margin-left: unset;
+    float: right;
+    margin-top: 21px;
+    margin-right: 8px;
+    width: 25px;
+    height: 25px;
+  }
+  .button-area-position button{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+  }
+  button#tanya, button#shreya{
+    margin-left: 28px;
+  }
+  button#sushil, button#sawani{
+    margin-left: 1px;
+  }
+  button#tanya {
+    margin-top: 12px;
+  }
+  button#siddhant {
+    width: 25px;
+    height: 25px;
+    margin-left: 12px;
+    margin-top: 22px;
+  }
+  .button-area-row.second{
+    top: -40px;
+    margin-bottom: 0px;
+  }
+  .button-area-row.third{
+    top: -60px;
+  }
+  button#rushikesh, button#kumar-misal{
+    margin-right: -3px;
+  }
+  button#rohit, button#kasin-patel{
+    margin-right: 21px;
+  }
+  button#neha, button#chaitanya-powle{
+    margin-left: 0px;
+  }
+  button#mukta-kumar, button#manish-rathod {
+    margin-left: 3px;
+  }
+  .button-area-row.third.four {
+    top: -82px;
+  }
 }
 @media only screen and (max-width: 677px) and (min-width: 570px){
   div.home-background-area{
     width: 570px;
     height: 427.5px
+  }
+  .home-main-area{
+    padding-top: 32px;
+  }
+  .button-area-position{
+    width: 282px;
+  }
+  button#varsha {
+    margin-left: unset;
+    float: right;
+    margin-top: 25px;
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+  }
+  .button-area-position button{
+    width: 25px;
+    height: 25px;
+  }
+  button#tanya, button#shreya{
+    margin-left: 23px;
+  }
+  button#sushil, button#sawani{
+    margin-left: 1px;
+  }
+  button#tanya {
+    margin-top: 12px;
+  }
+  button#siddhant {
+    width: 30px;
+    height: 30px;
+    margin-left: 23px;
+    margin-top: 27px;
+  }
+  .button-area-row.second{
+    top: -40px;
+    margin-bottom: 0px;
+  }
+  .button-area-row.third{
+    top: -49px;
+  }
+  button#rushikesh, button#kumar-misal{
+    margin-right: 5px;
+  }
+  button#rohit, button#kasin-patel{
+    margin-right: 16px;
+  }
+  button#neha, button#chaitanya-powle{
+    margin-left: 8px;
+  }
+  button#mukta-kumar, button#manish-rathod {
+    margin-left: 3px;
+  }
+  .button-area-row.third.four {
+    top: -73px;
   }
 }
 @media only screen and (max-width: 999px) and (min-width: 668px){
@@ -325,4 +492,73 @@ h3.single-duration {
     width: 668px;
     height: 501px
   }
+  .home-main-area{
+    padding-top: 60px;
+  }
+  .button-area-position{
+    width: 333px;
+  }
+  button#varsha {
+    margin-left: unset;
+    float: right;
+    margin-top: 25px;
+    margin-right: 27px;
+    width: 30px;
+    height: 30px;
+  }
+  .button-area-position button{
+    width: 25px;
+    height: 25px;
+  }
+  button#sushil, button#sawani{
+    margin-left: 9px;
+  }
+  button#tanya {
+    margin-top: 12px;
+  }
+  button#siddhant {
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 27px;
+  }
+  .button-area-row.second{
+    top: -32px;
+    margin-bottom: 0px;
+  }
+  .button-area-row.third{
+    top: -36px;
+  }
+  button#rushikesh, button#kumar-misal{
+    margin-right: 6px;
+  }
+  button#rohit, button#kasin-patel{
+    margin-right: 22px;
+  }
+  button#neha, button#chaitanya-powle{
+    margin-left: 13px;
+  }
+  button#mukta-kumar, button#manish-rathod {
+    margin-left: 7px;
+  }
+  .button-area-row.third.four {
+    top: -53px;
+  }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
