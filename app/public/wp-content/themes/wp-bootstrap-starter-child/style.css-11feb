@@ -1,0 +1,869 @@
+/*
+Theme Name: Kochi-Biennale
+Theme URI: https://afterimagedesigns.com/wp-bootstrap-starter/
+Template: wp-bootstrap-starter
+Author: Afterimage Designs
+Author URI: https://afterimagedesigns.com/
+Description: The best WordPress starter theme based on the most powerful frameworks in the world: "_s" (by Automattic, the main people behind WordPress development), Twitter Bootstrap (the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web) and Font Awesome (or Fontawesome, a full suite of 675+ pictographic icons for easy scalable vector graphics on websites). This theme, like WordPress, is licensed under the GPL. You can use this theme as base for your next WordPress theme project and you are allowed to remove the link at the footer or do whatever you want. Your feedback on how we can continuously improve this WordPress Starter Theme Bootstrap will be highly appreciated. Page templates includes Right-sidebar (default page template), Left-Sidebar, Full-Width, Blank with container, Blank without container Page. Other features - Currently using Bootstrap v4.0.0 , Widgetized footer area, WooCommerce ready, Compatible with Contact Form 7, Compatible with Visual Composer, Compatible with Elementor Page Builder. This theme will be an active project which we will update from time to time. Check this page regularly for the updates.
+Tags: blog,custom-menu,featured-images,threaded-comments,translation-ready,right-sidebar,custom-background,e-commerce,theme-options,sticky-post,full-width-template
+Version: 3.3.6.1612002767
+Updated: 2021-01-30 10:32:47
+
+*/
+@font-face { 
+font-family: avenir sans-sarif; 
+src: url("fonts/AvenirLTStd-Black.otf"); 
+font-weight: normal; 
+}
+@font-face { 
+font-family: avenir sans-sarif; 
+src: url("fonts/AvenirLTStd-Roman.otf"); 
+font-weight: normal; 
+}
+@font-face { 
+font-family: avenir sans-sarif; 
+src: url("fonts/AvenirLTStd-Book.otf"); 
+font-weight: bold; 
+}
+
+
+body{
+  font-family: avenir sans-sarif;
+}
+
+.single-row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#content.site-content{
+  padding-bottom: 0px;
+  padding-top: 25px;
+}
+div.home-background-area{
+  background-image: url("images/IMG_2864.jpg");
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 1000px;
+    margin: 0 auto;
+    height: 750px;
+}
+.home-main-area {
+    width: 74%;
+    padding-top: 155px;
+    float: left;
+}
+.button-area-position button{
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    color: transparent;
+}
+.button-area-position {
+    width: 385px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.button-area-position > div {
+    float: left;
+    width: 33.33%;
+}
+.button-area-row.first {
+    height: 180px;
+}
+.button-area-row.first .button-area-position{
+    padding-top: 108px;
+}
+.button-area-row.first .button-area-position .part-one{
+  margin-bottom: 10px;
+}
+.button-area-row.second .button-area-position .part-one{
+  height: 25px;
+}
+button#varsha {
+    border-radius: 50px;
+    margin-left: 26px;
+    margin-top: 28px;
+    width: 40px;
+    height: 40px;
+}
+button#tanya, button#shreya {
+    margin-left: 28px;
+}
+button#tanya{
+  margin-top: 8px;
+}
+button#sushil, button#sawani {
+    margin-left: 19px;
+}
+button#siddhant {
+    margin-left: 64px;
+    border-radius: 50px;
+    margin-top: 30px;
+    width: 40px;
+    height: 40px;
+}
+button#rushikesh, button#kumar-misal{
+    float: right;
+    margin-right: 32px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+button#rohit, button#kasin-patel {
+  float: right;
+    margin-right: 16px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+button#neha{
+   margin-left: 41px;
+   margin-top: 16px;
+}
+button#mukta-kumar {
+    margin-left: 19px;
+}
+button#chaitanya-powle{
+  margin-left: 41px;
+   margin-top: 15px;
+}
+button#manish-rathod {
+    margin-left: 20px;
+}
+.button-area-row.second {
+    position: relative;
+    top: -10px;
+    margin-bottom: 22px;
+}
+.button-area-row.second .button-area-position{
+  padding: 10px 0px;
+}
+.button-area-row.third{
+  position: relative;
+    top: -22px;
+    padding-top: 5px;
+}
+
+
+.button-area-position button:focus, .button-area-position button:active{
+  box-shadow: none;
+  outline:none;
+}
+.button-area-position button {
+  background-color: transparent;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 20px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+@-webkit-keyframes glowing {
+  0% { background-color: transparent; -webkit-box-shadow: 0 0 3px #000; }
+  50% { background-color: transparent; -webkit-box-shadow: 0 0 10px #000; }
+  100% { background-color: transparent; -webkit-box-shadow: 0 0 3px #000; }
+}
+
+@-moz-keyframes glowing {
+  0% { background-color: transparent; -moz-box-shadow: 0 0 3px #000; }
+  50% { background-color: transparent; -moz-box-shadow: 0 0 10px #000; }
+  100% { background-color: transparent; -moz-box-shadow: 0 0 3px #000; }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: transparent; box-shadow: 0 0 3px #000; }
+  50% { background-color: transparent; box-shadow: 0 0 10px #000; }
+  100% { background-color: transparent; box-shadow: 0 0 3px #000; }
+}
+
+@keyframes glowing {
+  0% { background-color: transparent; box-shadow: 0 0 3px #000; }
+  50% { background-color: transparent; box-shadow: 0 0 10px #000; }
+  100% { background-color: transparent; box-shadow: 0 0 3px #000; }
+}
+
+.home-concept-note {
+    margin-top: 60px;
+}
+
+.home-concept-note p {
+    text-align: justify;
+}
+
+/*invidual page*/
+.single-background {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.single-switch {
+    width: 6%;
+    float: right;
+    margin-top: 20px;
+    margin-right: 10%;
+}
+.single-row-left {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+.single-row-right {
+    width: 50%;
+    float: right;
+}
+h3.single-name, h3.single-institute, h3.single-medium, h3.single-title{
+  font-size: 14px;
+}
+p.single-concept-note{
+  font-size: 12.5px;
+}
+h3.single-location{
+  font-size: 26px;
+}
+h3.single-duration {
+    font-size: 14px;
+}
+.single-row {
+    overflow: hidden;
+}
+
+.container-varsha{
+  width: 100%;
+  height: 100%;
+  background-color: #c3c0bb;
+  padding-top: 25px;
+  overflow: hidden;
+  text-align: justify;
+}
+.single-background.varsha{
+  background-image: url(images/floor/Floor-Map-Varsha.jpg);
+  width: 1100px;
+  height: 1000px;
+  margin: 0 auto;
+}
+.single-background.varsha .single-row {
+    overflow: hidden;
+    width: 629px;
+    margin: 0 auto;
+    height: auto;
+}
+.single-background.varsha .single-row-right img {
+    width: 52%;
+    margin-left: 4px;
+}
+.single-background.varsha .single-row.one .single-row-left img{
+  width: 44%;
+}
+.single-background.varsha .single-row.two .single-row-right img {
+    margin-left: 78px;
+}
+.single-background.varsha .single-row.four .single-row-left img{
+  width: 44%;
+  float: right;
+}
+.single-background.varsha .single-row.three{
+  padding-top: 20px;
+}
+.single-background.varsha h3.single-institute {
+    font-size: 16px;
+    padding: 0px 25px;
+}
+.single-background.varsha h3.single-location {
+    margin-top: 200px;
+    font-size: 16px;
+    text-align: right;
+    margin-right: 40px;
+    margin-bottom: 0px;
+}
+.single-background.varsha .single-row.one .single-row-left a {
+    margin-left: 8px;
+}
+.single-background.varsha .single-row.one {
+    padding-top: 5px;
+    margin-bottom: 22px;
+}
+.single-background.varsha .single-row.four .single-row-left{
+  width: 50.4%;
+}
+.container-varsha p.single-concept-note {
+    padding: 50px 15px 0px 15px;
+}
+.container-varsha h3.single-name {
+    padding-top: 276px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+.container-varsha h3.single-medium{
+  padding: 10px 25px;
+}
+
+.container-sushil {
+    width: 100%;
+    height: 100%;
+    background-color: #b6a897;
+    padding-top: 25px;
+    overflow: hidden;
+}
+.single-background.sushil {
+    background-image: url(images/floor/Floor-map-sushil.jpg);
+    width: 1000px;
+    margin: 0 auto;
+    height: 1076px;
+}
+.single-background.sushil .single-row {
+    padding: 0px 180px;
+    overflow: hidden;
+}
+.single-background.sushil .single-row.one {
+    padding-top: 130px;
+}
+.single-background.sushil .single-row-left img{
+    width: 72%;
+    margin-left: 78px;
+}
+.single-background.sushil .single-row.three{
+  /*padding-top: 383px;*/
+}
+.single-background.sushil .single-row-left{
+  width: 53%;
+}
+.single-background.sushil .single-row-right{
+  width: 47%;
+}
+.single-background.sushil h3.single-name {
+    margin-left: 58px;
+}
+.single-background.sushil h3.single-institute {
+    margin-top: -4px;
+    margin-left: 30px;
+}
+.single-background.sushil h3.single-medium {
+    margin-top: 38px;
+    text-align: right;
+    margin-right: 60px;
+}
+.single-background.sushil p.single-concept-note {
+    margin: 135px 50px 0px 20px;
+    padding: 5px;
+    text-align: justify;
+}
+.single-background.sushil h3.single-title{
+    margin-top: 0px;
+    margin-left: 30px;
+}
+.single-background.sushil h3.single-location {
+    margin-top: 54px;
+}
+.single-background.sushil .single-row.four {
+    padding-top: 6px;
+}
+.single-background.sushil .single-row.five {
+    padding-top: 46px;
+}
+
+<<<<<<< HEAD
+.container-tanya{
+    width: 100%;
+    height: 100%;
+    background-color: #afaea9;
+    padding-top: 25px;
+    overflow: hidden;
+}
+.single-background.tanya {
+    background-image: url(images/floor/Floor-plan-Tanya.jpg);
+    width: 800px;
+    margin: 0 auto;
+    height: 800px;
+}
+.single-background.tanya .single-row.two{
+  margin-top: 94px;
+  overflow: hidden;
+}
+.single-background.tanya .single-row.two .single-row-left img{
+  width: 34%;
+}
+.single-background.tanya .single-row.four .single-row-right{
+  margin-top: 35px;
+}
+.single-background.tanya .single-row.four .single-row-right a{
+  margin-left: 90px;
+}
+.single-background.tanya .single-row.three {
+    padding-bottom: 145px;
+}
+.single-background.tanya .single-row.one {
+    padding-bottom: 126px;
+}
+.single-background.tanya .single-row-left a {
+    margin-left: 175px;
+}
+.single-background.tanya .single-row.four .single-row-right img{
+    width: 34%;
+}
+.container-tanya h3.single-name {
+    margin-left: 105px;
+    font-size: 16px;
+    margin-bottom: 0px;
+    margin-top: 65px;
+}
+.container-tanya h3.single-name.title {
+    margin-top: 20px;
+}
+.container-tanya h3.single-institute, .container-tanya h3.single-duration{
+  margin-left: 105px;
+}
+.container-tanya p.single-concept-note{
+  margin-left: 105px;
+  text-align: justify;
+  margin-top: 5px;
+  padding: 0px 20px;
+}
+.container-tanya h3.single-medium {
+    margin-left: 35px;
+}
+
+
+.container-siddhant{
+  width: 100%;
+  height: 100%;
+  background-color: #a4a59d;
+  padding-top: 25px;
+  overflow: hidden;
+}
+.single-background.siddhant {
+    background-image: url(images/floor/Siddhant.jpg);
+    width: 800px;
+    margin: 0 auto;
+    height: 600px;
+}
+.container-siddhant h3.single-institute {
+    width: 160px;
+    float: right;
+    margin-right: 20px;
+}
+.container-siddhant h3.single-medium, .container-siddhant h3.single-duration {
+    margin-left: 130px;
+}
+.container-siddhant h3.single-name {
+    margin-left: 10px;
+}
+.container-siddhant img{
+  width: 70%;
+  margin-left: 30px;
+}
+.container-siddhant .single-row.three {
+    padding-top: 83px;
+}
+.container-siddhant p.single-concept-note {
+    text-align: justify;
+    padding: 0px 20px 0px 85px;
+=======
+/* Mansi */
+.container-mansi {
+  width: 100%;
+  height: 100%;
+  background-color: #d8c8b6;
+  padding-top: 25px;
+  overflow: hidden;
+}
+.single-background.mansi {
+  background-image: url(images/floor/Floor-map-Mansi.jpg);
+  width: 1000px;
+  margin: 0 auto;
+  height: 1076px;
+}
+.single-background.mansi .single-row {
+  padding: 0px 180px;
+  overflow: hidden;
+}
+.single-background.mansi .single-row.one {
+  padding-top: 130px;
+}
+.single-background.mansi .single-row-left img{
+  width: 72%;
+  margin-left: 78px;
+}
+.single-background.mansi .single-row.three{
+/*padding-top: 383px;*/
+}
+.single-background.mansi .single-row-left{
+width: 53%;
+}
+.single-background.mansi .single-row-right{
+width: 47%;
+}
+.single-background.mansi h3.single-name {
+  margin-left: 58px;
+}
+.single-background.mansi h3.single-institute {
+  margin-top: -4px;
+  margin-left: 56px;
+}
+.single-background.mansi h3.single-medium {
+  margin-top: 20px;
+  text-align: right;
+  margin-right: 60px;
+}
+.single-background.mansi p.single-concept-note {
+  margin: 135px 50px 0px 20px;
+  padding: 5px;
+  text-align: justify;
+}
+.single-background.mansi h3.single-title{
+  margin-top: 0px;
+  margin-left: 30px;
+}
+.single-background.mansi h3.single-location {
+  margin-top: 54px;
+}
+.single-background.mansi .single-row.four {
+  padding-top: 6px;
+}
+.single-background.mansi .single-row.five {
+  padding-top: 46px;
+}
+
+/*Chaitanya */
+.container-chaitanya {
+  width: 100%;
+  height: 100%;
+  background-color: #c9c0b0;
+  padding-top: 25px;
+  overflow: hidden;
+}
+.single-background.chaitanya{
+  background-image: url(images/floor/Floor-map-Chaitanya.jpg);
+  width: 700px;
+  height: 700px;
+  margin: 0 auto;
+}
+.single-background.chaitanya h3.single-name, .single-background.chaitanya h3.single-institute {
+  margin-left: 200px;
+}
+.single-background.chaitanya h3.single-name{
+  margin-top: 41px;
+}
+.single-background.chaitanya h3.single-location {
+  margin-top: -33px;
+  margin-left: 9px;
+}
+.single-background.chaitanya h3.single-duration {
+  margin-left: 16px;
+}
+.single-background.chaitanya h3.single-title{
+  margin-top: 35px;
+  margin-left: 130px;
+}
+.single-background.chaitanya .single-concept-note {
+  margin: 33px 5px 0 20px;
+  padding: 5px;
+  text-align: justify;
+}
+.single-background.chaitanya img {
+  width: 42%;
+}
+.single-background.chaitanya .single-row.one .single-row-left img{
+  float: right;
+  margin-top: 42px;
+  width: 30%;
+}
+.single-background.chaitanya .single-row.one .single-row-right img{
+  float: right;
+  margin-top: 74px;
+  width: 20%;
+  margin-right: 128px;
+}
+.single-background.chaitanya .single-row.three {
+  padding-top: 120px;
+  padding-bottom: 70px;
+}
+.single-background.chaitanya .single-row.three .single-row-right img{
+width: 22%;
+margin-left: 23px;
+}
+.single-background.chaitanya .single-row.four .single-row-left img{
+float: right;
+width: 40%;
+>>>>>>> 7f11878de08d94d5b9fc8b913081554868392e64
+}
+
+
+
+
+/*@media only screen and (max-width: 399px) and (min-width: 320px){
+  div.home-background-area{
+    width: 320px;
+    height: 240px
+  }
+}*/
+@media only screen and (max-width: 479px) and (min-width: 320px){
+  div.home-background-area{
+    width: 320px;
+    height: 240px
+  }
+  .home-main-area{
+    padding-top: 8px;
+  }
+  .button-area-position{
+    width: 282px;
+  }
+  button#varsha {
+    margin-left: unset;
+    float: right;
+    margin-top: 21px;
+    margin-right: 8px;
+    width: 25px;
+    height: 25px;
+  }
+  .button-area-position button{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+  }
+  button#tanya, button#shreya{
+    margin-left: 28px;
+  }
+  button#sushil, button#sawani{
+    margin-left: 1px;
+  }
+  button#tanya {
+    margin-top: 12px;
+  }
+  button#siddhant {
+    width: 25px;
+    height: 25px;
+    margin-left: 12px;
+    margin-top: 22px;
+  }
+  .button-area-row.second{
+    top: -40px;
+    margin-bottom: 0px;
+  }
+  .button-area-row.third{
+    top: -60px;
+  }
+  button#rushikesh, button#kumar-misal{
+    margin-right: -3px;
+  }
+  button#rohit, button#kasin-patel{
+    margin-right: 21px;
+  }
+  button#neha, button#chaitanya-powle{
+    margin-left: 0px;
+  }
+  button#mukta-kumar, button#manish-rathod {
+    margin-left: 3px;
+  }
+  .button-area-row.third.four {
+    top: -82px;
+  }
+}
+@media only screen and (max-width: 569px) and (min-width: 480px){
+  div.home-background-area{
+    width: 480px;
+    height: 360px
+  }
+  .home-main-area{
+    padding-top: 8px;
+  }
+  .button-area-position{
+    width: 282px;
+  }
+  button#varsha {
+    margin-left: unset;
+    float: right;
+    margin-top: 21px;
+    margin-right: 8px;
+    width: 25px;
+    height: 25px;
+  }
+  .button-area-position button{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+  }
+  button#tanya, button#shreya{
+    margin-left: 28px;
+  }
+  button#sushil, button#sawani{
+    margin-left: 1px;
+  }
+  button#tanya {
+    margin-top: 12px;
+  }
+  button#siddhant {
+    width: 25px;
+    height: 25px;
+    margin-left: 12px;
+    margin-top: 22px;
+  }
+  .button-area-row.second{
+    top: -40px;
+    margin-bottom: 0px;
+  }
+  .button-area-row.third{
+    top: -60px;
+  }
+  button#rushikesh, button#kumar-misal{
+    margin-right: -3px;
+  }
+  button#rohit, button#kasin-patel{
+    margin-right: 21px;
+  }
+  button#neha, button#chaitanya-powle{
+    margin-left: 0px;
+  }
+  button#mukta-kumar, button#manish-rathod {
+    margin-left: 3px;
+  }
+  .button-area-row.third.four {
+    top: -82px;
+  }
+}
+@media only screen and (max-width: 677px) and (min-width: 570px){
+  div.home-background-area{
+    width: 570px;
+    height: 427.5px
+  }
+  .home-main-area{
+    padding-top: 32px;
+  }
+  .button-area-position{
+    width: 282px;
+  }
+  button#varsha {
+    margin-left: unset;
+    float: right;
+    margin-top: 25px;
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+  }
+  .button-area-position button{
+    width: 25px;
+    height: 25px;
+  }
+  button#tanya, button#shreya{
+    margin-left: 23px;
+  }
+  button#sushil, button#sawani{
+    margin-left: 1px;
+  }
+  button#tanya {
+    margin-top: 12px;
+  }
+  button#siddhant {
+    width: 30px;
+    height: 30px;
+    margin-left: 23px;
+    margin-top: 27px;
+  }
+  .button-area-row.second{
+    top: -40px;
+    margin-bottom: 0px;
+  }
+  .button-area-row.third{
+    top: -49px;
+  }
+  button#rushikesh, button#kumar-misal{
+    margin-right: 5px;
+  }
+  button#rohit, button#kasin-patel{
+    margin-right: 16px;
+  }
+  button#neha, button#chaitanya-powle{
+    margin-left: 8px;
+  }
+  button#mukta-kumar, button#manish-rathod {
+    margin-left: 3px;
+  }
+  .button-area-row.third.four {
+    top: -73px;
+  }
+}
+@media only screen and (max-width: 999px) and (min-width: 668px){
+  div.home-background-area{
+    width: 668px;
+    height: 501px
+  }
+  .home-main-area{
+    padding-top: 60px;
+  }
+  .button-area-position{
+    width: 333px;
+  }
+  button#varsha {
+    margin-left: unset;
+    float: right;
+    margin-top: 25px;
+    margin-right: 27px;
+    width: 30px;
+    height: 30px;
+  }
+  .button-area-position button{
+    width: 25px;
+    height: 25px;
+  }
+  button#sushil, button#sawani{
+    margin-left: 9px;
+  }
+  button#tanya {
+    margin-top: 12px;
+  }
+  button#siddhant {
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 27px;
+  }
+  .button-area-row.second{
+    top: -32px;
+    margin-bottom: 0px;
+  }
+  .button-area-row.third{
+    top: -36px;
+  }
+  button#rushikesh, button#kumar-misal{
+    margin-right: 6px;
+  }
+  button#rohit, button#kasin-patel{
+    margin-right: 22px;
+  }
+  button#neha, button#chaitanya-powle{
+    margin-left: 13px;
+  }
+  button#mukta-kumar, button#manish-rathod {
+    margin-left: 7px;
+  }
+  .button-area-row.third.four {
+    top: -53px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
