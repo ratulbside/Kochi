@@ -372,7 +372,6 @@ h3.single-duration {
     padding-top: 46px;
 }
 
-<<<<<<< HEAD
 .container-tanya{
     width: 100%;
     height: 100%;
@@ -468,7 +467,7 @@ h3.single-duration {
 .container-siddhant p.single-concept-note {
     text-align: justify;
     padding: 0px 20px 0px 85px;
-=======
+}
 /* Mansi */
 .container-mansi {
   width: 100%;
@@ -595,7 +594,6 @@ margin-left: 23px;
 .single-background.chaitanya .single-row.four .single-row-left img{
 float: right;
 width: 40%;
->>>>>>> 7f11878de08d94d5b9fc8b913081554868392e64
 }
 
 
