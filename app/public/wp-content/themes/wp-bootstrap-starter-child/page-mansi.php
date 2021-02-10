@@ -2,15 +2,15 @@
 
 
 get_header();
-?>
-
-    <section id="primary" class="content-area">
-        <div id="main" class="site-main" role="main">
-            <div class="container">
-                <h2 style="width: 100%; text-align: center;">Mansi Rathod</h2>
+?>  
+            <div class="container-mansi">
+                <!-- <h2 style="width: 100%; text-align: center;">Mansi Rathod</h2> -->
                 <div class="single-background mansi">
                     <div class="single-row one">
-                        <div class="single-row-left"></div>
+                        <div class="single-row-left">
+                            <h3 class="single-name">Mansi Rathod</h3>
+                            <h3 class="single-name">Vasai Vikasini College of Visual Art.</h3>
+                        </div>
                         <div class="single-row-right popup-gallery">
                             
                         </div>

@@ -293,6 +293,71 @@ h3.single-duration {
     padding-top: 46px;
 }
 
+/* Mansi */
+.container-mansi {
+  width: 100%;
+  height: 100%;
+  background-color: #d8c8b6;
+  padding-top: 25px;
+  overflow: hidden;
+}
+.single-background.mansi {
+  background-image: url(images/floor/Floor-map-Mansi.jpg);
+  width: 1000px;
+  margin: 0 auto;
+  height: 1076px;
+}
+.single-background.mansi .single-row {
+  padding: 0px 180px;
+  overflow: hidden;
+}
+.single-background.mansi .single-row.one {
+  padding-top: 130px;
+}
+.single-background.mansi .single-row-left img{
+  width: 72%;
+  margin-left: 78px;
+}
+.single-background.mansi .single-row.three{
+/*padding-top: 383px;*/
+}
+.single-background.mansi .single-row-left{
+width: 53%;
+}
+.single-background.mansi .single-row-right{
+width: 47%;
+}
+.single-background.mansi h3.single-name {
+  margin-left: 58px;
+}
+.single-background.mansi h3.single-institute {
+  margin-top: -4px;
+  margin-left: 56px;
+}
+.single-background.mansi h3.single-medium {
+  margin-top: 20px;
+  text-align: right;
+  margin-right: 60px;
+}
+.single-background.mansi p.single-concept-note {
+  margin: 135px 50px 0px 20px;
+  padding: 5px;
+  text-align: justify;
+}
+.single-background.mansi h3.single-title{
+  margin-top: 0px;
+  margin-left: 30px;
+}
+.single-background.mansi h3.single-location {
+  margin-top: 54px;
+}
+.single-background.mansi .single-row.four {
+  padding-top: 6px;
+}
+.single-background.mansi .single-row.five {
+  padding-top: 46px;
+}
+
 
 
 
