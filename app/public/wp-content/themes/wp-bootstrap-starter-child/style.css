@@ -386,7 +386,7 @@ h3.single-duration {
     height: 800px;
 }
 .single-background.tanya .single-row.two{
-  margin-top: 94px;
+  margin-top: 84px;
   overflow: hidden;
 }
 .single-background.tanya .single-row.two .single-row-left img{
@@ -397,12 +397,6 @@ h3.single-duration {
 }
 .single-background.tanya .single-row.four .single-row-right a{
   margin-left: 90px;
-}
-.single-background.tanya .single-row.three {
-    padding-bottom: 145px;
-}
-.single-background.tanya .single-row.one {
-    padding-bottom: 126px;
 }
 .single-background.tanya .single-row-left a {
     margin-left: 175px;
