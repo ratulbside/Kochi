@@ -228,6 +228,79 @@ h3.single-location{
 h3.single-duration {
     font-size: 14px;
 }
+.single-row {
+    overflow: hidden;
+}
+
+.container-varsha{
+  width: 100%;
+  height: 100%;
+  background-color: #c3c0bb;
+  padding-top: 25px;
+  overflow: hidden;
+  text-align: justify;
+}
+.single-background.varsha{
+  background-image: url(images/floor/Floor-Map-Varsha.jpg);
+  width: 1100px;
+  height: 1000px;
+  margin: 0 auto;
+}
+.single-background.varsha .single-row {
+    overflow: hidden;
+    width: 629px;
+    margin: 0 auto;
+    height: auto;
+}
+.single-background.varsha .single-row-right img {
+    width: 52%;
+    margin-left: 4px;
+}
+.single-background.varsha .single-row.one .single-row-left img{
+  width: 44%;
+}
+.single-background.varsha .single-row.two .single-row-right img {
+    margin-left: 78px;
+}
+.single-background.varsha .single-row.four .single-row-left img{
+  width: 44%;
+  float: right;
+}
+.single-background.varsha .single-row.three{
+  padding-top: 20px;
+}
+.single-background.varsha h3.single-institute {
+    font-size: 16px;
+    padding: 0px 25px;
+}
+.single-background.varsha h3.single-location {
+    margin-top: 200px;
+    font-size: 16px;
+    text-align: right;
+    margin-right: 40px;
+    margin-bottom: 0px;
+}
+.single-background.varsha .single-row.one .single-row-left a {
+    margin-left: 8px;
+}
+.single-background.varsha .single-row.one {
+    padding-top: 5px;
+    margin-bottom: 22px;
+}
+.single-background.varsha .single-row.four .single-row-left{
+  width: 50.4%;
+}
+.container-varsha p.single-concept-note {
+    padding: 50px 15px 0px 15px;
+}
+.container-varsha h3.single-name {
+    padding-top: 276px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+.container-varsha h3.single-medium{
+  padding: 10px 25px;
+}
 
 .container-sushil {
     width: 100%;
@@ -267,10 +340,10 @@ h3.single-duration {
 }
 .single-background.sushil h3.single-institute {
     margin-top: -4px;
-    margin-left: 56px;
+    margin-left: 30px;
 }
 .single-background.sushil h3.single-medium {
-    margin-top: 20px;
+    margin-top: 38px;
     text-align: right;
     margin-right: 60px;
 }
@@ -291,6 +364,103 @@ h3.single-duration {
 }
 .single-background.sushil .single-row.five {
     padding-top: 46px;
+}
+
+.container-tanya{
+    width: 100%;
+    height: 100%;
+    background-color: #afaea9;
+    padding-top: 25px;
+    overflow: hidden;
+}
+.single-background.tanya {
+    background-image: url(images/floor/Floor-plan-Tanya.jpg);
+    width: 800px;
+    margin: 0 auto;
+    height: 800px;
+}
+.single-background.tanya .single-row.two{
+  margin-top: 94px;
+  overflow: hidden;
+}
+.single-background.tanya .single-row.two .single-row-left img{
+  width: 34%;
+}
+.single-background.tanya .single-row.four .single-row-right{
+  margin-top: 35px;
+}
+.single-background.tanya .single-row.four .single-row-right a{
+  margin-left: 90px;
+}
+.single-background.tanya .single-row.three {
+    padding-bottom: 145px;
+}
+.single-background.tanya .single-row.one {
+    padding-bottom: 126px;
+}
+.single-background.tanya .single-row-left a {
+    margin-left: 175px;
+}
+.single-background.tanya .single-row.four .single-row-right img{
+    width: 34%;
+}
+.container-tanya h3.single-name {
+    margin-left: 105px;
+    font-size: 16px;
+    margin-bottom: 0px;
+    margin-top: 65px;
+}
+.container-tanya h3.single-name.title {
+    margin-top: 20px;
+}
+.container-tanya h3.single-institute, .container-tanya h3.single-duration{
+  margin-left: 105px;
+}
+.container-tanya p.single-concept-note{
+  margin-left: 105px;
+  text-align: justify;
+  margin-top: 5px;
+  padding: 0px 20px;
+}
+.container-tanya h3.single-medium {
+    margin-left: 35px;
+}
+
+
+.container-siddhant{
+  width: 100%;
+  height: 100%;
+  background-color: #a4a59d;
+  padding-top: 25px;
+  overflow: hidden;
+}
+.single-background.siddhant {
+    background-image: url(images/floor/Siddhant.jpg);
+    width: 800px;
+    margin: 0 auto;
+    height: 600px;
+}
+.container-siddhant h3.single-institute {
+    width: 160px;
+    float: right;
+    margin-right: 20px;
+}
+.container-siddhant h3.single-medium, .container-siddhant h3.single-duration {
+    margin-left: 130px;
+}
+.container-siddhant h3.single-name {
+    margin-left: 10px;
+}
+.container-siddhant img{
+  width: 70%;
+  margin-left: 30px;
+}
+.container-siddhant .single-row.three {
+    padding-top: 83px;
+}
+.container-siddhant p.single-concept-note {
+    text-align: justify;
+    padding: 0px 20px 0px 85px;
 }
 
 

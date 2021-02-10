@@ -10,7 +10,7 @@ get_header();
                 <div class="single-background sushil">
                     <div class="single-row one">
                         <div class="single-row-left">
-                            <h3 class="single-name">NAME: SUSHIL JAGTAP</h3>
+                            <h3 class="single-name">SUSHIL JAGTAP</h3>
                         </div>
                         <div class="single-row-right">
                             
@@ -22,17 +22,17 @@ get_header();
                         </div>
                         <div class="single-row-right">
                             <p class="single-concept-note">
-                                Concept Note- To stay safe from Corona we adopted the Lockdown as a self-responsibility. Being in closed spaces became intolerable and we eagerly waited for it to end. Through this video, I have tried to show the impatience each of us had for the Lockdown to get over.
+                                To stay safe from Corona we adopted the Lockdown as a self-responsibility. Being in closed spaces became intolerable and we eagerly waited for it to end. Through this video, I have tried to show the impatience each of us had for the Lockdown to get over.
                             </p>
                         </div>
                     </div>
                     <div class="single-row three">
                         <div class="single-row-left">
-                            <h3 class="single-institute">College: DR.B.A.M.U.A</h3>
+                            <h3 class="single-institute">DR.B.A.M.U.A</h3>
                             
                         </div>
                         <div class="single-row-right">
-                            <h3 class="single-medium">MEDIUM - videos</h3>
+                            <h3 class="single-medium">videos</h3>
                         </div>
                     </div>
                     <div class="single-row four">
@@ -40,10 +40,10 @@ get_header();
                             <a class="popup-video" href="https://www.youtube.com/watch?v=QT_JklxIg6Y">
                                 <img id="varsha-two" src="<?php echo get_theme_file_uri(); ?>/images/Sushil.jpg">
                             </a>
-                            <h3 class="single-title">Title: sound</h3>
+                            <h3 class="single-title">sound</h3>
                         </div>
                         <div class="single-row-right">
-                            <h3 class="single-location">City: pune</h3>
+                            <h3 class="single-location">Pune</h3>
                         </div>
                     </div>
                     <div class="single-row five">

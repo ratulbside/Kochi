@@ -3,13 +3,13 @@
 get_header();
 ?>
 
-    <section id="primary" class="content-area">
-        <div id="main" class="site-main" role="main">
-            <div class="container">
-                <h2 style="width: 100%; text-align: center;">Tanya Badkul</h2>
+            <div class="container-tanya">
                 <div class="single-background tanya">
                     <div class="single-row one">
-                        <div class="single-row-left"></div>
+                        <div class="single-row-left">
+                             <h3 class="single-name">Tanya Badkul</h3>
+                             <h3 class="single-name title">UNCERTAINTY</h3>
+                        </div>
                         <div class="single-row-right">
                             
                         </div>
@@ -25,32 +25,34 @@ get_header();
                         </div>
                     </div>
                     <div class="single-row three">
-                        <div class="single-row-left"></div>
+                        <div class="single-row-left">
+                            <h3 class="single-institute">Government College of Art And Design, Nagpur</h3>
+                            <h3 class="single-duration">Duration: 2:42</h3>
+                        </div>
                         <div class="single-row-right">
-                            
+                            <h3 class="single-location">Jabalpur</h3>
                         </div>
                     </div>
                     <div class="single-row four">
                         <div class="single-row-left">
-                            
+                            <p class="single-concept-note">
+                                The lockdown has forced all of us to slow down, and has even created anxiety and restlessness in some of us.I would roam around the house, aimlessly, as my body and mind were used to space and movement. It took me time to develop new habits in this “new normal”. I began meditating on life and it’s uncertainty, which I have attempted to depict in my work. Just as when one creates a house of cards- cautiously and carefully- with a lingering uncertainty on whether or not it will fall, this uncertainty applies to our lives as well.
+
+                            </p>
                         </div>
                         <div class="single-row-right">
+                            <h3 class="single-medium">videos</h3>
                              <a class="popup-video" href="https://www.youtube.com/watch?v=oddjAbz1iPo">
                                 <img id="varsha-two" src="<?php echo get_theme_file_uri(); ?>/images/thmb-tanya-two.jpg">
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="single-concept-note">
-                    <p>In the above painting, I wanted to mentioned that what is the condition of people in lockdown and how people are lived their life dramatically , drastically,  and may be decisively . The lockdown applied to three main areas physical movement out of the home,  social distancing when people outside home and restricted availability of most public services. All people having same rule "stay home and stay safe." Fish are packed in the pot. she can not surview anywhere same way the people having same condition like fish. Here I only said that it is safe when you are in home and it might be risky if u go out of home.</p>
-                </div>
-            </div>
-            <?php 
-                get_template_part( 'template-parts/single-switch', 'switch' );
+                <?php 
+                    get_template_part( 'template-parts/single-switch', 'switch' );
 
-             ?>
-        </div><!-- #main -->
-    </section><!-- #primary -->
+                 ?>
+            </div>
 
     <script type="text/javascript">
        jQuery(function() {
