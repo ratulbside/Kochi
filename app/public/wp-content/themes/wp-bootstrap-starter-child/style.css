@@ -31,6 +31,12 @@ body{
   font-family: avenir sans-sarif;
 }
 
+.single-row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 #content.site-content{
   padding-bottom: 0px;
   padding-top: 25px;
@@ -356,6 +362,69 @@ width: 47%;
 }
 .single-background.mansi .single-row.five {
   padding-top: 46px;
+}
+
+/*Chaitanya */
+.container-chaitanya {
+  width: 100%;
+  height: 100%;
+  background-color: #c9c0b0;
+  padding-top: 25px;
+  overflow: hidden;
+}
+.single-background.chaitanya{
+  background-image: url(images/floor/Floor-map-Chaitanya.jpg);
+  width: 700px;
+  height: 700px;
+  margin: 0 auto;
+}
+.single-background.chaitanya h3.single-name, .single-background.chaitanya h3.single-institute {
+  margin-left: 200px;
+}
+.single-background.chaitanya h3.single-name{
+  margin-top: 41px;
+}
+.single-background.chaitanya h3.single-location {
+  margin-top: -33px;
+  margin-left: 9px;
+}
+.single-background.chaitanya h3.single-duration {
+  margin-left: 16px;
+}
+.single-background.chaitanya h3.single-title{
+  margin-top: 35px;
+  margin-left: 130px;
+}
+.single-background.chaitanya .single-concept-note {
+  margin: 33px 5px 0 20px;
+  padding: 5px;
+  text-align: justify;
+}
+.single-background.chaitanya img {
+  width: 42%;
+}
+.single-background.chaitanya .single-row.one .single-row-left img{
+  float: right;
+  margin-top: 42px;
+  width: 30%;
+}
+.single-background.chaitanya .single-row.one .single-row-right img{
+  float: right;
+  margin-top: 74px;
+  width: 20%;
+  margin-right: 128px;
+}
+.single-background.chaitanya .single-row.three {
+  padding-top: 120px;
+  padding-bottom: 70px;
+}
+.single-background.chaitanya .single-row.three .single-row-right img{
+width: 22%;
+margin-left: 23px;
+}
+.single-background.chaitanya .single-row.four .single-row-left img{
+float: right;
+width: 40%;
 }
 
 
