@@ -238,6 +238,7 @@ h3.single-duration {
     overflow: hidden;
 }
 
+/*** varsha start ***/
 .container-varsha{
   width: 100%;
   height: 100%;
@@ -308,6 +309,10 @@ h3.single-duration {
   padding: 10px 25px;
 }
 
+/*** varsha end ***/
+
+/*** sushil start ***/
+
 .container-sushil {
     width: 100%;
     height: 100%;
@@ -371,6 +376,9 @@ h3.single-duration {
 .single-background.sushil .single-row.five {
     padding-top: 46px;
 }
+/*** sushil end ***/
+
+/*** tanya start ***/
 
 .container-tanya{
     width: 100%;
@@ -431,8 +439,9 @@ h3.single-duration {
 .container-tanya h3.single-medium {
     margin-left: 35px;
 }
+/*** tanya end ***/
 
-
+/*** siddhant start ***/
 .container-siddhant{
   width: 100%;
   height: 100%;
@@ -468,7 +477,10 @@ h3.single-duration {
     text-align: justify;
     padding: 0px 20px 0px 85px;
 }
-/* Mansi */
+
+/*** siddhant end ***/
+
+/* Mansi start */
 .container-mansi {
   width: 100%;
   height: 100%;
@@ -532,8 +544,9 @@ width: 47%;
 .single-background.mansi .single-row.five {
   padding-top: 46px;
 }
+/*** mansi end ***/
 
-/*Chaitanya */
+/*Chaitanya start */
 .container-chaitanya {
   width: 100%;
   height: 100%;
@@ -595,7 +608,71 @@ margin-left: 23px;
 float: right;
 width: 40%;
 }
+/*** chaitanya end ***/
 
+/*** neha start ***/
+.container-neha {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  padding-top: 25px;
+  overflow: hidden;
+}
+.single-background.neha{
+  background-image: url(images/floor/Floor-map-neha.jpg);
+  width: 700px;
+  height: 700px;
+  margin: 0 auto;
+}
+.single-background.neha h3.single-name, .single-background.neha h3.single-institute {
+  margin-left: 20px;
+}
+.single-background.neha h3.single-name{
+  margin-top: 41px;
+}
+.single-background.neha h3.single-location {
+  margin-top: 10px;
+  margin-left: 130px;
+}
+.single-background.neha h3.single-duration {
+  margin-left: 130px;
+}
+.single-background.neha h3.single-title{
+  margin-top: 0;
+  margin-left: 20px;
+}
+.single-background.neha .single-concept-note {
+  margin: 33px 5px 0 20px;
+  padding: 5px;
+  text-align: justify;
+}
+.single-background.neha img {
+  width: 42%;
+}
+.single-background.neha .single-row.one .single-row-left img{
+  float: right;
+  margin-top: 42px;
+  width: 30%;
+}
+.single-background.neha .single-row.one .single-row-right img{
+  float: right;
+  margin-top: 74px;
+  margin-right: 128px;
+}
+.single-background.neha .single-row.three {
+  padding-top: 120px;
+  padding-bottom: 70px;
+}
+.single-background.neha .single-row.three .single-row-right.video{
+  margin-top: -100px;
+  margin-right: -185px;
+  }
+.single-background.neha .single-row.four .single-row-left img{
+float: left;
+width: 60%;
+}
+
+/*** neha end ***/
 
 
 
