@@ -786,6 +786,134 @@ width: 40%;
 
 /*** Rohit end ****/
 
+/*** muktakumar start ***/
+.container-muktakumar{
+  width: 100%;
+  height: 100%;
+  background-color: #716b69;
+  padding-top: 25px;
+  overflow: hidden;
+}
+.single-background.muktakumar {
+    background-image: url(images/floor/floor-map-m-k.jpg);
+    width: 550px;
+    height: 900px;
+    margin: 0 auto;
+}
+.single-background.muktakumar img {
+    width: 40%;
+}
+.single-background.muktakumar .single-row.one .single-row-right img,
+.single-background.muktakumar .single-row.two .single-row-left img{
+  float: right;
+}
+.single-background.muktakumar .single-row.one {
+    padding-bottom: 100px;
+}
+.single-background.muktakumar .single-row.two {
+    padding-bottom: 110px;
+}
+.single-background.muktakumar .single-row.three .single-row-right img{
+  margin-left: 92px;
+}
+.single-background.muktakumar .single-row.three {
+    padding-bottom: 12px;
+}
+.single-background.muktakumar .single-row.five .single-row-right img{
+  float: right;
+}
+.single-background.muktakumar .single-row.five {
+    padding-bottom: 67px;
+}
+.single-background.muktakumar .single-row.six .single-row-right img{
+  margin-left: 92px;
+}
+/*** muktakumar end ***/
+
+/*** shreya start ***/
+.container-shreya{
+  width: 100%;
+  height: 100%;
+  background-color: #879294;
+  padding-top: 25px;
+  overflow: hidden;
+}
+.single-background.shreya {
+    background-image: url(images/floor/Shreya.jpg);
+    width: 676px;
+    height: 700px;
+    margin: 0 auto;
+}
+.single-background.shreya img {
+    width: 22%;
+}
+.single-background.shreya .single-row.one {
+    padding-top: 105px;
+}
+a.shreya-one-img {
+    margin-left: 100px;
+}
+a.shreya-two-img img {
+    float: right;
+    margin-right: 12px;
+}
+.single-background.shreya .single-row.one .single-row-right img{
+    float: right;
+    margin-right: 90px;
+}
+.single-background.shreya .single-row.two{
+  padding-top: 15px;
+}
+.single-background.shreya .single-row.two .single-row-right a {
+    margin-left: 31px;
+}
+.single-background.shreya .single-row.three .single-row-left a{
+    margin-left: 100px;
+}
+.single-background.shreya .single-row.three {
+    padding-top: 25px;
+}
+/*** shreya end ***/
+
+/*** sawani start ***/
+.container-sawani{
+  width: 100%;
+  height: 100%;
+  background-color: #b2aa9f;
+  padding-top: 25px;
+  overflow: hidden;
+}
+.single-background.sawani {
+    background-image: url(images/floor/Sawani-floor.jpg);
+    width: 800px;
+    height: 760px;
+    margin: 0 auto;
+}
+.single-background.sawani img {
+    width: 50%;
+}
+.single-background.sawani .single-row.one .single-row-left img{
+  float: right;
+}
+.single-background.sawani .single-row.one .single-row-left{
+  padding-bottom: 55px;
+}
+.single-background.sawani .single-row.three{
+  padding-top: 27px;
+}
+.single-background.sawani .single-row.three .single-row-left img{
+  padding-top: 101px;
+}
+img#sawani-video-four {
+    margin-left: 14px;
+}
+img#sawani-video-five {
+    margin-top: 40px;
+    float: right;
+    margin-right: 85px;
+}
+/*** sawani end ***/
+
 
 /*@media only screen and (max-width: 399px) and (min-width: 320px){
   div.home-background-area{

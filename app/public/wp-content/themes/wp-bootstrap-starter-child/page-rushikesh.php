@@ -4,9 +4,7 @@
 get_header();
 ?>
 
-    <section id="primary" class="content-area">
-        <div id="main" class="site-main" role="main">
-            <div class="container">
+            <div class="container-rushikesh">
                 <h2 style="width: 100%; text-align: center;">Rushikesh</h2>
                 <div class="single-background rushikesh">
                     <div class="single-row one">
@@ -53,8 +51,6 @@ get_header();
                 get_template_part( 'template-parts/single-switch', 'switch' );
 
              ?>
-        </div><!-- #main -->
-    </section><!-- #primary -->
 
     <script type="text/javascript">
        jQuery(function() {
