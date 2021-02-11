@@ -208,9 +208,17 @@ button#manish-rathod {
 }
 .single-switch {
     width: 6%;
-    float: right;
+    float: left;
     margin-top: 20px;
-    margin-right: 10%;
+    margin-left: 10%;
+    position: fixed;
+    bottom: 35%;
+}
+/*=Sticky Scroll Styles=*/
+.fixed {
+	position:fixed;
+	top:0;
+	z-index:99999;
 }
 .single-row-left {
     width: 50%;

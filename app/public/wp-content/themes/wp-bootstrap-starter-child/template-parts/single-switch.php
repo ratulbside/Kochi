@@ -1,5 +1,5 @@
 <div class="single-switch">
-	<a id="tool-tip" href="<?php echo get_site_url()?>">
+	<a id="tool-tip" class="sticky-button" href="<?php echo get_site_url()?>">
 		<img id="varsha-one" src="<?php echo get_theme_file_uri(); ?>/images/only-switch.jpg">
 	</a>
 </div>
