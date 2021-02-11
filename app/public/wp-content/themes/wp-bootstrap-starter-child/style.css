@@ -1255,6 +1255,28 @@ h3.single-medium {
   .button-area-row.third.four {
     top: -82px;
   }
+
+  /*single page sushil*/
+  .single-background.sushil {
+    width: 320px;
+    height: auto;
+  }
+  .single-background.sushil p.single-concept-note{
+    display: none
+  }
+  .single-background.sushil .single-row.one{
+    padding-top: 0px;
+  }
+  .single-background.sushil .single-row{
+    padding: 0px;
+  }
+  .single-background.sushil .single-row-left img{
+    position: relative;
+    top: 40px;
+  }
+  .single-background.sushil h3.single-institute{
+    margin-left: 60px;
+  }
 }
 @media only screen and (max-width: 569px) and (min-width: 480px){
   div.home-background-area{
