@@ -3,10 +3,7 @@
 
 get_header();
 ?>
-
-    <section id="primary" class="content-area">
-        <div id="main" class="site-main" role="main">
-            <div class="container">
+            <div class="container-kasin">
                 <h2 style="width: 100%; text-align: center;">Kasin</h2>
                 <div class="single-background kasin">
                     <div class="single-row one">
@@ -40,17 +37,11 @@ get_header();
                         </div>
                     </div>
                 </div>
-                <div class="single-concept-note">
-                    <p>In the above painting, I wanted to mentioned that what is the condition of people in lockdown and how people are lived their life dramatically , drastically,  and may be decisively . The lockdown applied to three main areas physical movement out of the home,  social distancing when people outside home and restricted availability of most public services. All people having same rule "stay home and stay safe." Fish are packed in the pot. she can not surview anywhere same way the people having same condition like fish. Here I only said that it is safe when you are in home and it might be risky if u go out of home.</p>
-                </div>
+                <?php 
+                    get_template_part( 'template-parts/single-switch', 'switch' );
+
+                 ?>
             </div>
-
-            <?php 
-                get_template_part( 'template-parts/single-switch', 'switch' );
-
-             ?>
-        </div><!-- #main -->
-    </section><!-- #primary -->
 
     <script type="text/javascript">
        jQuery(function() {

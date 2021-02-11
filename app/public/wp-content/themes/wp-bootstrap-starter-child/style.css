@@ -668,6 +668,110 @@ width: 60%;
 
 /*** neha end ***/
 
+/*** rohit start ***/
+.container-rohit{
+  width: 100%;
+  height: 100%;
+  background-color: #312e29;
+  padding-top: 25px;
+  overflow: hidden;
+}
+.single-background.rohit{
+    background-image: url(images/floor/Rohit.jpg);
+    width: 842px;
+    height: 600px;
+    margin: 0 auto;
+}
+.single-background.rohit .single-row.one .single-row-right img {
+    width: 32%;
+    margin-top: 54px;
+    margin-left: 65px;
+}
+.single-background.rohit .single-row.two .single-row-left img {
+    float: right;
+    width: 24%;
+    margin-top: 30px;
+}
+.single-background.rohit .single-row.two .single-row-left{
+  width: 60%;
+}
+.single-background.rohit .single-row.two .single-row-right{
+  width: 40%;
+}
+.single-background.rohit .single-row.three{
+  padding-top: 110px;
+}
+.single-background.rohit .single-row.three .single-row-left img{
+    width: 32%;
+    margin-left: 65px;
+}
+/*** rohit end ***/
+
+/*** muktakumar start ***/
+.container-muktakumar{
+  width: 100%;
+  height: 100%;
+  background-color: #716b69;
+  padding-top: 25px;
+  overflow: hidden;
+}
+.single-background.muktakumar {
+    background-image: url(images/floor/floor-map-m-k.jpg);
+    width: 550px;
+    height: 900px;
+    margin: 0 auto;
+}
+.single-background.muktakumar img {
+    width: 40%;
+}
+.single-background.muktakumar .single-row.one .single-row-right img,
+.single-background.muktakumar .single-row.two .single-row-left img{
+  float: right;
+}
+.single-background.muktakumar .single-row.one {
+    padding-bottom: 100px;
+}
+.single-background.muktakumar .single-row.two {
+    padding-bottom: 110px;
+}
+.single-background.muktakumar .single-row.three .single-row-right img{
+  margin-left: 92px;
+}
+.single-background.muktakumar .single-row.three {
+    padding-bottom: 12px;
+}
+.single-background.muktakumar .single-row.five .single-row-right img{
+  float: right;
+}
+.single-background.muktakumar .single-row.five {
+    padding-bottom: 67px;
+}
+.single-background.muktakumar .single-row.six .single-row-right img{
+  margin-left: 92px;
+}
+/*** muktakumar end ***/
+
+/*** kasin start ***/
+.container-kasin{
+  width: 100%;
+  height: 100%;
+  background-color: #b19b83;
+  padding-top: 25px;
+  overflow: hidden;
+}
+.single-background.kasin{
+    background-image: url(images/floor/Kashin.jpg);
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
+}
+.single-background.kasin .single-row.one .single-row-right img {
+    width: 35%;
+    float: right;
+    margin-right: 85px;
+    margin-top: 76px;
+}
+/*** kasin end ***/
 
 
 /*@media only screen and (max-width: 399px) and (min-width: 320px){
