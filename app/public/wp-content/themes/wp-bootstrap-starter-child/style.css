@@ -1063,16 +1063,15 @@ img#sawani-video-five {
   float: right;
 } */
 .single-background.kumar-mishal .single-row.one .single-row-left{
-  margin-left: 64px;
-  margin-top: 67px;
+  padding-top: 67px;
   width: 40%;
 }
 .single-background.kumar-mishal .single-row.one .single-row-right{
   width: 60%;
 }
 .single-background.kumar-mishal .single-row.one .single-row-right img{
-  margin-left: -65px;
   margin-top: 67px;
+  width: 30%;
 }
 .single-background.kumar-mishal .single-row.three{
   padding-top: 27px;
@@ -1093,7 +1092,6 @@ img#kumar-mishal-video-five {
   margin: 10px 0px 0px 15px;
 }
 .container-kumar-mishal h3.single-duration{
-  float: right;
   padding-left: 15px;
 
 }
@@ -1103,12 +1101,39 @@ img#kumar-mishal-video-five {
 .container-kumar-mishal div.single-concept-note {
     text-align: justify;
     padding: 0px 35px 0px 3px;
-    width: 350px;
+    width: 400px;
     margin-top: 72px;
+    float: right;
+    font-size: 12px;
 }
 .container-kumar-mishal h3.single-institute, .container-kumar-mishal h3.single-name {
     margin: 0px;
     padding-left: 15px;
+}
+.single-background.kumar-mishal .single-row.one .single-row-left img {
+    margin-left: 60px;
+}
+.single-background.kumar-mishal h3.single-location {
+    text-align: right;
+}
+.single-background.kumar-mishal .single-row.two .single-row-left img{
+  margin-left: 60px;
+}
+.single-background.kumar-mishal a.kumar-two-right-two img {
+ }
+h3.single-medium {
+    width: 100px;
+    display: initial;
+    position: relative;
+    top: 41px;
+}
+.single-background.kumar-mishal .single-row.four .single-row-right img{
+  float: right;
+    margin-right: 30px;
+    margin-top: -20px;
+}
+.single-background.kumar-mishal .single-row.four .single-row-left{
+  padding-left: 50px;
 }
 /*** kumar mishal end ***/
 
