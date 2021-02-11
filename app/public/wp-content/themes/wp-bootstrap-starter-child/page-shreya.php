@@ -6,7 +6,6 @@ get_header();
 
     
             <div class="container-shreya">
-                <h2 style="width: 100%; text-align: center;">Shreya</h2>
                 <div class="single-background shreya">
                     <div class="single-row one">
                         <div class="single-row-left popup-gallery">
@@ -16,7 +15,8 @@ get_header();
                             <a class="shreya-two-img" href="<?php echo get_theme_file_uri(); ?>/images/Shreya/2.jpeg">
                                 <img src="<?php echo get_theme_file_uri(); ?>/images/Shreya/2.jpeg">
                             </a>
-
+                            <h3 class="single-institute">Sndt Women’s University Pune</h3>
+                            <h3 class="single-name title">Paper drawings on digital photograph</h3>
                         </div>
                         <div class="single-row-right popup-gallery">
                             <h3 class="single-name">Shreya Rohamare</h3>
@@ -35,48 +35,50 @@ get_header();
                         </div>
                         <div class="single-row-right popup-gallery">
                             <a href="<?php echo get_theme_file_uri(); ?>/images/Shreya/4.jpeg">
-                                <img src="<?php echo get_theme_file_uri(); ?>/images/Shreya/3.jpeg">
+                                <img style="margin-bottom: 5px;" src="<?php echo get_theme_file_uri(); ?>/images/Shreya/4.jpeg">
                             </a>
                             <a href="<?php echo get_theme_file_uri(); ?>/images/Shreya/5.jpeg">
-                                <img src="<?php echo get_theme_file_uri(); ?>/images/Shreya/3.jpeg">
+                                <img src="<?php echo get_theme_file_uri(); ?>/images/Shreya/5.jpeg">
+                            </a>
+
+                            <a class="shreya-three-img" href="<?php echo get_theme_file_uri(); ?>/images/Shreya/6.jpeg">
+                                <img src="<?php echo get_theme_file_uri(); ?>/images/Shreya/6.jpeg">
+                            </a>
+                            <a class="shreya-three-img" href="<?php echo get_theme_file_uri(); ?>/images/Shreya/7.jpeg">
+                                <img src="<?php echo get_theme_file_uri(); ?>/images/Shreya/7.jpeg">
                             </a>
                         </div>
                     </div>
                     <div class="single-row three">
-                        <div class="single-row-left popup-gallery">
-                             
+                        <div class="single-row-left">
+                            <h3 class="single-medium">Photos</h3> 
                         </div>
                         <div class="single-row-right popup-gallery">
-                            <a class="shreya-three-img" href="<?php echo get_theme_file_uri(); ?>/images/Shreya/6.jpeg">
-                                <img src="<?php echo get_theme_file_uri(); ?>/images/Shreya/3.jpeg">
-                            </a>
-                            <a class="shreya-three-img" href="<?php echo get_theme_file_uri(); ?>/images/Shreya/7.jpeg">
-                                <img src="<?php echo get_theme_file_uri(); ?>/images/Shreya/3.jpeg">
+                             <a href="<?php echo get_theme_file_uri(); ?>/images/Shreya/8.jpeg">
+                                <img src="<?php echo get_theme_file_uri(); ?>/images/Shreya/8.jpeg">
                             </a>
                         </div>
                     </div>
                     <div class="single-row four">
-                        <div class="single-row-left popup-gallery">
+                        <div class="single-row-left">
                             
                         </div>
                         <div class="single-row-right">
-                            <a href="<?php echo get_theme_file_uri(); ?>/images/Shreya/8.jpeg">
-                                <img src="<?php echo get_theme_file_uri(); ?>/images/Shreya/3.jpeg">
-                            </a>
+                           
                         </div>
                     </div>
                      <div class="single-row five">
                         <div class="single-row-left popup-gallery">
                              <a href="<?php echo get_theme_file_uri(); ?>/images/Shreya/9.jpeg">
-                                <img src="<?php echo get_theme_file_uri(); ?>/images/Shreya/3.jpeg">
+                                <img src="<?php echo get_theme_file_uri(); ?>/images/Shreya/9.jpeg">
                             </a>
-                            <a href="<?php echo get_theme_file_uri(); ?>/images/Shreya/10.jpeg">
-                                <img src="<?php echo get_theme_file_uri(); ?>/images/Shreya/3.jpeg">
+                            <a class="shreya-five-tow" href="<?php echo get_theme_file_uri(); ?>/images/Shreya/10.jpeg">
+                                <img src="<?php echo get_theme_file_uri(); ?>/images/Shreya/10.jpeg">
                             </a>
                         </div>
                         <div class="single-row-right">
                             <a href="<?php echo get_theme_file_uri(); ?>/images/Shreya/11.jpeg">
-                                <img src="<?php echo get_theme_file_uri(); ?>/images/Shreya/3.jpeg">
+                                <img src="<?php echo get_theme_file_uri(); ?>/images/Shreya/11.jpeg">
                             </a>
                         </div>
                     </div>
