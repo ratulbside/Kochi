@@ -867,7 +867,7 @@ width: 40%;
   float: right;
 }
 .single-background.muktakumar .single-row.one {
-    padding-bottom: 100px;
+    padding-bottom: 30px;
 }
 .single-background.muktakumar .single-row.two {
     padding-bottom: 110px;
@@ -886,6 +886,13 @@ width: 40%;
 }
 .single-background.muktakumar .single-row.six .single-row-right img{
   margin-left: 92px;
+}
+.single-background.muktakumar h3.single-name, .single-background.muktakumar h3.single-medium {
+    margin-left: 10px;
+}
+.single-background.muktakumar p.single-concept-note {
+    text-align: justify;
+    padding: 0px 10px;
 }
 /*** muktakumar end ***/
 

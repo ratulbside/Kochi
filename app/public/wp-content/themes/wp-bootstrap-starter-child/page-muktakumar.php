@@ -4,14 +4,16 @@
 get_header();
 ?>
             <div class="container-muktakumar">
-                <h2 style="width: 100%; text-align: center;">Mukta + Kumar</h2>
                 <div class="single-background muktakumar">
                     <div class="single-row one">
-                        <div class="single-row-left"></div>
+                        <div class="single-row-left">
+                            <h3 class="single-name">Mukta Vaidya + Kumar Misal</h3>
+                        </div>
                         <div class="single-row-right popup-gallery">
                             <a href="<?php echo get_theme_file_uri(); ?>/images/Mukta + Kumar - rez/5.jpeg">
                                 <img src="<?php echo get_theme_file_uri(); ?>/images/Mukta + Kumar - rez/5.jpeg">
                             </a>
+                            <h3 class="single-name title">Spun Candy</h3>
                         </div>
                     </div>
                     <div class="single-row two">
@@ -21,11 +23,15 @@ get_header();
                             </a>
                         </div>
                         <div class="single-row-right">
-                            
+                            <p class="single-concept-note">
+                                Spun Candy is a metaphorical rendering. It is associated with the characteristics of cotton candy- pink, soft, sensitive, dense and layered. It represents the various overlapping incidents faced by women at home. 
+                            </p>
                         </div>
                     </div>
                     <div class="single-row three">
-                        <div class="single-row-left"></div>
+                        <div class="single-row-left">
+                            <h3 class="single-medium">Multimedia</h3>
+                        </div>
                         <div class="single-row-right popup-gallery">
                             <a href="<?php echo get_theme_file_uri(); ?>/images/Mukta + Kumar - rez/3.jpeg">
                                 <img src="<?php echo get_theme_file_uri(); ?>/images/Mukta + Kumar - rez/3.jpeg">
@@ -44,7 +50,7 @@ get_header();
                     </div>
                     <div class="single-row five">
                         <div class="single-row-left">
-                            
+                            <h3 class="single-location"></h3>
                         </div>
                         <div class="single-row-right popup-gallery">
                             <a href="<?php echo get_theme_file_uri(); ?>/images/Mukta + Kumar - rez/2.jpeg">
