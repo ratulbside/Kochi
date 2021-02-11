@@ -55,6 +55,21 @@ div.home-background-area{
     padding-top: 155px;
     float: left;
 }
+.home-secondary-area{
+  width: 25%;
+  padding-top: 155px;
+  float: right;
+}
+button#amol, button#exhibition{
+  padding-top: 77px;
+  margin-top: 51px;
+}
+button#amol{
+  margin-left: 2px;
+}
+button#exhibition{
+  margin-left: 17px;
+}
 .button-area-position button{
     width: 30px;
     height: 30px;
