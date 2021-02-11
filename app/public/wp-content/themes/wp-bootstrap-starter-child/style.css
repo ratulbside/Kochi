@@ -773,6 +773,51 @@ width: 60%;
 }
 /*** kasin end ***/
 
+/*** shreya start ***/
+.container-shreya{
+  width: 100%;
+  height: 100%;
+  background-color: #879294;
+  padding-top: 25px;
+  overflow: hidden;
+}
+.single-background.shreya {
+    background-image: url(images/floor/Shreya.jpg);
+    width: 676px;
+    height: 700px;
+    margin: 0 auto;
+}
+.single-background.shreya img {
+    width: 22%;
+}
+.single-background.shreya .single-row.one {
+    padding-top: 105px;
+}
+a.shreya-one-img {
+    margin-left: 100px;
+}
+a.shreya-two-img img {
+    float: right;
+    margin-right: 12px;
+}
+.single-background.shreya .single-row.one .single-row-right img{
+    float: right;
+    margin-right: 90px;
+}
+.single-background.shreya .single-row.two{
+  padding-top: 15px;
+}
+.single-background.shreya .single-row.two .single-row-right a {
+    margin-left: 31px;
+}
+.single-background.shreya .single-row.three .single-row-left a{
+    margin-left: 100px;
+}
+.single-background.shreya .single-row.three {
+    padding-top: 25px;
+}
+/*** shreya end ***/
+
 
 /*@media only screen and (max-width: 399px) and (min-width: 320px){
   div.home-background-area{
