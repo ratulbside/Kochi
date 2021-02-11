@@ -14,19 +14,26 @@
 
 get_header(); ?>
 
+<style type="text/css">
+      body {
+		background-color: #b3a797;
+		}
+    </style>
+
+
 	<div class="home-background-area">
 		<div class="home-main-area">
 				<div class="button-area-row first">
 					<div class="button-area-position">
 						<div class="part-one">
-							<button id="varsha" class="varsha" page-url="<?php echo site_url();?>/varsha"></button>
+							<button id="varsha" class="varsha" page-url="<?php echo site_url();?>/sawani"></button>
 						</div>
 						<div class="part-two">
-							<button id="tanya" class="tanya" page-url="<?php echo site_url();?>/tanya"></button>
-							<button id="sushil" class="sushil" page-url="<?php echo site_url();?>/sushil"></button>
+							<button id="tanya" class="tanya" page-url="<?php echo site_url();?>/rohit"></button>
+							<button id="sushil" class="sushil" page-url="<?php echo site_url();?>/kumar"></button>
 						</div>
 						<div class="part-three">
-							<button id="siddhant" class="siddhant" page-url="<?php echo site_url();?>/siddhant"></button>
+							<button id="siddhant" class="siddhant" page-url="<?php echo site_url();?>/rushikesh"></button>
 						</div>
 					</div>
 				</div>
@@ -36,8 +43,8 @@ get_header(); ?>
 							
 						</div>
 						<div class="part-two">
-							<button id="shreya" class="shreya" page-url="<?php echo site_url();?>/shreya"></button>
-							<button id="sawani" class="sawani" page-url="<?php echo site_url();?>/sawani"></button>
+							<button id="shreya" class="shreya" page-url="<?php echo site_url();?>/kasin"></button>
+							<button id="sawani" class="sawani" page-url="<?php echo site_url();?>/shreya"></button>
 						</div>
 						<div class="part-three">
 							
@@ -47,15 +54,15 @@ get_header(); ?>
 				<div class="button-area-row third">
 					<div class="button-area-position">
 						<div class="part-one">
-							<button id="rushikesh" class="rushikesh" page-url="<?php echo site_url();?>/rushikesh"></button>
+							<button id="rushikesh" class="rushikesh" page-url="<?php echo site_url();?>/neha"></button>
 						</div>
 						<div class="part-two">
 							
-							<button id="rohit" class="rohit" page-url="<?php echo site_url();?>/rohit"></button>
+							<button id="rohit" class="rohit" page-url="<?php echo site_url();?>/varsha"></button>
 						</div>
 						<div class="part-three">
-							<button id="neha" class="neha" page-url="<?php echo site_url();?>/neha"></button>
-							<button id="mukta-kumar" class="mukta-kumar" page-url="<?php echo site_url();?>/muktakumar"></button>
+							<button id="neha" class="neha" page-url="<?php echo site_url();?>/chaitanya"></button>
+							<button id="mukta-kumar" class="mukta-kumar" page-url="<?php echo site_url();?>/siddhant"></button>
 						</div>
 					</div>
 				</div>
@@ -63,15 +70,15 @@ get_header(); ?>
 					<div class="button-area-position">
 						<div class="part-one">
 							
-							<button id="kumar-misal" class="kumar-misal" page-url="<?php echo site_url();?>/kumar"></button>
+							<button id="kumar-misal" class="kumar-misal" page-url="<?php echo site_url();?>/tanya"></button>
 						</div>
 						<div class="part-two">
 							
-							<button id="kasin-patel" class="kasin-patel" page-url="<?php echo site_url();?>/kasin"></button>
+							<button id="kasin-patel" class="kasin-patel" page-url="<?php echo site_url();?>/sushil"></button>
 						</div>
 						<div class="part-three">
-							<button id="chaitanya-powle" class="chaitanya-powle" page-url="<?php echo site_url();?>/chaitanya"></button>
-							<button id="manish-rathod" class="manish-rathod" page-url="<?php echo site_url();?>/mansi"></button>
+							<button id="chaitanya-powle" class="chaitanya-powle" page-url="<?php echo site_url();?>/mansi"></button>
+							<button id="manish-rathod" class="manish-rathod" page-url="<?php echo site_url();?>/muktakumar"></button>
 						</div>
 					</div>
 				</div>
@@ -83,46 +90,46 @@ get_header(); ?>
 
 	<script type="text/javascript">
 		tippy('#varsha', {
-		  content: "Varsha",
+		  content: "Sawani Chaudhary",
 		});
 		tippy('#tanya', {
-		  content: "Tanya",
+		  content: "Rohit Varekar",
 		});
 		tippy('#sushil', {
-		  content: "Sushil",
+		  content: "Kumar Pandurang Misal",
 		});
 		tippy('#siddhant', {
-		  content: "Siddhant",
+		  content: "Rushikesh R. Potrekar",
 		});
 		tippy('#shreya', {
-		  content: "Shreya",
+		  content: "Kashin Patel",
 		});
 		tippy('#sawani', {
-		  content: "Sawani",
+		  content: "Shreya Rohamare",
 		});
 		tippy('#rushikesh', {
-		  content: "Rushikesh",
+		  content: "Neha Zode",
 		});
 		tippy('#rohit', {
-		  content: "Rohit",
+		  content: "Varsha Umate",
 		});
 		tippy('#neha', {
-		  content: "Neha",
-		});
-		tippy('#mukta-kumar', {
-		  content: "Mukta + kumar",
-		});
-		tippy('#kumar-misal', {
-		  content: "Kumar Misal",
-		});
-		tippy('#kasin-patel', {
-		  content: "Kasin Patel",
-		});
-		tippy('#chaitanya-powle', {
 		  content: "Chaitanya Powle",
 		});
-		tippy('#manish-rathod', {
+		tippy('#mukta-kumar', {
+		  content: "Siddhant Meher",
+		});
+		tippy('#kumar-misal', {
+		  content: "Tanya Badkul",
+		});
+		tippy('#kasin-patel', {
+		  content: "Sushil Jagtap",
+		});
+		tippy('#chaitanya-powle', {
 		  content: "Mansi Rathod",
+		});
+		tippy('#manish-rathod', {
+		  content: "Mukta Vaidya + Kumar Misal",
 		});
 	</script>
 
