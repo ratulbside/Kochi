@@ -19,6 +19,7 @@ get_header();
 
                         </div>
                         <div class="single-row-right popup-gallery">
+                            <h3 class="single-name">Shreya Rohamare</h3>
                             <a href="<?php echo get_theme_file_uri(); ?>/images/Shreya/3.jpeg">
                                 <img src="<?php echo get_theme_file_uri(); ?>/images/Shreya/3.jpeg">
                             </a>
@@ -27,18 +28,23 @@ get_header();
                     <div class="single-row two">
                         <div class="single-row-left">
                             
+                            <p class="single-concept-note">
+                                Truth that explodes within Like an elephant herd stampeded by ants, a miserable unimaginable happening to someone who thought he was god, now just a man behind walls. We have two truths- one that we see other that we know, idle are both as we are shunned into tenebrism by the germ that swept us inside our homes.Home is that space of familiar direction to feel everything around to a heighten sense of sunken personal expression, disinfecting the streets from us. We inscrutably loom around, almost compelled to fantasize scenarios and human faces that we missed, being the owner of inside its the outer that we seek. The truth out there is black and white and the inner almost a impression of tranquillity from a monk that exuberates limitless thoughts and fearsome abyss. That explodes within.
+
+                            </p>
                         </div>
                         <div class="single-row-right popup-gallery">
                             <a href="<?php echo get_theme_file_uri(); ?>/images/Shreya/4.jpeg">
+                                <img src="<?php echo get_theme_file_uri(); ?>/images/Shreya/3.jpeg">
+                            </a>
+                            <a href="<?php echo get_theme_file_uri(); ?>/images/Shreya/5.jpeg">
                                 <img src="<?php echo get_theme_file_uri(); ?>/images/Shreya/3.jpeg">
                             </a>
                         </div>
                     </div>
                     <div class="single-row three">
                         <div class="single-row-left popup-gallery">
-                             <a href="<?php echo get_theme_file_uri(); ?>/images/Shreya/5.jpeg">
-                                <img src="<?php echo get_theme_file_uri(); ?>/images/Shreya/3.jpeg">
-                            </a>
+                             
                         </div>
                         <div class="single-row-right popup-gallery">
                             <a class="shreya-three-img" href="<?php echo get_theme_file_uri(); ?>/images/Shreya/6.jpeg">

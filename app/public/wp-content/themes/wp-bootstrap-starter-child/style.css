@@ -747,18 +747,20 @@ width: 40%;
   background-image: url(images/floor/Rohit.jpg);
   width: 1000px;
   margin: 0 auto;
+  height: 714px;
 }
 .single-background.rohit .single-row.one .single-row-right img {
   width: 35%;
-  float: right;
-  margin-right: 85px;
-  margin-top: 76px;
 }
-.single-background.rohit h3.single-name, .single-background.rohit h3.single-institute {
+.single-background.rohit .single-row.one .single-row-right{
+
+}
+/*.single-background.rohit h3.single-name, .single-background.rohit h3.single-institute {
   margin-left: 200px;
-}
-.single-background.rohit h3.single-name{
-  margin-top: 41px;
+}*/
+.single-background.rohit h3.single-name {
+    margin-top: 115px;
+    margin-left: 69px;
 }
 .single-background.rohit h3.single-location {
   margin-top: 0;
@@ -856,7 +858,7 @@ width: 40%;
     width: 22%;
 }
 .single-background.shreya .single-row.one {
-    padding-top: 105px;
+    padding-top: 90px;
 }
 a.shreya-one-img {
     margin-left: 100px;
@@ -881,6 +883,14 @@ a.shreya-two-img img {
 .single-background.shreya .single-row.three {
     padding-top: 25px;
 }
+.container-shreya h3.single-name{
+  margin: 0px 0px 0px 20px;
+}
+.single-background.shreya .single-row.one .single-row-left {
+    padding-top: 17px;
+}
+
+
 /*** shreya end ***/
 
 /*** sawani start ***/
@@ -904,13 +914,13 @@ a.shreya-two-img img {
   float: right;
 }
 .single-background.sawani .single-row.one .single-row-left{
-  padding-bottom: 55px;
+  padding-bottom: 25px;
 }
 .single-background.sawani .single-row.three{
   padding-top: 27px;
 }
 .single-background.sawani .single-row.three .single-row-left img{
-  padding-top: 101px;
+  margin-top: 40px;
 }
 img#sawani-video-four {
     margin-left: 14px;
@@ -919,6 +929,26 @@ img#sawani-video-five {
     margin-top: 40px;
     float: right;
     margin-right: 85px;
+}
+.container-sawani h3.single-name.title, .container-sawani h3.single-duration, .container-sawani h3.single-medium{
+  width: 50%;
+  margin: 10px 0px 0px 15px;
+}
+.container-sawani h3.single-duration{
+  float: right;
+  padding-left: 15px;
+
+}
+.container-sawani .single-row.two .single-row-left {
+    padding-top: 28px;
+}
+.container-sawani p.single-concept-note {
+    text-align: justify;
+    padding: 0px 35px 0px 3px;
+}
+.container-sawani h3.single-institute, .container-sawani h3.single-name {
+    margin: 0px;
+    padding-left: 15px;
 }
 /*** sawani end ***/
 
