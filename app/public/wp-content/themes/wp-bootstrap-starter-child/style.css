@@ -742,6 +742,7 @@ width: 40%;
   background-color: #312e29;
   padding-top: 25px;
   overflow: hidden;
+  padding-bottom: 30px;
 }
 .single-background.rohit{
   background-image: url(images/floor/Rohit.jpg);
@@ -751,20 +752,27 @@ width: 40%;
 }
 .single-background.rohit .single-row.one .single-row-right img {
   width: 35%;
+  margin-top: 60px;
+  margin-left: 65px;
 }
 .single-background.rohit .single-row.one .single-row-right{
 
 }
-/*.single-background.rohit h3.single-name, .single-background.rohit h3.single-institute {
-  margin-left: 200px;
-}*/
 .single-background.rohit h3.single-name {
-    margin-top: 115px;
+    margin-top: 60px;
     margin-left: 69px;
 }
+.single-background.rohit h3.single-name.title {
+    text-align: right;
+    margin-right: 148px;
+    margin-bottom: 0px;
+    margin-top: 84px !important;
+}
 .single-background.rohit h3.single-location {
-  margin-top: 0;
-  margin-left: 9px;
+    width: 100px;
+    float: right;
+    margin-right: 98px;
+    margin-top: 60px;
 }
 .single-background.rohit h3.single-duration {
   margin-left: 16px;
@@ -774,7 +782,7 @@ width: 40%;
   margin-left: 130px;
 }
 .single-background.rohit .single-concept-note {
-  margin: 33px 5px 0 20px;
+  margin: 10px 5px 0 20px;
   padding: 5px;
   text-align: justify;
 }
@@ -782,8 +790,7 @@ width: 40%;
   width: 42%;
 }
 .single-background.rohit .single-row.three {
-  padding-top: 120px;
-  padding-bottom: 70px;
+  padding-bottom: 0px;
 }
 .single-background.rohit .single-row.three .single-row-right img{
 width: 22%;
@@ -792,6 +799,33 @@ margin-left: 23px;
 .single-background.rohit .single-row.four .single-row-left img{
 float: right;
 width: 40%;
+}
+.single-background.rohit h3.single-institute {
+    margin-left: 116px;
+}
+.single-background.rohit h3.single-duration {
+    text-align: right;
+    margin-right: 120px;
+}
+.single-background.rohit .single-row-right.popup-gallery img {
+    float: right;
+    margin-right: 90px;
+    width: 30%;
+}
+.rohit-img-one{
+  width: 35% !important; 
+  margin-left: 29px;
+}
+.rohit-video-two{
+  float: right;
+}
+.single-background.rohit .single-row.three img {
+    margin-left: 64px;
+    width: 35% !important;
+    margin-top: 39px;
+}
+.single-background.rohit .single-row.four .single-row-left{
+  width: 80%;
 }
 
 /*** Rohit end ****/
@@ -875,7 +909,7 @@ a.shreya-two-img img {
   padding-top: 15px;
 }
 .single-background.shreya .single-row.two .single-row-right a {
-    margin-left: 31px;
+    margin-left: 40px;
 }
 .single-background.shreya .single-row.three .single-row-left a{
     margin-left: 100px;
@@ -888,6 +922,37 @@ a.shreya-two-img img {
 }
 .single-background.shreya .single-row.one .single-row-left {
     padding-top: 17px;
+}
+.single-background.shreya p.single-concept-note {
+    padding-left: 43px;
+    text-align: justify;
+    height: 109px;
+    overflow: scroll;
+    margin-bottom: 0px;
+}
+.single-background.shreya h3.single-institute, .single-background.shreya h3.single-name.title{
+  margin: 0px;
+  padding-left: 44px;
+}
+.single-background.shreya .single-row.three .single-row-right.popup-gallery img{
+  float: right;
+  margin-right: 85px;
+}
+.single-background.shreya h3.single-medium {
+    text-align: right;
+}
+.single-background.shreya .single-row.five .single-row-right img{
+  float: right;
+  margin-right: 60px;
+}
+.single-background.shreya .single-row.five .single-row-left img{
+  margin-left: 43px;
+}
+a.shreya-five-tow img {
+    margin-left: 135px !important;
+}
+.single-background.shreya .single-row.five {
+    padding-top: 50px;
 }
 
 
