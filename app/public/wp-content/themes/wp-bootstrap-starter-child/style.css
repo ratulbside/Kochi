@@ -668,6 +668,123 @@ width: 60%;
 
 /*** neha end ***/
 
+/*** kasin start ***/
+.container-kasin {
+  width: 100%;
+  height: 100%;
+  background-color: #b19b83;
+  padding-top: 25px;
+  overflow: hidden;
+}
+.single-background.kasin{
+  background-image: url(images/floor/Kashin.jpg);
+  width: 1000px;
+  margin: 0 auto;
+}
+.single-background.kasin .single-row.one .single-row-right img {
+  width: 35%;
+  float: right;
+  margin-right: 85px;
+  margin-top: 76px;
+}
+.single-background.kasin h3.single-name, .single-background.kasin h3.single-institute {
+  margin-left: 200px;
+}
+.single-background.kasin h3.single-name{
+  margin-top: 41px;
+}
+.single-background.kasin h3.single-location {
+  margin-top: 0;
+  margin-left: 9px;
+}
+.single-background.kasin h3.single-duration {
+  margin-left: 16px;
+}
+.single-background.kasin h3.single-title{
+  margin-top: 35px;
+  margin-left: 130px;
+}
+.single-background.kasin .single-concept-note {
+  margin: 33px 5px 0 20px;
+  padding: 5px;
+  text-align: justify;
+}
+.single-background.kasin img {
+  width: 42%;
+}
+.single-background.kasin .single-row.three {
+  padding-top: 120px;
+  padding-bottom: 70px;
+}
+.single-background.kasin .single-row.three .single-row-right img{
+width: 22%;
+margin-left: 23px;
+}
+.single-background.kasin .single-row.four .single-row-left img{
+float: right;
+width: 40%;
+}
+
+/*** kasin end ***/
+
+/*** Rohit start ***/
+.container-rohit {
+  width: 100%;
+  height: 100%;
+  background-color: #312e29;
+  padding-top: 25px;
+  overflow: hidden;
+}
+.single-background.rohit{
+  background-image: url(images/floor/Rohit.jpg);
+  width: 1000px;
+  margin: 0 auto;
+}
+.single-background.rohit .single-row.one .single-row-right img {
+  width: 35%;
+  float: right;
+  margin-right: 85px;
+  margin-top: 76px;
+}
+.single-background.rohit h3.single-name, .single-background.rohit h3.single-institute {
+  margin-left: 200px;
+}
+.single-background.rohit h3.single-name{
+  margin-top: 41px;
+}
+.single-background.rohit h3.single-location {
+  margin-top: 0;
+  margin-left: 9px;
+}
+.single-background.rohit h3.single-duration {
+  margin-left: 16px;
+}
+.single-background.rohit h3.single-title{
+  margin-top: 35px;
+  margin-left: 130px;
+}
+.single-background.rohit .single-concept-note {
+  margin: 33px 5px 0 20px;
+  padding: 5px;
+  text-align: justify;
+}
+.single-background.rohit img {
+  width: 42%;
+}
+.single-background.rohit .single-row.three {
+  padding-top: 120px;
+  padding-bottom: 70px;
+}
+.single-background.rohit .single-row.three .single-row-right img{
+width: 22%;
+margin-left: 23px;
+}
+.single-background.rohit .single-row.four .single-row-left img{
+float: right;
+width: 40%;
+}
+
+/*** Rohit end ****/
 
 
 /*@media only screen and (max-width: 399px) and (min-width: 320px){
