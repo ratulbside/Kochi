@@ -1056,12 +1056,16 @@ img#sawani-video-five {
 .single-background.kumar-mishal img {
     width: 40%;
 }
-.single-background.kumar-mishal .single-row.one .single-row-left img{
+/* .single-background.kumar-mishal .single-row.one .single-row-left img{
   float: right;
-}
+} */
 .single-background.kumar-mishal .single-row.one .single-row-left{
-  margin-left: -214px;
+  margin-left: 64px;
   margin-top: 67px;
+  width: 40%;
+}
+.single-background.kumar-mishal .single-row.one .single-row-right{
+  width: 60%;
 }
 .single-background.kumar-mishal .single-row.one .single-row-right img{
   margin-left: -65px;

@@ -9,12 +9,10 @@ get_header();
                 <div class="single-background kumar-mishal">
                     <div class="single-row one">
                         <div class="single-row-left popup-gallery">
-                        <a href="<?php echo get_theme_file_uri(); ?>/images/Kumar Misal -rez/1.jpeg">
+                            <a href="<?php echo get_theme_file_uri(); ?>/images/Kumar Misal -rez/1.jpeg">
                                 <img src="<?php echo get_theme_file_uri(); ?>/images/Kumar Misal -rez/1.jpeg">
                             </a>
-                            <a href="<?php echo get_theme_file_uri(); ?>/images/Kumar Misal -rez/2.jpeg">
-                                <img class="2nd-img" src="<?php echo get_theme_file_uri(); ?>/images/Kumar Misal -rez/2.jpeg">
-                            </a>
+                            
                         </div>
                         <div class="single-row-right popup-gallery">
                         <a href="<?php echo get_theme_file_uri(); ?>/images/Kumar Misal -rez/3.jpeg">
@@ -31,7 +29,9 @@ get_header();
                     </div>
                     <div class="single-row two">
                         <div class="single-row-left popup-gallery">
-                        
+                        <a href="<?php echo get_theme_file_uri(); ?>/images/Kumar Misal -rez/2.jpeg">
+                                <img class="2nd-img" src="<?php echo get_theme_file_uri(); ?>/images/Kumar Misal -rez/2.jpeg">
+                            </a>
                         </div>
                         <div class="single-row-right">
                         <a href="<?php echo get_theme_file_uri(); ?>/images/Kumar Misal -rez/4.jpeg">
