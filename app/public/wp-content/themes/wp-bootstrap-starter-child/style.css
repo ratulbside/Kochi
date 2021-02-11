@@ -30,6 +30,9 @@ font-weight: bold;
 body{
   font-family: avenir sans-sarif;
 }
+#main-nav{
+  display: none !important;
+}
 
 .single-row::after {
   content: "";
