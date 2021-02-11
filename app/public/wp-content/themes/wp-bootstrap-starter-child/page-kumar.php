@@ -12,7 +12,7 @@ get_header();
                             <a href="<?php echo get_theme_file_uri(); ?>/images/Kumar Misal -rez/1.jpeg">
                                 <img src="<?php echo get_theme_file_uri(); ?>/images/Kumar Misal -rez/1.jpeg">
                             </a>
-                            
+                            <h3 class="single-location">Mumbai</h3>
                         </div>
                         <div class="single-row-right popup-gallery">
                         <a href="<?php echo get_theme_file_uri(); ?>/images/Kumar Misal -rez/3.jpeg">
@@ -33,11 +33,12 @@ get_header();
                                 <img class="2nd-img" src="<?php echo get_theme_file_uri(); ?>/images/Kumar Misal -rez/2.jpeg">
                             </a>
                         </div>
-                        <div class="single-row-right">
-                        <a href="<?php echo get_theme_file_uri(); ?>/images/Kumar Misal -rez/4.jpeg">
+                        <div class="single-row-right popup-gallery">
+                            <a href="<?php echo get_theme_file_uri(); ?>/images/Kumar Misal -rez/4.jpeg">
                                 <img src="<?php echo get_theme_file_uri(); ?>/images/Kumar Misal -rez/4.jpeg">
                             </a>
-                            <a href="<?php echo get_theme_file_uri(); ?>/images/Kumar Misal -rez/5.jpeg">
+                            <h3 class="single-medium">Medium</h3>
+                            <a class="kumar-two-right-two" href="<?php echo get_theme_file_uri(); ?>/images/Kumar Misal -rez/5.jpeg">
                                 <img src="<?php echo get_theme_file_uri(); ?>/images/Kumar Misal -rez/5.jpeg">
                             </a>
                         </div>
@@ -49,11 +50,14 @@ get_header();
                         </div>
                     </div>
                     <div class="single-row four">
-                        <div class="single-row-left popup-gallery">
-                            
+                        <div class="single-row-left">
+                            <h3 class="single-name">Kumar Pandurang Misal</h3>
+                            <h3 class="single-institute">Sir JJ School of Art, Mumbai</h3>
                         </div>
-                        <div class="single-row-right">
-                        <a href="<?php echo get_theme_file_uri(); ?>/images/Kumar Misal -rez/6.jpeg">
+                        <div class="single-row-right popup-gallery">
+                            <h3 class="single-duration">Duration: - </h3>
+                            <h3 class="single-name title">STICK OUT</h3>
+                            <a href="<?php echo get_theme_file_uri(); ?>/images/Kumar Misal -rez/6.jpeg">
                                 <img src="<?php echo get_theme_file_uri(); ?>/images/Kumar Misal -rez/6.jpeg">
                             </a>
                         </div>
