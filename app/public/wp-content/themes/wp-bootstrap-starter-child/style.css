@@ -28,7 +28,7 @@ font-weight: bold;
 
 
 body{
-  font-family: avenir sans-sarif;
+  font-family: avenir sans-sarif !important;
 }
 #main-nav{
   display: none !important;
@@ -231,6 +231,10 @@ button#manish-rathod {
     margin-left: 10%;
     position: fixed;
     bottom: 35%;
+}
+.non-floor .single-switch{
+  margin-left: -10%;
+  top: 30%;
 }
 /*=Sticky Scroll Styles=*/
 .fixed {
@@ -1187,6 +1191,10 @@ h3.single-medium {
     text-align: justify;
 }
 /*** kumar rushikesh end ***/
+
+.mentor-videos img{
+  padding-bottom: 20px;
+}
 
 /*@media only screen and (max-width: 399px) and (min-width: 320px){
   div.home-background-area{

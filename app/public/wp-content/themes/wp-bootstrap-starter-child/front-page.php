@@ -81,8 +81,8 @@ body {
 		<div class="button-area-row first">
             <div class="button-area-position">
                 <div class="part-one">
-					<button id="amol" class="amol" page-url="<?php echo site_url();?>/amol"></button>
-					<button id="exhibition" class="exhibition" page-url="<?php echo site_url();?>/exhibition"></button>
+					<button id="amol" class="amol" page-url="<?php echo site_url();?>/mentor"></button>
+					<button id="exhibition" class="exhibition" page-url="<?php echo site_url();?>/theme"></button>
                 </div>
             </div>
         </div>
