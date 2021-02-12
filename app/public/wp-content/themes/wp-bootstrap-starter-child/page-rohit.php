@@ -3,7 +3,11 @@
 
 get_header();
 ?>
-
+<style type="text/css">
+body {
+    background-color: #312e29;
+}
+</style>
     <div class="container-rohit">
                 
                 <div class="single-background rohit">

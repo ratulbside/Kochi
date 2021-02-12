@@ -3,7 +3,11 @@
 
 get_header();
 ?>
-
+<style type="text/css">
+body {
+    background-color: #879294;
+}
+</style>
     
             <div class="container-shreya">
                 <div class="single-background shreya">

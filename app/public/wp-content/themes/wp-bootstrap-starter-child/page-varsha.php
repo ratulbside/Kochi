@@ -3,6 +3,11 @@
 
 get_header();
 ?>
+<style type="text/css">
+body {
+    background-color: #c3c0bb;
+}
+</style>
             <div class="container-varsha">
                 <div class="single-background varsha">
                     <div class="single-row one">

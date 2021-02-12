@@ -3,7 +3,11 @@
 
 get_header();
 ?>
-
+<style type="text/css">
+body {
+    background-color: #b19b83;
+}
+</style>
 <div class="container-kasin">
     <div class="single-background kasin">
         <div class="single-row one">

@@ -3,6 +3,11 @@
 
 get_header();
 ?>
+<style type="text/css">
+body {
+    background-color: #a4a59d;
+}
+</style>
             <div class="container-siddhant">
                 <div class="single-background siddhant">
                     <div class="single-row one">

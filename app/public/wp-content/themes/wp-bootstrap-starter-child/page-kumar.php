@@ -3,7 +3,11 @@
 
 get_header();
 ?>
-
+<style type="text/css">
+body {
+    background-color: #bfb9b5;
+}
+</style>
     <div class="container-kumar-mishal">
                 <!-- <h2 style="width: 100%; text-align: center;">Kumar Misal</h2> -->
                 <div class="single-background kumar-mishal">

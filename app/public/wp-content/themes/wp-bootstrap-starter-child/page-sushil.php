@@ -3,7 +3,11 @@
 
 get_header();
 ?>
-
+<style type="text/css">
+body {
+    background-color: #b6a897;
+}
+</style>
     
             <div class="container-sushil">
                 <!-- <h2 style="width: 100%; text-align: center;">Sushil Jagtap</h2> -->

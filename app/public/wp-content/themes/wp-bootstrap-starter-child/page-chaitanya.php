@@ -3,7 +3,11 @@
 
 get_header();
 ?>
-
+<style type="text/css">
+body {
+    background-color: #c9c0b0;
+}
+</style>
     
             <div class="container-chaitanya">
                 <!-- <h2 style="width: 100%; text-align: center;">Chaitanya Powle</h2> -->

@@ -3,6 +3,11 @@
 
 get_header();
 ?>
+<style type="text/css">
+body {
+    background-color: #b2aa9f;
+}
+</style>
             <div class="container-sawani">
                 <div class="single-background sawani">
                     <div class="single-row one">

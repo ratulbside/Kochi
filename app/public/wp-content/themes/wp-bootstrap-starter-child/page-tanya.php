@@ -2,7 +2,11 @@
 
 get_header();
 ?>
-
+<style type="text/css">
+body {
+    background-color: #afaea9;
+}
+</style>
             <div class="container-tanya">
                 <div class="single-background tanya">
                     <div class="single-row one">

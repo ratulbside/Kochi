@@ -3,6 +3,11 @@
 
 get_header();
 ?>
+<style type="text/css">
+body {
+    background-color: #716b69;
+}
+</style>
             <div class="container-muktakumar">
                 <div class="single-background muktakumar">
                     <div class="single-row one">

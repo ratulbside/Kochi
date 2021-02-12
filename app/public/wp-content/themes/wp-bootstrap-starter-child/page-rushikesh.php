@@ -3,7 +3,11 @@
 
 get_header();
 ?>
-
+<style type="text/css">
+body {
+    background-color: #716b69;
+}
+</style>
             <div class="container-rushikesh">
                 <div class="single-background rushikesh">
                     <div class="single-row one">

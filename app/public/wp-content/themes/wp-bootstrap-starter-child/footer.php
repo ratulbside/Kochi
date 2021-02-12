@@ -18,7 +18,7 @@
 	<footer id="colophon" class="site-footer <?php echo wp_bootstrap_starter_bg_class(); ?>" role="contentinfo">
 		<div class="container pt-3 pb-3">
             <div class="site-info">
-                <span>Designed by Ratul Paul & Rasel Ahamed</span>
+                Designed by Ratul Paul & Rasel Ahamed
 
             </div><!-- close .site-info -->
 		</div>

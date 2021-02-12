@@ -3,6 +3,11 @@
 
 get_header();
 ?>  
+<style type="text/css">
+body {
+    background-color: #d8c8b6;
+}
+</style>
             <div class="container-mansi">
                 <!-- <h2 style="width: 100%; text-align: center;">Mansi Rathod</h2> -->
                 <div class="single-background mansi">
