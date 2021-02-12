@@ -135,4 +135,10 @@ tippy('#chaitanya-powle', {
 tippy('#manish-rathod', {
     content: "Mukta Vaidya + Kumar Misal",
 });
+tippy('#amol', {
+    content: "Mentor",
+});
+tippy('#exhibition', {
+    content: "Concept Note",
+});
 </script>
