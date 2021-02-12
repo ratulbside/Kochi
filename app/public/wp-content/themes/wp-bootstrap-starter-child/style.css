@@ -45,7 +45,7 @@ body{
   padding-top: 25px;
 }
 div.home-background-area{
-  background-image: url("images/IMG_2864.jpg");
+  background-image: url("images/home-switchboard.jpg");
   background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -225,7 +225,6 @@ button#manish-rathod {
     background-size: contain;
 }
 .single-switch {
-    width: 6%;
     float: left;
     margin-top: 20px;
     margin-left: 10%;
@@ -259,13 +258,16 @@ p.single-concept-note{
   font-size: 12.5px;
 }
 h3.single-location{
-  font-size: 26px;
+  font-size: 16px;
 }
 h3.single-duration {
     font-size: 14px;
 }
 .single-row {
     overflow: hidden;
+}
+h3.single-name.title, h3.single-name.artist{
+  font-size: 18px;
 }
 
 /*** varsha start ***/
@@ -1015,6 +1017,7 @@ a.shreya-five-tow img {
 }
 .single-background.sawani .single-row.three .single-row-left img{
   margin-top: 40px;
+  margin-left: 70px;
 }
 img#sawani-video-four {
     margin-left: 14px;
@@ -1028,10 +1031,15 @@ img#sawani-video-five {
   width: 50%;
   margin: 10px 0px 0px 15px;
 }
+.container-sawani h3.single-name.artist{
+  padding: 10px 0 0 15px;
+}
+.container-sawani h3.single-location{
+  padding: 30px 0 0 15px;
+}
 .container-sawani h3.single-duration{
   float: right;
   padding-left: 15px;
-
 }
 .container-sawani .single-row.two .single-row-left {
     padding-top: 28px;
@@ -1040,7 +1048,7 @@ img#sawani-video-five {
     text-align: justify;
     padding: 0px 35px 0px 3px;
 }
-.container-sawani h3.single-institute, .container-sawani h3.single-name {
+.container-sawani h3.single-institute {
     margin: 0px;
     padding-left: 15px;
 }

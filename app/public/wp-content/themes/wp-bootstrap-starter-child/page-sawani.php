@@ -8,21 +8,21 @@ get_header();
                     <div class="single-row one">
                         <div class="single-row-left">
                             <a class="popup-video" href="https://www.youtube.com/watch?v=geVLyRxk_TQ">
-                                <img src="<?php echo get_theme_file_uri(); ?>/images/Sawani 1.jpg">
+                                <img src="<?php echo get_theme_file_uri(); ?>/images/Sawani1.jpg">
                             </a>
                         </div>
                         <div class="single-row-right">
                             <h3 class="single-name title">Everyday, again</h3>
-                            <h3 class="single-duration">Duration: 2:46</h3>
-                            <h3 class="single-medium">video</h3>
+                            <h3 class="single-duration">Medium- Video</h3>
+                            <h3 class="single-medium">Duration: 2:46</h3>
                         </div>
                     </div>
                     <div class="single-row two">
                         <div class="single-row-left">
                             <a class="popup-video" href="https://www.youtube.com/watch?v=jkxGt2VzVL4">
-                                <img src="<?php echo get_theme_file_uri(); ?>/images/Sawani 2.jpg">
+                                <img src="<?php echo get_theme_file_uri(); ?>/images/Sawani2.jpg">
                             </a>
-                            <h3 class="single-name">Sawani Chaudhary</h3>
+                            <h3 class="single-name artist">Sawani Chaudhary</h3>
                         </div>
                         <div class="single-row-right">
                             <p class="single-concept-note">
@@ -36,16 +36,16 @@ get_header();
                         <div class="single-row-left">
                             <h3 class="single-institute">J. J. School of Art BFA</h3>
                             <a class="popup-video" href="https://www.youtube.com/watch?v=8lS22-OLSDI">
-                                <img src="<?php echo get_theme_file_uri(); ?>/images/Sawani 3.jpg">
+                                <img src="<?php echo get_theme_file_uri(); ?>/images/Sawani3.jpg">
                             </a>
                             <h3 class="single-location">Mumbai</h3>
                         </div>
                         <div class="single-row-right">
                              <a class="popup-video" href="https://www.youtube.com/watch?v=77aURUHJsmo">
-                                <img id="sawani-video-four" src="<?php echo get_theme_file_uri(); ?>/images/Sawani 4.jpg">
+                                <img id="sawani-video-four" src="<?php echo get_theme_file_uri(); ?>/images/Sawani4.jpg">
                             </a>
                             <a class="popup-video" href="https://www.youtube.com/watch?v=cB_sQmHuYgw">
-                                <img id="sawani-video-five" src="<?php echo get_theme_file_uri(); ?>/images/Sawani 5.jpg">
+                                <img id="sawani-video-five" src="<?php echo get_theme_file_uri(); ?>/images/Sawani5.jpg">
                             </a>
                         </div>
                     </div>
