@@ -12,21 +12,48 @@ get_header();
                             <h3 class="single-name">Vasai Vikasini College of Visual Art.</h3>
                         </div>
                         <div class="single-row-right popup-gallery">
-                            
+                            <a href="<?php echo get_theme_file_uri(); ?>/images/Mansi/Mansi-img2.jpg">
+                                <img src="<?php echo get_theme_file_uri(); ?>/images/Mansi/Mansi-img2.jpg">
+                            </a>
+                            <a class="popup-video" href="https://www.youtube.com/watch?v=HpSM1n2Yzu0">
+                                <img id="mansi-vid-1" src="<?php echo get_theme_file_uri(); ?>/images/Mansi1.jpg">
+                            </a>
+                            <h3 class="single-location">Mumbai</h3>
                         </div>
                     </div>
                     <div class="single-row two">
                         <div class="single-row-left popup-gallery">
-                            
+                            <a href="<?php echo get_theme_file_uri(); ?>/images/Mansi/Mansi-img4.jpg">
+                                <img src="<?php echo get_theme_file_uri(); ?>/images/Mansi/Mansi-img4.jpg">
+                            </a>
+                            <h3 class="single-duration">Duration: 99sec</h3>
                         </div>
-                        <div class="single-row-right">
-                            
+                        <div class="single-row-right popup-gallery">
+                            <h3 class="single-title">The safety cloth</h3>
+                            <a href="<?php echo get_theme_file_uri(); ?>/images/Mansi/Mansi-img3.jpg">
+                                <img id="mansi-img-3" src="<?php echo get_theme_file_uri(); ?>/images/Mansi/Mansi-img3.jpg">
+                            </a>
+                            <a href="<?php echo get_theme_file_uri(); ?>/images/Mansi/Mansi-img1.jpg">
+                                <img id="mansi-img-1" src="<?php echo get_theme_file_uri(); ?>/images/Mansi/Mansi-img1.jpg">
+                            </a>
+                            <a href="<?php echo get_theme_file_uri(); ?>/images/Mansi/Mansi-img5.jpg">
+                                <img id="mansi-img-5" src="<?php echo get_theme_file_uri(); ?>/images/Mansi/Mansi-img5.jpg">
+                            </a>
                         </div>
                     </div>
                     <div class="single-row three">
-                        <div class="single-row-left"></div>
+                        <div class="single-row-left popup-gallery">
+                            <a href="<?php echo get_theme_file_uri(); ?>/images/Mansi/Mansi-img6.jpg">
+                                <img id="mansi-img-6" src="<?php echo get_theme_file_uri(); ?>/images/Mansi/Mansi-img6.jpg">
+                            </a>
+                            <a class="popup-video" href="https://www.youtube.com/watch?v=ayMDUHoeA98">
+                                <img id="mansi-vid-2" src="<?php echo get_theme_file_uri(); ?>/images/Mansi2.jpg">
+                            </a>
+                        </div>
                         <div class="single-row-right popup-gallery">
-                            
+                            <a class="popup-video" href="https://www.youtube.com/watch?v=Vfmj3_3YidA">
+                                <img id="mansi-vid-3" src="<?php echo get_theme_file_uri(); ?>/images/Mansi3.jpg">
+                            </a>
                         </div>
                     </div>
                     <div class="single-row four">
@@ -34,13 +61,19 @@ get_header();
                             
                         </div>
                         <div class="single-row-right">
-                            
+                            <div class="single-concept-note">
+                            <p> The pandemic has hit us all in ways we could never have imagined.  Much like a thread can bind two pieces of cloth, the pandemic has, for me, acted as a thread that strengthened my relationship with many important people in my life.     
+
+Just like the nature of various kinds of thread differs, the pandemic has revealed to me, the relationships that were frail or raw, or weak. 
+
+The lockdown allowed me to learn sewing from my mother. And at a time when we are afraid of touching objects with our bare hands, in fear of infection, I have used these basic stitching skills to create something that would help me pick things up while staying safe.
+
+                            </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="single-concept-note">
-                    <p>In the above painting, I wanted to mentioned that what is the condition of people in lockdown and how people are lived their life dramatically , drastically,  and may be decisively . The lockdown applied to three main areas physical movement out of the home,  social distancing when people outside home and restricted availability of most public services. All people having same rule "stay home and stay safe." Fish are packed in the pot. she can not surview anywhere same way the people having same condition like fish. Here I only said that it is safe when you are in home and it might be risky if u go out of home.</p>
-                </div>
+               
             </div>
 
             <?php 

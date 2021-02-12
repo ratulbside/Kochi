@@ -524,25 +524,34 @@ h3.single-name.title, h3.single-name.artist{
   margin: 0 auto;
   height: 1076px;
 }
-.single-background.mansi .single-row {
-  padding: 0px 180px;
-  overflow: hidden;
-}
+/* .single-background.mansi .single-row {
+  padding-left: 20px;
+} */
 .single-background.mansi .single-row.one {
-  padding-top: 130px;
+  padding-top: 280px;
 }
 .single-background.mansi .single-row-left img{
-  width: 72%;
-  margin-left: 78px;
+  width: 40%;
+  margin-left: 30px;
+  margin-top: -20px;
+}
+.single-background.mansi img {
+  width: 25%;
+}
+.single-background.mansi .single-row.one .single-row-right img{
+  margin-top: 18px;
+}
+.single-background.mansi .single-row.one .single-row-right img#mansi-vid-1{
+  margin-left: 200px;
 }
 .single-background.mansi .single-row.three{
 /*padding-top: 383px;*/
 }
 .single-background.mansi .single-row-left{
-width: 53%;
+width: 38%;
 }
 .single-background.mansi .single-row-right{
-width: 47%;
+width: 62%;
 }
 .single-background.mansi h3.single-name {
   margin-left: 58px;
@@ -556,17 +565,49 @@ width: 47%;
   text-align: right;
   margin-right: 60px;
 }
+.single-background.mansi .single-duration{
+  padding-left: 10px;
+  padding-top: 10px;
+}
 .single-background.mansi p.single-concept-note {
   margin: 135px 50px 0px 20px;
   padding: 5px;
   text-align: justify;
 }
-.single-background.mansi h3.single-title{
+/* .single-background.mansi h3.single-title{
   margin-top: 0px;
   margin-left: 30px;
+} */
+.single-background.mansi #mansi-img-3{
+  margin-top: 25px;
+}
+.single-background.mansi #mansi-img-1{
+  margin-top: -40px;
+  float: right;
+  margin-right: 20px;
+}
+.single-background.mansi #mansi-img-5{
+  margin-bottom: -100px;
+  margin-left: 120px;
+}
+.single-background.mansi #mansi-img-6{
+  margin-bottom: -159px;
+  width: 35% !important;
+}
+.single-background.mansi #mansi-vid-2{
+  margin-bottom: -159px;
+}
+.single-background.mansi #mansi-vid-3{
+  margin-bottom: -200px;
+  margin-left: 100px;
+}
+.single-background.mansi .single-concept-note{
+  margin-top: 30px;
+  margin-left: 280px;
 }
 .single-background.mansi h3.single-location {
-  margin-top: 54px;
+  margin-top: 20px;
+  margin-left: 280px;
 }
 .single-background.mansi .single-row.four {
   padding-top: 6px;
@@ -1069,7 +1110,7 @@ img#sawani-video-five {
   overflow: hidden;
 }
 .single-background.kumar-mishal {
-    background-image: url(images/floor/kumar-mishal-floor.png);
+    background-image: url(images/floor/kumar-mishal-floor.jpg);
     width: 1000px;
     height: 703px;
     margin: 0 auto;
