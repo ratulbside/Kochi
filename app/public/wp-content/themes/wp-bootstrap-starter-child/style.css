@@ -902,6 +902,9 @@ width: 40%;
 .single-background.muktakumar h3.single-name, .single-background.muktakumar h3.single-medium {
     margin-left: 10px;
 }
+.single-background.muktakumar h3.single-name{
+  margin-top: 50px;
+}
 .single-background.muktakumar p.single-concept-note {
     text-align: justify;
     padding: 0px 10px;

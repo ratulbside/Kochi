@@ -10,16 +10,16 @@ get_header();
                             <h3 class="single-name">Mukta Vaidya + Kumar Misal</h3>
                         </div>
                         <div class="single-row-right popup-gallery">
-                            <a href="<?php echo get_theme_file_uri(); ?>/images/Mukta + Kumar - rez/5.jpeg">
-                                <img src="<?php echo get_theme_file_uri(); ?>/images/Mukta + Kumar - rez/5.jpeg">
+                            <a href="<?php echo get_theme_file_uri(); ?>/images/MuktaKumar/5.jpeg">
+                                <img src="<?php echo get_theme_file_uri(); ?>/images/MuktaKumar/5.jpeg">
                             </a>
                             <h3 class="single-name title">Spun Candy</h3>
                         </div>
                     </div>
                     <div class="single-row two">
                         <div class="single-row-left popup-gallery">
-                            <a href="<?php echo get_theme_file_uri(); ?>/images/Mukta + Kumar - rez/6.jpeg">
-                                <img src="<?php echo get_theme_file_uri(); ?>/images/Mukta + Kumar - rez/6.jpeg">
+                            <a href="<?php echo get_theme_file_uri(); ?>/images/MuktaKumar/6.jpeg">
+                                <img src="<?php echo get_theme_file_uri(); ?>/images/MuktaKumar/6.jpeg">
                             </a>
                         </div>
                         <div class="single-row-right">
@@ -30,18 +30,18 @@ get_header();
                     </div>
                     <div class="single-row three">
                         <div class="single-row-left">
-                            <h3 class="single-medium">Multimedia</h3>
+                            <h3 class="single-medium">Medium : Multimedia</h3>
                         </div>
                         <div class="single-row-right popup-gallery">
-                            <a href="<?php echo get_theme_file_uri(); ?>/images/Mukta + Kumar - rez/3.jpeg">
-                                <img src="<?php echo get_theme_file_uri(); ?>/images/Mukta + Kumar - rez/3.jpeg">
+                            <a href="<?php echo get_theme_file_uri(); ?>/images/MuktaKumar/3.jpeg">
+                                <img src="<?php echo get_theme_file_uri(); ?>/images/MuktaKumar/3.jpeg">
                             </a>
                         </div>
                     </div>
                     <div class="single-row four">
                         <div class="single-row-left popup-gallery">
-                            <a href="<?php echo get_theme_file_uri(); ?>/images/Mukta + Kumar - rez/7.jpeg">
-                                <img src="<?php echo get_theme_file_uri(); ?>/images/Mukta + Kumar - rez/7.jpeg">
+                            <a href="<?php echo get_theme_file_uri(); ?>/images/MuktaKumar/7.jpeg">
+                                <img src="<?php echo get_theme_file_uri(); ?>/images/MuktaKumar/7.jpeg">
                             </a>
                         </div>
                         <div class="single-row-right">
@@ -53,20 +53,20 @@ get_header();
                             <h3 class="single-location"></h3>
                         </div>
                         <div class="single-row-right popup-gallery">
-                            <a href="<?php echo get_theme_file_uri(); ?>/images/Mukta + Kumar - rez/2.jpeg">
-                                <img src="<?php echo get_theme_file_uri(); ?>/images/Mukta + Kumar - rez/2.jpeg">
+                            <a href="<?php echo get_theme_file_uri(); ?>/images/MuktaKumar/2.jpeg">
+                                <img src="<?php echo get_theme_file_uri(); ?>/images/MuktaKumar/2.jpeg">
                             </a>
                         </div>
                     </div>
                     <div class="single-row six">
                         <div class="single-row-left popup-gallery">
-                            <a href="<?php echo get_theme_file_uri(); ?>/images/Mukta + Kumar - rez/1.jpeg">
-                                <img src="<?php echo get_theme_file_uri(); ?>/images/Mukta + Kumar - rez/1.jpeg">
+                            <a href="<?php echo get_theme_file_uri(); ?>/images/MuktaKumar/1.jpeg">
+                                <img src="<?php echo get_theme_file_uri(); ?>/images/MuktaKumar/1.jpeg">
                             </a>
                         </div>
                         <div class="single-row-right popup-gallery">
-                            <a href="<?php echo get_theme_file_uri(); ?>/images/Mukta + Kumar - rez/4.jpeg">
-                                <img src="<?php echo get_theme_file_uri(); ?>/images/Mukta + Kumar - rez/4.jpeg">
+                            <a href="<?php echo get_theme_file_uri(); ?>/images/MuktaKumar/4.jpeg">
+                                <img src="<?php echo get_theme_file_uri(); ?>/images/MuktaKumar/4.jpeg">
                             </a>
                         </div>
                     </div>
