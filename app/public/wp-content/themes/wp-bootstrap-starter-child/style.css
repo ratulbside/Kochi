@@ -1482,6 +1482,18 @@ h3.single-medium {
     margin-right: 26px;
     margin-top: 76px;
   }
+
+  /*single page shreya*/
+  .single-background.shreya {
+    width: 320px;
+    height: auto;
+  }
+  .single-background.shreya .single-row.two .single-row-right a {
+    margin-left: 30px;
+  }
+  .container-shreya h3.single-name {
+    margin: 0px 0px 0px -9px;
+  }
 }
 @media only screen and (max-width: 569px) and (min-width: 480px){
   div.home-background-area{
