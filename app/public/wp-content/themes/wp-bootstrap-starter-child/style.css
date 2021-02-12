@@ -1275,22 +1275,28 @@ h3.single-medium {
 }*/
 @media only screen and (max-width: 479px) and (min-width: 320px){
   div.home-background-area{
-    width: 320px;
-    height: 240px;
+    width: 350px;
+    height: 262.5px;
   }
   .home-main-area{
     padding-top: 8px;
+    width: 73%;
+  }
+  .home-secondary-area{
+    width: 27%;
   }
   .button-area-position{
-    width: 282px;
+    width: 180px;
   }
   button#varsha {
     margin-left: unset;
     float: right;
-    margin-top: 21px;
+    margin-top: 22px;
     margin-right: 8px;
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
+    position: relative; 
+    z-index: 1;
   }
   .button-area-position button{
     width: 20px;
@@ -1298,41 +1304,78 @@ h3.single-medium {
     border-radius: 5px;
   }
   button#tanya, button#shreya{
-    margin-left: 28px;
+    margin-left: 12px;
+    position: relative; 
+    z-index: 1;
   }
   button#sushil, button#sawani{
-    margin-left: 1px;
+    margin-left: -3px;
+    position: relative; 
+    z-index: 1;
   }
   button#tanya {
     margin-top: 12px;
+    position: relative; 
+    z-index: 1;
   }
   button#siddhant {
-    width: 25px;
-    height: 25px;
-    margin-left: 12px;
-    margin-top: 22px;
+    width: 20px;
+    height: 20px;
+    margin-left: 14px;
+    margin-top: 23px;
+    position: relative; 
+    z-index: 1;
   }
   .button-area-row.second{
-    top: -40px;
+    top: -85px;
     margin-bottom: 0px;
   }
   .button-area-row.third{
-    top: -60px;
+    top: -117px;
   }
   button#rushikesh, button#kumar-misal{
     margin-right: -3px;
+    position: relative; 
+    z-index: 1;
   }
   button#rohit, button#kasin-patel{
-    margin-right: 21px;
+    margin-right: 6px;
+    position: relative; 
+    z-index: 1;
   }
   button#neha, button#chaitanya-powle{
-    margin-left: 0px;
+    margin-left: 4px;
+    position: relative; 
+    z-index: 1;
   }
   button#mukta-kumar, button#manish-rathod {
-    margin-left: 3px;
+    margin-left: -2px;
+    position: relative; 
+    z-index: 1;
   }
   .button-area-row.third.four {
-    top: -82px;
+    top: -143px;
+  }
+  button#amol, button#exhibition {
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+  .home-secondary-area{
+    padding-top: 40px;
+  }
+  button#exhibition{
+    margin-left: 0px;
+  }
+
+  p.single-concept-note, h3.single-duration, h3.single-name.title, 
+  h3.single-institute, h3.single-medium, h3.single-location{
+    display: none;
+  }
+  .single-switch img {
+    width: 35%;
+  }
+  .button-area-row.first .button-area-position{
+    padding-top: 70px;
   }
 
   /*single page sushil*/
@@ -1355,6 +1398,79 @@ h3.single-medium {
   }
   .single-background.sushil h3.single-institute{
     margin-left: 60px;
+  }
+
+  /*single page sawani*/
+  .container-sawani{
+    padding-bottom: 30px;
+  }
+  .single-background.sawani{
+    width: 320px;
+    height: auto;
+  }
+  .container-sawani h3.single-name.artist{
+    padding: 0px;
+    margin: 0px;
+  }
+  .container-sawani .single-row.two .single-row-left{
+    padding-top: 0px;
+  }
+  .single-background.sawani .single-row.one .single-row-left{
+    padding-bottom: 0px;
+  }
+  .single-background.sawani .single-row.three{
+    padding-top: 0px;
+  }
+
+  /*single page rohit*/
+  .single-background.rohit {
+    width: 320px;
+    height: auto;
+  }
+  .single-background.rohit h3.single-name{
+    font-size: 14px;
+    margin-top: 20px; 
+    margin-left: 20px;
+  }
+
+  /*single page kumar mishal*/
+  .single-background.kumar-mishal {
+    width: 320px;
+    height: auto;
+  }
+  .container-kumar-mishal div.single-concept-note{
+    display: none;
+  }
+  .container-kumar-mishal h3.single-name {
+    font-size: 12px;
+  }
+  .single-background.kumar-mishal .single-row.four .single-row-left {
+     padding-left: 0px; 
+  }
+  .single-background.kumar-mishal .single-row.two .single-row-left img{
+    margin-left: 0px;
+  }
+  .single-background.kumar-mishal .single-row.one .single-row-left{
+    padding-top: 48px;
+  }
+  .single-background.kumar-mishal .single-row.one .single-row-left img {
+    margin-left: 18px;
+  }
+  .single-background.kumar-mishal .single-row.four .single-row-right img{
+    margin-top: 0px;
+  }
+  .single-background.kumar-mishal .kumar-two-right-two img {
+    margin-left: 0px;
+    float: right;
+  }
+
+  /*single page rushikesh*/
+  .single-background.rushikesh {
+    width: 320px;
+    height: auto;
+  }
+  .container-rushikesh .single-row-right img{
+    margin-top: 45px;
   }
 }
 @media only screen and (max-width: 569px) and (min-width: 480px){
