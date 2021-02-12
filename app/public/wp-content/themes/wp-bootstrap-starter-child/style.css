@@ -1523,6 +1523,72 @@ h3.single-medium {
   .single-background.varsha .single-row{
     width: auto;
   }
+  /*single page chaitanya*/
+  .single-background.chaitanya {
+    width: 320px;
+    height: auto;
+  }
+  .single-background.chaitanya .single-row.four .single-row-left img{
+    margin-top: -20px;
+  }
+  .single-background.chaitanya h3.single-name{
+    margin-left: 0px;
+  }
+  /*single page siddhant*/
+  .single-background.siddhant {
+    width: 320px;
+    height: auto;
+  }
+  .container-siddhant .single-row.three {
+    padding-top: 83px;
+    margin-bottom: 100px;
+  }
+  .container-siddhant .single-switch{
+    bottom: 50%;
+  }
+
+  /*single page tanya*/
+  .single-background.tanya {
+    width: 320px;
+    height: auto;
+  }
+  .single-background.tanya .single-row.two {
+    margin-bottom: 80px;
+    margin-top: 20px;
+  }
+  .single-background.tanya .single-row.four .single-row-right img {
+    position: relative;
+    top: -41px;
+    right: 25px;
+  }
+
+  /*single page mansi*/
+  .single-background.mansi {
+    width: 320px;
+    height: auto;
+  }
+  .single-name-col{
+    display: none;
+  }
+  .single-background.mansi .single-row.one {
+    padding-top: 100px;
+  }
+  .single-background.mansi .single-row.four {
+    padding-top: 6px;
+    padding-bottom: 195px;
+  }
+  .single-background.mansi .single-row.one .single-row-right img#mansi-vid-1 {
+    margin-left: 10px;
+  }
+
+  /*single page mukta+kumar*/
+  .single-background.muktakumar {
+    width: 320px;
+    height: auto;
+  }
+  .single-background.muktakumar .single-row.two {
+    padding-bottom: 0px;
+  }
 }
 @media only screen and (max-width: 569px) and (min-width: 480px){
   div.home-background-area{

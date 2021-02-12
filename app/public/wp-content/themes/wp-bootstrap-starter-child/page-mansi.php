@@ -9,7 +9,7 @@ get_header();
                     <div class="single-row one">
                         <div class="single-row-left">
                             <h3 class="single-name">Mansi Rathod</h3>
-                            <h3 class="single-name">Vasai Vikasini College of Visual Art.</h3>
+                            <h3 class="single-name-col">Vasai Vikasini College of Visual Art.</h3>
                         </div>
                         <div class="single-row-right popup-gallery">
                             <a href="<?php echo get_theme_file_uri(); ?>/images/Mansi/Mansi-img2.jpg">
