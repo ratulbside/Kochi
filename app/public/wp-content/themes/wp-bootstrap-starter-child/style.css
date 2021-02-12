@@ -1367,8 +1367,8 @@ h3.single-medium {
     margin-left: 0px;
   }
 
-  p.single-concept-note, h3.single-duration, h3.single-name.title, 
-  h3.single-institute, h3.single-medium, h3.single-location{
+  .single-concept-note, h3.single-duration, h3.single-name.title, 
+  h3.single-institute, h3.single-medium, h3.single-location, h3.single-title{
     display: none;
   }
   .single-switch img {
@@ -1471,6 +1471,16 @@ h3.single-medium {
   }
   .container-rushikesh .single-row-right img{
     margin-top: 45px;
+  }
+
+  /*single page kasin*/
+  .single-background.kasin {
+    width: 320px;
+    height: auto;
+  }
+  .single-background.kasin .single-row.one .single-row-right img{
+    margin-right: 26px;
+    margin-top: 76px;
   }
 }
 @media only screen and (max-width: 569px) and (min-width: 480px){
