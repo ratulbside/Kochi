@@ -89,6 +89,10 @@ body {
 	</div>
 </div>
 
+<?php
+get_footer();
+?>
+
 <script src="https://unpkg.com/@popperjs/core@2"></script>
 <script src="https://unpkg.com/tippy.js@6"></script>
 

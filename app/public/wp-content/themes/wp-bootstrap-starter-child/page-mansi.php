@@ -82,6 +82,9 @@ The lockdown allowed me to learn sewing from my mother. And at a time when we ar
              ?>
         </div><!-- #main -->
     </section><!-- #primary -->
+    <?php
+get_footer();
+?>
 
     <script type="text/javascript">
        jQuery(function() {

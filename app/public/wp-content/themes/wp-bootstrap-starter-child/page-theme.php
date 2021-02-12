@@ -37,5 +37,5 @@ Our workshop began with an interactive icebreaker session. We were encouraged by
    
 
 <?php
-//get_footer();
+get_footer();
 ?>

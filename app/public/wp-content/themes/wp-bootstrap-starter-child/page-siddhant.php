@@ -48,7 +48,9 @@ get_header();
                     get_template_part( 'template-parts/single-switch', 'switch' );
                  ?>
             </div>
-
+<?php
+get_footer();
+?>
     <script type="text/javascript">
        jQuery(function() {
             jQuery('.popup-video').magnificPopup({

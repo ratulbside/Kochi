@@ -69,6 +69,9 @@ get_header();
                 get_template_part( 'template-parts/single-switch', 'switch' );
 
              ?>
+<?php
+get_footer();
+?>
 
     <script type="text/javascript">
        jQuery(function() {

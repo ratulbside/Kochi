@@ -63,7 +63,9 @@
                     </div>
                 </div><!-- #main -->
             </section><!-- #primary -->
-
+<?php
+get_footer();
+?>
             <script type="text/javascript">
                 jQuery(function() {
                     jQuery('.popup-video').magnificPopup({

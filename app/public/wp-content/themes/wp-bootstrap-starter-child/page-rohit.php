@@ -70,7 +70,9 @@ get_header();
              ?>
             </div>
 
-            
+ <?php
+get_footer();
+?>           
 
     <script type="text/javascript">
        jQuery(function() {

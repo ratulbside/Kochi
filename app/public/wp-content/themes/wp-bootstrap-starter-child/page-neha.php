@@ -57,8 +57,9 @@ The term " stay-at-home" or "shelter-in-place" is often used for lockdowns that 
              ?>
 </div>
 
-
-
+<?php
+get_footer();
+?>
 <script type="text/javascript">
 jQuery(function() {
     jQuery('.popup-video').magnificPopup({
