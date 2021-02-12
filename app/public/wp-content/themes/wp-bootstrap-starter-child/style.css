@@ -244,7 +244,7 @@ button#manish-rathod {
 .single-row-left {
     width: 50%;
     float: left;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .single-row-right {
@@ -260,9 +260,9 @@ p.single-concept-note{
 h3.single-location, h3.single-duration{
   font-size: 16px;
 }
-.single-row {
+/* .single-row {
     overflow: hidden;
-}
+} */
 h3.single-name.title, h3.single-name.artist{
   font-size: 18px;
 }
@@ -273,7 +273,7 @@ h3.single-name.title, h3.single-name.artist{
   height: 100%;
   background-color: #c3c0bb;
   padding-top: 25px;
-  overflow: hidden;
+  /* overflow: hidden; */
   text-align: justify;
 }
 .single-background.varsha{
@@ -283,7 +283,7 @@ h3.single-name.title, h3.single-name.artist{
   margin: 0 auto;
 }
 .single-background.varsha .single-row {
-    overflow: hidden;
+    /* overflow: hidden; */
     width: 629px;
     margin: 0 auto;
     height: auto;
@@ -294,6 +294,7 @@ h3.single-name.title, h3.single-name.artist{
 }
 .single-background.varsha .single-row.one .single-row-left img{
   width: 44%;
+  margin: 10px 0 0 10px;
 }
 .single-background.varsha .single-row.two .single-row-right img {
     margin-left: 78px;
@@ -307,7 +308,7 @@ h3.single-name.title, h3.single-name.artist{
 }
 .single-background.varsha h3.single-institute {
     font-size: 16px;
-    padding: 0px 25px;
+    padding: 17px 25px;
 }
 .single-background.varsha h3.single-location {
     margin-top: 200px;
@@ -330,12 +331,13 @@ h3.single-name.title, h3.single-name.artist{
     padding: 50px 15px 0px 15px;
 }
 .container-varsha h3.single-name {
-    padding-top: 276px;
+    padding-top: 302px;
     margin-left: 20px;
     margin-bottom: 0px;
 }
 .container-varsha h3.single-medium{
-  padding: 10px 25px;
+  padding-left: 25px;
+  top: 96px;
 }
 
 /*** varsha end ***/

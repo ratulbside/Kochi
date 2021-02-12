@@ -8,13 +8,13 @@ get_header();
                     <div class="single-row one">
                         <div class="single-row-left popup-gallery">
                             <h3 class="single-name">Varsha Umate</h3>
-                            <a href="<?php echo get_theme_file_uri(); ?>/images/Varsha 2.0jpg.jpeg">
-                                <img id="varsha-two" src="<?php echo get_theme_file_uri(); ?>/images/Varsha 3.0jpg.jpeg">
+                            <a href="<?php echo get_theme_file_uri(); ?>/images/Varsha2.jpeg">
+                                <img id="varsha-two" src="<?php echo get_theme_file_uri(); ?>/images/Varsha2.jpeg">
                             </a>
                         </div>
                         <div class="single-row-right popup-gallery">
-                            <a href="<?php echo get_theme_file_uri(); ?>/images/Varsha 1.0jpg.jpeg">
-                                <img id="varsha-one" src="<?php echo get_theme_file_uri(); ?>/images/Varsha 1.0jpg.jpeg">
+                            <a href="<?php echo get_theme_file_uri(); ?>/images/Varsha1.jpeg">
+                                <img id="varsha-one" src="<?php echo get_theme_file_uri(); ?>/images/Varsha1.jpeg">
                             </a>
                             <p class="single-concept-note">
                                 <br><br>
@@ -27,8 +27,8 @@ get_header();
                             
                         </div>
                         <div class="single-row-right popup-gallery">
-                            <a href="<?php echo get_theme_file_uri(); ?>/images/Varsha 3.0jpg.jpeg">
-                                <img id="varsha-three" src="<?php echo get_theme_file_uri(); ?>/images/Varsha 3.0jpg.jpeg">
+                            <a href="<?php echo get_theme_file_uri(); ?>/images/Varsha3.jpeg">
+                                <img id="varsha-three" src="<?php echo get_theme_file_uri(); ?>/images/Varsha3.jpeg">
                             </a> 
                         </div>
                     </div>
@@ -42,10 +42,10 @@ get_header();
                     </div>
                     <div class="single-row four">
                         <div class="single-row-left popup-gallery">
-                            <a href="<?php echo get_theme_file_uri(); ?>/images/Varsha 4.0jpg.jpeg">
-                                <img id="varsha-four" src="<?php echo get_theme_file_uri(); ?>/images/Varsha 4.0jpg.jpeg">
+                            <a href="<?php echo get_theme_file_uri(); ?>/images/Varsha4.jpeg">
+                                <img id="varsha-four" src="<?php echo get_theme_file_uri(); ?>/images/Varsha4.jpeg">
                             </a>
-                            <h3 class="single-medium">photos</h3>
+                            <h3 class="single-medium">MEDIUM - photos</h3>
                         </div>
                         <div class="single-row-right">
                             
