@@ -599,11 +599,11 @@ width: 47%;
   margin-left: 16px;
 }
 .single-background.chaitanya h3.single-title{
-  margin-top: 35px;
-  margin-left: 130px;
+  margin-top: 70px;
+  margin-left: 121px;
 }
 .single-background.chaitanya .single-concept-note {
-  margin: 33px 5px 0 20px;
+  margin: 68px 5px 0 20px;
   padding: 5px;
   text-align: justify;
 }
@@ -632,6 +632,7 @@ margin-left: 23px;
 .single-background.chaitanya .single-row.four .single-row-left img{
 float: right;
 width: 40%;
+margin-top: 27px;
 }
 /*** chaitanya end ***/
 

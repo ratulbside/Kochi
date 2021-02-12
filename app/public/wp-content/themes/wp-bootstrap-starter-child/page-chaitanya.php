@@ -43,7 +43,7 @@ get_header();
                         </div>
                         <div class="single-row-right">
 							<div class="single-concept-note">
-								<p>Concept- whole world is been locked due to the pandemic of covid-19. Because of this the whole world is locked in their own houses.due to this, footwear which we wear are useless. Eventually, footwear is a thing which we wear in our daily life.</p>
+								<p>The whole world is been locked due to the pandemic of covid-19. Because of this the whole world is locked in their own houses.due to this, footwear which we wear are useless. Eventually, footwear is a thing which we wear in our daily life.</p>
 
 		<p>Humans got the habit of getting slept in their houses,this habit made humans so lazy that their body contained much amount of fats in their body. This pandemic made humans used too it in their daily routine.due to this, the footwear started getting fungus in it. Months and months made the fungus large in size.</p>
 							</div>
