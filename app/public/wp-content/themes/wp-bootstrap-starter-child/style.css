@@ -1510,6 +1510,19 @@ h3.single-medium {
     margin-top: 0px;
     margin-right: 0px;
   }
+
+  /*single page versha*/
+  .single-background.varsha {
+    width: 320px;
+    height: auto;
+  }
+  .container-varsha h3.single-name{
+    padding-top: 0px;
+    font-size: 14px;
+  }
+  .single-background.varsha .single-row{
+    width: auto;
+  }
 }
 @media only screen and (max-width: 569px) and (min-width: 480px){
   div.home-background-area{
