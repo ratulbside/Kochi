@@ -37,8 +37,8 @@ get_header();
                     <div class="single-row four">
                         <div class="single-row-left popup-gallery">
                             <h3 class="single-title">grown fungus</h3>
-                             <a href="<?php echo get_theme_file_uri(); ?>/images/Chaitanya Powle -rez/3.jpeg">
-                                <img src="<?php echo get_theme_file_uri(); ?>/images/Chaitanya Powle -rez/3.jpeg">
+                             <a href="<?php echo get_theme_file_uri(); ?>/images/ChaitanyaPowle/3.jpeg">
+                                <img src="<?php echo get_theme_file_uri(); ?>/images/ChaitanyaPowle/3.jpeg">
                             </a>
                         </div>
                         <div class="single-row-right">
