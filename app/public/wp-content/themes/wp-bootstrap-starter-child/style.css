@@ -251,17 +251,14 @@ button#manish-rathod {
     width: 50%;
     float: right;
 }
-h3.single-name, h3.single-institute, h3.single-medium, h3.single-title{
+/* h3.single-name, h3.single-institute, h3.single-medium, h3.single-title{
   font-size: 14px;
-}
+} */
 p.single-concept-note{
   font-size: 12.5px;
 }
-h3.single-location{
+h3.single-location, h3.single-duration{
   font-size: 16px;
-}
-h3.single-duration {
-    font-size: 14px;
 }
 .single-row {
     overflow: hidden;
@@ -773,6 +770,7 @@ width: 40%;
   width: 1000px;
   margin: 0 auto;
   height: 714px;
+  color: white;
 }
 .single-background.rohit .single-row.one .single-row-right img {
   width: 35%;
@@ -793,20 +791,15 @@ width: 40%;
     margin-top: 84px !important;
 }
 .single-background.rohit h3.single-location {
-    width: 100px;
-    float: right;
-    margin-right: 98px;
-    margin-top: 60px;
-}
-.single-background.rohit h3.single-duration {
-  margin-left: 16px;
+    margin-left: -200px;
+    margin-top: 68px;
 }
 .single-background.rohit h3.single-title{
   margin-top: 35px;
   margin-left: 130px;
 }
 .single-background.rohit .single-concept-note {
-  margin: 10px 5px 0 20px;
+  margin: 25px 5px 0 20px;
   padding: 5px;
   text-align: justify;
 }
@@ -826,10 +819,12 @@ width: 40%;
 }
 .single-background.rohit h3.single-institute {
     margin-left: 116px;
+    margin-top: 10px;
 }
 .single-background.rohit h3.single-duration {
     text-align: right;
-    margin-right: 120px;
+    margin-right: 130px;
+    margin-top: 10px;
 }
 .single-background.rohit .single-row-right.popup-gallery img {
     float: right;

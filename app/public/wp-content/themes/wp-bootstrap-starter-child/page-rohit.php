@@ -14,9 +14,9 @@ get_header();
                         </div>
                         <div class="single-row-right">
                             <a class="popup-video" href="https://www.youtube.com/watch?v=kqoVZFX-rEA">
-                                <img src="<?php echo get_theme_file_uri(); ?>/images/Rohit 3.jpg">
+                                <img src="<?php echo get_theme_file_uri(); ?>/images/Rohit3.jpg">
                             </a>
-                            <h3 class="single-location">Mumbai</h3>
+                            
                         </div>
                     </div>
                     <div class="single-row text-rohit">
@@ -29,27 +29,27 @@ get_header();
                     </div>
                     <div class="single-row two">
                         <div class="single-row-left popup-gallery">
-                            <a href="<?php echo get_theme_file_uri(); ?>/images/Rohit - rez/1.jpeg">
+                            <!-- <a href="<?php echo get_theme_file_uri(); ?>/images/Rohit - rez/1.jpeg">
                                 <img class="rohit-img-one" src="<?php echo get_theme_file_uri(); ?>/images/Rohit - rez/1.jpeg">
-                            </a>
+                            </a> -->
                             <a class="popup-video" href="https://www.youtube.com/watch?v=I-T7PdjLw9U">
-                                <img class="rohit-video-two" src="<?php echo get_theme_file_uri(); ?>/images/Rohit 1.jpg">
+                                <img class="rohit-video-two" src="<?php echo get_theme_file_uri(); ?>/images/Rohit1.jpg">
                             </a>
                         </div>
                         <div class="single-row-right popup-gallery">
-                            <a href="<?php echo get_theme_file_uri(); ?>/images/Rohit - rez/1.jpeg">
-                                <img src="<?php echo get_theme_file_uri(); ?>/images/Rohit - rez/1.jpeg">
+                            <a href="<?php echo get_theme_file_uri(); ?>/images/Rohit-img.jpeg">
+                                <img src="<?php echo get_theme_file_uri(); ?>/images/Rohit-img.jpeg">
                             </a>
                         </div>
                     </div>
                     <div class="single-row three">
                         <div class="single-row-left">
                             <a class="popup-video" href="https://www.youtube.com/watch?v=Z_W192gNfnk">
-                                <img src="<?php echo get_theme_file_uri(); ?>/images/Rohit 2.jpg">
+                                <img src="<?php echo get_theme_file_uri(); ?>/images/Rohit2.jpg">
                             </a>
                         </div>
                         <div class="single-row-right">
-                             
+                        <h3 class="single-location">Mumbai</h3>
                         </div>
                     </div>
                     <div class="single-row four">
