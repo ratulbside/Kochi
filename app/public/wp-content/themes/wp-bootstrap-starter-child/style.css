@@ -1494,6 +1494,22 @@ h3.single-medium {
   .container-shreya h3.single-name {
     margin: 0px 0px 0px -9px;
   }
+  .single-background.shreya .single-row.five{
+    padding-top: 0px;
+  }
+  .single-background.shreya .single-row.one {
+    padding-top: 30px;
+  }
+
+  /*single page neha*/
+  .single-background.neha {
+    width: 320px;
+    height: auto;
+  }
+  .single-background.neha .single-row.three .single-row-right.video {
+    margin-top: 0px;
+    margin-right: 0px;
+  }
 }
 @media only screen and (max-width: 569px) and (min-width: 480px){
   div.home-background-area{
