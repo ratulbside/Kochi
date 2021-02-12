@@ -20,9 +20,10 @@ get_header();
         <div class="single-row two">
             <div class="single-row-left">
             <div class="single-concept-note">
-                    <p>To stay safe from Corona we adopted the Lockdown as a self-responsibility. Being in closed spaces
-                        became intolerable and we eagerly waited for it to end. Through this video, I have tried to show
-                        the impatience each of us had for the Lockdown to get over.</p>
+                    <p>A lockdown is a restriction policy for people or a community to stay where they are, usually due to specific risks to themselves or to others if they moved and interacted freely.
+
+The term " stay-at-home" or "shelter-in-place" is often used for lockdowns that affect an area rather than specific locations. So I thought that a full lockdown would mean you must stay where you are, and not exit or enter a building or a given area. I used corners of the home to quarantine myself, because I believe corners, with a borderline drawn, are also alike rooms.
+</p>
                 </div>
             </div>
             <div class="single-row-right">
