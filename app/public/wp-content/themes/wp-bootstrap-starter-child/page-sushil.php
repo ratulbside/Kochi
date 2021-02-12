@@ -32,7 +32,8 @@ get_header();
                             
                         </div>
                         <div class="single-row-right">
-                            <h3 class="single-medium">videos</h3>
+                            <div style="height: 35px"></div>
+                            <h3 class="single-medium">MEDIUM - videos </h3>
                         </div>
                     </div>
                     <div class="single-row four">

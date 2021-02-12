@@ -365,8 +365,9 @@ h3.single-name.title, h3.single-name.artist{
     padding-top: 130px;
 }
 .single-background.sushil .single-row-left img{
-    width: 72%;
+    width: 68%;
     margin-left: 78px;
+    margin-top: 25px;
 }
 .single-background.sushil .single-row.three{
   /*padding-top: 383px;*/
@@ -379,15 +380,18 @@ h3.single-name.title, h3.single-name.artist{
 }
 .single-background.sushil h3.single-name {
     margin-left: 58px;
+    margin-top: 30px;
 }
 .single-background.sushil h3.single-institute {
-    margin-top: -4px;
+    margin-top: 4px;
     margin-left: 30px;
 }
 .single-background.sushil h3.single-medium {
-    margin-top: 38px;
+    /* margin-top: 38px;
     text-align: right;
-    margin-right: 60px;
+    margin-right: 60px; */
+    position: unset;
+    margin-left: 100px;
 }
 .single-background.sushil p.single-concept-note {
     margin: 135px 50px 0px 20px;
@@ -395,11 +399,12 @@ h3.single-name.title, h3.single-name.artist{
     text-align: justify;
 }
 .single-background.sushil h3.single-title{
-    margin-top: 0px;
+    margin-top: 10px;
     margin-left: 30px;
 }
 .single-background.sushil h3.single-location {
-    margin-top: 54px;
+    margin-top: 76px;
+    margin-left: 10px;
 }
 .single-background.sushil .single-row.four {
     padding-top: 6px;
