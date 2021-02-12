@@ -251,9 +251,9 @@ button#manish-rathod {
     width: 50%;
     float: right;
 }
-/* h3.single-name, h3.single-institute, h3.single-medium, h3.single-title{
-  font-size: 14px;
-} */
+h3.single-name, h3.single-institute, h3.single-medium, h3.single-title{
+  font-size: 18px;
+}
 p.single-concept-note{
   font-size: 12.5px;
 }
@@ -1094,9 +1094,15 @@ img#kumar-mishal-video-five {
     float: right;
     margin-right: 85px;
 }
-.container-kumar-mishal h3.single-name.title, .container-kumar-mishal h3.single-duration, .container-kumar-mishal h3.single-medium{
+.container-kumar-mishal h3.single-name.title, .container-kumar-mishal h3.single-duration{
   width: 50%;
   margin: 10px 0px 0px 15px;
+}
+.container-kumar-mishal h3.single-name.title{
+  margin-left: -150px;
+}
+.container-kumar-mishal h3.single-medium{
+  margin-right: 23px;
 }
 .container-kumar-mishal h3.single-duration{
   padding-left: 15px;
@@ -1114,20 +1120,29 @@ img#kumar-mishal-video-five {
     font-size: 12px;
 }
 .container-kumar-mishal h3.single-institute, .container-kumar-mishal h3.single-name {
-    margin: 0px;
+    margin-top: 10px;
     padding-left: 15px;
+}
+.container-kumar-mishal h3.single-institute{
+  margin-top: 40px;
 }
 .single-background.kumar-mishal .single-row.one .single-row-left img {
     margin-left: 60px;
 }
 .single-background.kumar-mishal h3.single-location {
     text-align: right;
+    padding-right: 15px;
 }
 .single-background.kumar-mishal .single-row.two .single-row-left img{
   margin-left: 60px;
+  margin-top: -34px;
 }
-.single-background.kumar-mishal a.kumar-two-right-two img {
- }
+.container-kumar-mishal .kumar-4{
+  margin-left: -78px;
+}
+.single-background.kumar-mishal .kumar-two-right-two img{
+  margin-left: 20px;
+}
 h3.single-medium {
     width: 100px;
     display: initial;
@@ -1135,9 +1150,9 @@ h3.single-medium {
     top: 41px;
 }
 .single-background.kumar-mishal .single-row.four .single-row-right img{
-  float: right;
-    margin-right: 30px;
-    margin-top: -20px;
+    float: right;
+    margin-right: 32px;
+    margin-top: 40px;
 }
 .single-background.kumar-mishal .single-row.four .single-row-left{
   padding-left: 50px;

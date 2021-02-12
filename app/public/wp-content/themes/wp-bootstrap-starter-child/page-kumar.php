@@ -9,14 +9,14 @@ get_header();
                 <div class="single-background kumar-mishal">
                     <div class="single-row one">
                         <div class="single-row-left popup-gallery">
-                            <a href="<?php echo get_theme_file_uri(); ?>/images/Kumar Misal -rez/1.jpeg">
-                                <img src="<?php echo get_theme_file_uri(); ?>/images/Kumar Misal -rez/1.jpeg">
+                            <a href="<?php echo get_theme_file_uri(); ?>/images/KumarMisal/1.jpeg">
+                                <img src="<?php echo get_theme_file_uri(); ?>/images/KumarMisal/1.jpeg">
                             </a>
                             <h3 class="single-location">Mumbai</h3>
                         </div>
                         <div class="single-row-right popup-gallery">
-                        <a href="<?php echo get_theme_file_uri(); ?>/images/Kumar Misal -rez/3.jpeg">
-                                <img src="<?php echo get_theme_file_uri(); ?>/images/Kumar Misal -rez/3.jpeg">
+                        <a href="<?php echo get_theme_file_uri(); ?>/images/KumarMisal/3.jpeg">
+                                <img src="<?php echo get_theme_file_uri(); ?>/images/KumarMisal/3.jpeg">
                             </a>
                             
                             <div class="single-concept-note">
@@ -29,17 +29,17 @@ get_header();
                     </div>
                     <div class="single-row two">
                         <div class="single-row-left popup-gallery">
-                        <a href="<?php echo get_theme_file_uri(); ?>/images/Kumar Misal -rez/2.jpeg">
-                                <img class="2nd-img" src="<?php echo get_theme_file_uri(); ?>/images/Kumar Misal -rez/2.jpeg">
+                        <a href="<?php echo get_theme_file_uri(); ?>/images/KumarMisal/2.jpeg">
+                                <img class="2nd-img" src="<?php echo get_theme_file_uri(); ?>/images/KumarMisal/2.jpeg">
                             </a>
                         </div>
                         <div class="single-row-right popup-gallery">
-                            <a href="<?php echo get_theme_file_uri(); ?>/images/Kumar Misal -rez/4.jpeg">
-                                <img src="<?php echo get_theme_file_uri(); ?>/images/Kumar Misal -rez/4.jpeg">
+                            <a href="<?php echo get_theme_file_uri(); ?>/images/KumarMisal/4.jpeg">
+                                <img class="kumar-4" src="<?php echo get_theme_file_uri(); ?>/images/KumarMisal/4.jpeg">
                             </a>
-                            <h3 class="single-medium">Medium</h3>
-                            <a class="kumar-two-right-two" href="<?php echo get_theme_file_uri(); ?>/images/Kumar Misal -rez/5.jpeg">
-                                <img src="<?php echo get_theme_file_uri(); ?>/images/Kumar Misal -rez/5.jpeg">
+                            <h3 class="single-medium">Photograph</h3>
+                            <a class="kumar-two-right-two" href="<?php echo get_theme_file_uri(); ?>/images/KumarMisal/5.jpeg">
+                                <img src="<?php echo get_theme_file_uri(); ?>/images/KumarMisal/5.jpeg">
                             </a>
                         </div>
                     </div>
@@ -55,10 +55,10 @@ get_header();
                             <h3 class="single-institute">Sir JJ School of Art, Mumbai</h3>
                         </div>
                         <div class="single-row-right popup-gallery">
-                            <h3 class="single-duration">Duration: - </h3>
+                            <!-- <h3 class="single-duration">Duration: - </h3> -->
                             <h3 class="single-name title">STICK OUT</h3>
-                            <a href="<?php echo get_theme_file_uri(); ?>/images/Kumar Misal -rez/6.jpeg">
-                                <img src="<?php echo get_theme_file_uri(); ?>/images/Kumar Misal -rez/6.jpeg">
+                            <a href="<?php echo get_theme_file_uri(); ?>/images/KumarMisal/6.jpeg">
+                                <img src="<?php echo get_theme_file_uri(); ?>/images/KumarMisal/6.jpeg">
                             </a>
                         </div>
                     </div>
