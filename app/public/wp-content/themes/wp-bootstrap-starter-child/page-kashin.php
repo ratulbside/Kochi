@@ -18,7 +18,7 @@ body {
             </div>
             <div class="single-row-right">
                 <a class="popup-video" href="https://www.youtube.com/watch?v=dQWg9QoWt7c">
-                    <img id="varsha-two" src="<?php echo get_theme_file_uri(); ?>/images/Kashin.jpg">
+                    <img src="<?php echo get_theme_file_uri(); ?>/images/Kashin.jpg">
                 </a>
                 <h3 class="single-title">Doing the Everyday</h3>
             </div>

@@ -767,6 +767,7 @@ width: 60%;
 .single-background.kasin{
   background-image: url(images/floor/Kashin.jpg);
   width: 1000px;
+  height: 805px;
   margin: 0 auto;
 }
 .single-background.kasin .single-row.one .single-row-left {
@@ -804,7 +805,7 @@ width: 60%;
     right: 100px;
 }
 .single-background.kasin .single-concept-note {
-  margin: 33px 5px 0 20px;
+  margin: 33px 5px 0 80px;
   padding: 5px;
   text-align: justify;
 }
@@ -825,6 +826,12 @@ width: 40%;
 }
 .single-background.kasin h3.single-medium{
   text-align: right;
+}
+.single-background.kasin .single-row.two .single-row-left{
+  width: 65%;
+}
+.single-background.kasin .single-row.two .single-row-right{
+  width: 35%;
 }
 
 /*** kasin end ***/
