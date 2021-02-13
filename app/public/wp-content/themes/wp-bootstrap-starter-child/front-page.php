@@ -140,7 +140,7 @@ tippy('#manish-rathod', {
     content: "Mukta Vaidya + Kumar Misal",
 });
 tippy('#amol', {
-    content: "Mentor",
+    content: "Amol K Patil",
 });
 tippy('#exhibition', {
     content: "Concept Note",

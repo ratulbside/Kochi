@@ -29,10 +29,17 @@ font-weight: bold;
 
 body{
   font-family: avenir sans-sarif !important;
-}
-#main-nav{
+  }
+  html,body{
+    height: 100%;
+  }
+  .site-content, .site{
+    min-height: 100%;
+  }
+#main-nav, .navbar-toggler{
   display: none !important;
 }
+
 
 .single-row::after {
   content: "";
@@ -230,6 +237,9 @@ button#manish-rathod {
     margin-left: 10%;
     position: fixed;
     bottom: 35%;
+}
+.single-switch img{
+  width: 48%;
 }
 .non-floor .single-switch{
   margin-left: -10%;
