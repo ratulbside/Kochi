@@ -43,7 +43,7 @@ body {
 
                 </div>
                 <div class="part-two">
-                    <button id="shreya" class="shreya" page-url="<?php echo site_url();?>/kasin"></button>
+                    <button id="shreya" class="shreya" page-url="<?php echo site_url();?>/kashin"></button>
                     <button id="sawani" class="sawani" page-url="<?php echo site_url();?>/shreya"></button>
                 </div>
             </div>

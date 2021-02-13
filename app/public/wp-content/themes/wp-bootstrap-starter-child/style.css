@@ -769,14 +769,21 @@ width: 60%;
   width: 1000px;
   margin: 0 auto;
 }
+.single-background.kasin .single-row.one .single-row-left {
+    margin-top: 65px;
+}
+.single-background.kasin .single-row.one .single-row-right{
+
+}
 .single-background.kasin .single-row.one .single-row-right img {
-  width: 35%;
-  float: right;
-  margin-right: 85px;
-  margin-top: 76px;
+    width: 35%;
+    float: right;
+    margin-right: 85px;
+    position: relative;
+    top: 140px;
 }
 .single-background.kasin h3.single-name, .single-background.kasin h3.single-institute {
-  margin-left: 200px;
+  margin-left: 82px;
 }
 .single-background.kasin h3.single-name{
   margin-top: 41px;
@@ -788,9 +795,13 @@ width: 60%;
 .single-background.kasin h3.single-duration {
   margin-left: 16px;
 }
-.single-background.kasin h3.single-title{
-  margin-top: 35px;
-  margin-left: 130px;
+.single-background.kasin h3.single-title {
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align: right;
+    position: relative;
+    top: 142px;
+    right: 100px;
 }
 .single-background.kasin .single-concept-note {
   margin: 33px 5px 0 20px;
@@ -811,6 +822,9 @@ margin-left: 23px;
 .single-background.kasin .single-row.four .single-row-left img{
 float: right;
 width: 40%;
+}
+.single-background.kasin h3.single-medium{
+  text-align: right;
 }
 
 /*** kasin end ***/
@@ -1205,7 +1219,7 @@ img#kumar-mishal-video-five {
 .single-background.kumar-mishal .kumar-two-right-two img{
   margin-left: 20px;
 }
-h3.single-medium {
+.single-background.kumar-mishal h3.single-medium {
     width: 100px;
     display: initial;
     position: relative;
@@ -1490,7 +1504,8 @@ h3.single-medium {
   }
   .single-background.kasin .single-row.one .single-row-right img{
     margin-right: 26px;
-    margin-top: 76px;
+    position: relative;
+    top: 98px;
   }
 
   /*single page shreya*/
