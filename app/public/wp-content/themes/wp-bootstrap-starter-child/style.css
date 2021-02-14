@@ -509,7 +509,7 @@ h3.single-name.title, h3.single-name.artist{
 .container-siddhant h3.single-institute {
     width: 160px;
     float: right;
-    margin-right: 20px;
+    margin-right: 25px;
 }
 .container-siddhant h3.single-medium, .container-siddhant h3.single-duration {
     margin-left: 130px;
@@ -556,6 +556,9 @@ h3.single-name.title, h3.single-name.artist{
   margin-left: 30px;
   margin-top: -20px;
 }
+.single-background.mansi .single-title{
+  margin-top: 7px;
+}
 .single-background.mansi img {
   width: 25%;
 }
@@ -600,7 +603,7 @@ width: 62%;
   margin-left: 30px;
 } */
 .single-background.mansi #mansi-img-3{
-  margin-top: 25px;
+  margin-top: 0;
 }
 .single-background.mansi #mansi-img-1{
   margin-top: -40px;
@@ -608,7 +611,7 @@ width: 62%;
   margin-right: 20px;
 }
 .single-background.mansi #mansi-img-5{
-  margin-bottom: -100px;
+  margin-bottom: -69px;
   margin-left: 120px;
 }
 .single-background.mansi #mansi-img-6{
@@ -623,7 +626,7 @@ width: 62%;
   margin-left: 100px;
 }
 .single-background.mansi .single-concept-note{
-  margin-top: 30px;
+  margin-top: 14px;
   margin-left: 280px;
 }
 .single-background.mansi h3.single-location {
@@ -654,6 +657,7 @@ width: 62%;
 }
 .single-background.chaitanya h3.single-name, .single-background.chaitanya h3.single-institute {
   margin-left: 200px;
+  width: 200px;
 }
 .single-background.chaitanya h3.single-name{
   margin-top: 41px;
@@ -666,11 +670,11 @@ width: 62%;
   margin-left: 16px;
 }
 .single-background.chaitanya h3.single-title{
-  margin-top: 70px;
+  margin-top: 77px;
   margin-left: 121px;
 }
 .single-background.chaitanya .single-concept-note {
-  margin: 68px 5px 0 20px;
+  margin: -70px 5px 0 20px;
   padding: 5px;
   text-align: justify;
 }
@@ -699,7 +703,7 @@ margin-left: 23px;
 .single-background.chaitanya .single-row.four .single-row-left img{
 float: right;
 width: 40%;
-margin-top: 27px;
+margin-top: 21px;
 }
 /*** chaitanya end ***/
 
@@ -719,6 +723,7 @@ margin-top: 27px;
 }
 .single-background.neha h3.single-name, .single-background.neha h3.single-institute {
   margin-left: 20px;
+  margin-top: -100px;
 }
 .single-background.neha h3.single-name{
   margin-top: 41px;
@@ -817,7 +822,7 @@ width: 60%;
     right: 175px;
 }
 .single-background.kasin .single-concept-note {
-  margin: 55px 5px 0 80px;
+  margin: 35px 5px 0 80px;
   padding: 5px;
   text-align: justify;
 }
@@ -839,7 +844,7 @@ width: 40%;
 .single-background.kasin h3.single-medium{
   float: right;
   margin-right: -110px;
-  margin-top: -31px;
+  margin-top: -58px;
 }
 .single-background.kasin .single-row.two .single-row-left{
   width: 65%;
@@ -864,6 +869,9 @@ width: 40%;
   width: 1000px;
   margin: 0 auto;
   height: 714px;
+  
+}
+.single-background.rohit, .single-background.rohit h3{
   color: white;
 }
 .single-background.rohit .single-row.one .single-row-right img {
@@ -1112,7 +1120,8 @@ a.shreya-five-tow img {
   margin-left: 70px;
 }
 img#sawani-video-four {
-    margin-left: 14px;
+    margin-left: 23px;
+    margin-top: -46px;
 }
 img#sawani-video-five {
     margin-top: 40px;
@@ -1304,7 +1313,7 @@ img#kumar-mishal-video-five {
 .container-rushikesh p.single-concept-note {
     margin-right: 95px;
     text-align: justify;
-    margin-top: 25px;
+    margin-top: -9px;
 }
 /*** kumar rushikesh end ***/
 

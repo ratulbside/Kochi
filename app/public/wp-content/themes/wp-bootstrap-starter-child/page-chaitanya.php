@@ -35,7 +35,7 @@ body {
                         <div class="single-row-left"></div>
                         <div class="single-row-right">
 							<h3 class="single-location">Mumbai</h3>
-							<h3 class="single-duration">Duration-</h3>
+							<!-- <h3 class="single-duration">Duration-</h3> -->
                         </div>
                     </div>
                     <div class="single-row four">

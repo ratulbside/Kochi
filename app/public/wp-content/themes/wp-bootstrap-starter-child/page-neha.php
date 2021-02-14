@@ -27,8 +27,8 @@ The term " stay-at-home" or "shelter-in-place" is often used for lockdowns that 
                 </div>
             </div>
             <div class="single-row-right">
-                <h3 class="single-duration">Duration: 1.48</h3>
-                <h3 class="single-location">Pune</h3>
+                <h3 class="single-duration">Duration: 46sec</h3>
+                <h3 class="single-location">Nagpur</h3>
 
             </div>
         </div>
@@ -47,7 +47,7 @@ The term " stay-at-home" or "shelter-in-place" is often used for lockdowns that 
                 <h3 class="single-institute">Government college of art and design</h3>
             </div>
             <div class="single-row-right">
-                <h3 class="single-medium">videos</h3>
+                <!-- <h3 class="single-medium">videos</h3> -->
             </div>
         </div>
     </div>

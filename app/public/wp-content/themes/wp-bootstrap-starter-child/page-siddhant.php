@@ -15,8 +15,8 @@ body {
                             <h3 class="single-institute">Bharti vidyapeeth’s college of fine arts</h3>
                         </div>
                         <div class="single-row-right">
-                           <h3 class="single-medium">videos</h3>
-                           <h3 class="single-duration">Duration: 0:35</h3>
+                           <h3 class="single-medium">Medium: video</h3>
+                           <h3 class="single-duration">Duration: 35 sec</h3>
                         </div>
                     </div>
                     <div class="single-row two">
