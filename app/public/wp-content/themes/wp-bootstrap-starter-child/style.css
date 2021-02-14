@@ -224,6 +224,17 @@ button#manish-rathod {
 .home-concept-note p {
     text-align: justify;
 }
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
+}
+.view-res-btn{
+  display: none;
+}
 
 /*invidual page*/
 .single-background {
@@ -1412,6 +1423,27 @@ img#kumar-mishal-video-five {
     padding-top: 70px;
   }
 
+  .view-res-btn {
+    display: block;
+    background-color: #fff;
+    width: 80px;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    right: 0px;
+}
+div#content-popup h4 {
+    padding: 0px;
+    margin: 8px 0px;
+    font-size: 15px;
+}
+div#content-popup p{
+  text-align: justify;
+  font-size: 14px;
+}
+
   /*single page sushil*/
   .single-background.sushil {
     width: 320px;
@@ -1581,6 +1613,7 @@ img#kumar-mishal-video-five {
   .single-background.tanya {
     width: 320px;
     height: auto;
+    position: relative;
   }
   .single-background.tanya .single-row.two {
     margin-bottom: 80px;
