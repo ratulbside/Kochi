@@ -777,35 +777,36 @@ width: 60%;
 
 }
 .single-background.kasin .single-row.one .single-row-right img {
-    width: 35%;
+    width: 33%;
     float: right;
-    margin-right: 85px;
+    margin-right: 115px;
     position: relative;
-    top: 140px;
+    top: 145px;
 }
 .single-background.kasin h3.single-name, .single-background.kasin h3.single-institute {
   margin-left: 82px;
 }
 .single-background.kasin h3.single-name{
-  margin-top: 41px;
+  margin-top: 100px;
+  margin-bottom: 20px;
 }
 .single-background.kasin h3.single-location {
   margin-top: 0;
   margin-left: 9px;
+  text-align: right;
 }
 .single-background.kasin h3.single-duration {
-  margin-left: 16px;
+  margin-left: 170px;
+  margin-top: -100px;
 }
 .single-background.kasin h3.single-title {
-    margin-top: 0px;
-    margin-left: 0px;
     text-align: right;
     position: relative;
-    top: 142px;
-    right: 100px;
+    top: 144px;
+    right: 175px;
 }
 .single-background.kasin .single-concept-note {
-  margin: 33px 5px 0 80px;
+  margin: 55px 5px 0 80px;
   padding: 5px;
   text-align: justify;
 }
@@ -825,7 +826,9 @@ float: right;
 width: 40%;
 }
 .single-background.kasin h3.single-medium{
-  text-align: right;
+  float: right;
+  margin-right: -110px;
+  margin-top: -31px;
 }
 .single-background.kasin .single-row.two .single-row-left{
   width: 65%;
@@ -1508,11 +1511,6 @@ img#kumar-mishal-video-five {
   .single-background.kasin {
     width: 320px;
     height: auto;
-  }
-  .single-background.kasin .single-row.one .single-row-right img{
-    margin-right: 26px;
-    position: relative;
-    top: 98px;
   }
 
   /*single page shreya*/

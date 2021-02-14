@@ -14,7 +14,7 @@ body {
             <div class="single-row-left">
                 <h3 class="single-name">Kashin Patel</h3>
                 <h3 class="single-institute">Sir J. J. School of Art</h3>
-                <h3 class="single-medium">Drawing on paper and iPad</h3>
+                <h3 class="single-medium">Medium:</br> Drawing on paper and iPad</h3>
             </div>
             <div class="single-row-right">
                 <a class="popup-video" href="https://www.youtube.com/watch?v=dQWg9QoWt7c">
@@ -38,7 +38,7 @@ body {
                 <h3 class="single-location">Mumbai</h3>
             </div>
             <div class="single-row-right">
-                <h3 class="single-duration">Duration: 3.10</h3>
+                <h3 class="single-duration">Duration: 3 minutes 10 seconds</h3>
             </div>
         </div>
         <div class="single-row four">

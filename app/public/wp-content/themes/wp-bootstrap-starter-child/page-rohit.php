@@ -17,7 +17,7 @@ body {
                             <h3 class="single-name title"></h3>
                         </div>
                         <div class="single-row-right">
-                            <a class="popup-video" href="https://www.youtube.com/watch?v=kqoVZFX-rEA">
+                            <a class="popup-video" href="https://www.youtube.com/watch?v=SOHqbE6W2aI">
                                 <img src="<?php echo get_theme_file_uri(); ?>/images/Rohit3.jpg">
                             </a>
                             
