@@ -10,6 +10,13 @@ body {
 </style>
             <div class="container-varsha">
                 <div class="single-background varsha">
+                    <span id="view-btn" class="view-res-btn varsha-btn">View Details</span>
+                    <div id="content-popup" class="white-popup mfp-hide">
+                      <h4>Name: Varsha Umate</h4>
+                      <h4>Institute: Government College of Art And Design, Nagpur</h4>
+                      <h4>Location: Nagpur</h4>
+                      <p>Through my work, I have tried to depict the condition of people during the lockdown. The lockdown has affected three main areas-  limiting going outside of the home, social distancing when outside and restricting availability of most public services. With the "stay home and stay safe" policy, most people have become like fish in a bowl. Where one is safe when they are at home, and it becomes risky the moment you go out.</p>
+                    </div>
                     <div class="single-row one">
                         <div class="single-row-left popup-gallery">
                             <h3 class="single-name">Varsha Umate</h3>
@@ -84,7 +91,15 @@ get_footer();
                     tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
                 }
             });
-
+            jQuery('#view-btn').on("click", function(){
+                jQuery.magnificPopup.open({
+                  items: {
+                      src: '#content-popup',
+                      type:'inline'
+                  },
+                  modal: false
+              });
+            });
             
         });
     </script>

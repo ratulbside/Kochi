@@ -10,6 +10,16 @@ body {
 </style>
 <div class="container-kasin">
     <div class="single-background kasin">
+        <span id="view-btn" class="view-res-btn">View Details</span>
+        <div id="content-popup" class="white-popup mfp-hide">
+            <h4>Name: Kashin Patel</h4>
+            <h4>Institute: Sir J. J. School of Art</h4>
+            <h4>Location: Mumbai</h4>
+            <h4>Title: Doing the Everyday</h4>
+            <h4>Medium: Drawing on paper and iPad</h4>
+            <h4>Duration: 3 minutes 10 seconds</h4>
+            <p>'Doing the Everyday' is about everyday actions and thoughts. The lockdown has compelled us all to spend a significant amount of time indoors, by ourselves; It has caused a greater awareness in many of us even, while we do routine things such as eating, sleeping, or even clipping our fingernails. Never before have we been so obsessed about cleaning windows or our cupboards. Being locked in confined spaces, our homes, has made such activities necessary to maintain a sense of purpose and sanity. This mini-book of drawings highlights these little acts that have kept us going through the ongoing pandemic.</p>
+        </div>
         <div class="single-row one">
             <div class="single-row-left">
                 <h3 class="single-name">Kashin Patel</h3>
@@ -72,5 +82,14 @@ jQuery(function() {
 
         fixedContentPos: false
     });
+    jQuery('#view-btn').on("click", function(){
+                jQuery.magnificPopup.open({
+                  items: {
+                      src: '#content-popup',
+                      type:'inline'
+                  },
+                  modal: false
+              });
+            });
 });
 </script>

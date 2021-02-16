@@ -10,6 +10,16 @@ body {
 </style>
             <div class="container-siddhant">
                 <div class="single-background siddhant">
+                    <span id="view-btn" class="view-res-btn">View Details</span>
+                    <div id="content-popup" class="white-popup mfp-hide">
+                      <h4>Name: Siddhant Meher</h4>
+                      <h4>Institute: Bharti vidyapeeth’s college of fine arts</h4>
+                      <h4>Location: Pune</h4>
+                      <h4>Title: Contrast</h4>
+                      <h4>Medium: Video</h4>
+                      <h4>Duration: 35 sec</h4>
+                      <p>Sound, in particular, was significant to me during the pandemic. There were some sounds which irritated me. And others, common in our everyday life, that I had not noticed so profoundly before. My work, therefore, uses both images and sounds.During the pandemic, I began to perceive things in our everyday life very differently. The pandemic has caused us all to attach different positive and negative connotations to so many different experiences and things.</p>
+                    </div>
                     <div class="single-row one">
                         <div class="single-row-left">
                             <h3 class="single-institute">Bharti vidyapeeth’s college of fine arts</h3>
@@ -66,6 +76,15 @@ get_footer();
                 preloader: false,
 
                 fixedContentPos: false
+            });
+            jQuery('#view-btn').on("click", function(){
+                jQuery.magnificPopup.open({
+                  items: {
+                      src: '#content-popup',
+                      type:'inline'
+                  },
+                  modal: false
+              });
             });
         });
     </script>

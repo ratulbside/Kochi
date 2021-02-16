@@ -11,6 +11,16 @@ body {
             <div class="container-mansi">
                 <!-- <h2 style="width: 100%; text-align: center;">Mansi Rathod</h2> -->
                 <div class="single-background mansi">
+                    <span id="view-btn" class="view-res-btn mansi-btn">View Details</span>
+                    <div id="content-popup" class="white-popup mfp-hide">
+                      <h4>Name: Mansi Rathod</h4>
+                      <h4>Institute: Vasai Vikasini College of Visual Art.</h4>
+                      <h4>Location: Mumbai</h4>
+                      <h4>Title: The safety cloth</h4>
+                      <h4>Medium: Video</h4>
+                      <h4>Duration: 99sec</h4>
+                      <p>The pandemic has hit us all in ways we could never have imagined.  Much like a thread can bind two pieces of cloth, the pandemic has, for me, acted as a thread that strengthened my relationship with many important people in my life.<br>Just like the nature of various kinds of thread differs, the pandemic has revealed to me, the relationships that were frail or raw, or weak.<br>The lockdown allowed me to learn sewing from my mother. And at a time when we are afraid of touching objects with our bare hands, in fear of infection, I have used these basic stitching skills to create something that would help me pick things up while staying safe.</p>
+                    </div>
                     <div class="single-row one">
                         <div class="single-row-left">
                             <h3 class="single-name">Mansi Rathod</h3>
@@ -107,7 +117,15 @@ get_footer();
                     tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
                 }
             });
-
+            jQuery('#view-btn').on("click", function(){
+                jQuery.magnificPopup.open({
+                  items: {
+                      src: '#content-popup',
+                      type:'inline'
+                  },
+                  modal: false
+              });
+            });
             
         });
     </script>

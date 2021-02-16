@@ -12,6 +12,16 @@ body {
             <div class="container-sushil">
                 <!-- <h2 style="width: 100%; text-align: center;">Sushil Jagtap</h2> -->
                 <div class="single-background sushil">
+                    <span id="view-btn" class="view-res-btn">View Details</span>
+                    <div id="content-popup" class="white-popup mfp-hide">
+                      <h4>Name: SUSHIL JAGTAP</h4>
+                      <h4>Institute: DR.B.A.M.U.A</h4>
+                      <h4>Location: Pune</h4>
+                      <h4>Title: sound</h4>
+                      <h4>Medium: Video</h4>
+                      <h4>Duration: 1.48</h4>
+                      <p>To stay safe from Corona we adopted the Lockdown as a self-responsibility. Being in closed spaces became intolerable and we eagerly waited for it to end. Through this video, I have tried to show the impatience each of us had for the Lockdown to get over.</p>
+                    </div>
                     <div class="single-row one">
                         <div class="single-row-left">
                             <h3 class="single-name">SUSHIL JAGTAP</h3>
@@ -83,6 +93,15 @@ get_footer();
                 fixedContentPos: false
             });
 
+            jQuery('#view-btn').on("click", function(){
+                jQuery.magnificPopup.open({
+                  items: {
+                      src: '#content-popup',
+                      type:'inline'
+                  },
+                  modal: false
+              });
+            });
             
         });
     </script>

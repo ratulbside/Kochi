@@ -10,6 +10,16 @@ body {
 </style>
             <div class="container-sawani">
                 <div class="single-background sawani">
+                    <span id="view-btn" class="view-res-btn">View Details</span>
+                    <div id="content-popup" class="white-popup mfp-hide">
+                      <h4>Name: Sawani Chaudhary</h4>
+                      <h4>Institute: J. J. School of Art BFA</h4>
+                      <h4>Location: Mumbai</h4>
+                      <h4>Title: Everyday, again</h4>
+                      <h4>Medium: Video</h4>
+                      <h4>Duration: 2:46</h4>
+                      <p>Living in a house for months, without stepping out, made me conscious of myself, my growth, and decay. Whether it was in hair fall, small bruises, or weight loss.<br>Due to the silence during the lockdown, insignificant sounds became piercing- like turning on the switches or scratching. I have combined such sounds and visuals and created videos.<br>These videos emphasize the sound and movement at home through everyday activities.<br>The videos are projected, and have been intentionally left raw in an attempt to create a mundane repetition of the everyday. The visuals are playing in the same space as they were initially filmed to establish a relationship between the past and present.</p>
+                    </div>
                     <div class="single-row one">
                         <div class="single-row-left">
                             <a class="popup-video" href="https://www.youtube.com/watch?v=geVLyRxk_TQ">
@@ -81,6 +91,16 @@ get_footer();
                 preloader: false,
 
                 fixedContentPos: false
+            });
+
+            jQuery('#view-btn').on("click", function(){
+                jQuery.magnificPopup.open({
+                  items: {
+                      src: '#content-popup',
+                      type:'inline'
+                  },
+                  modal: false
+              });
             });
         });
     </script>

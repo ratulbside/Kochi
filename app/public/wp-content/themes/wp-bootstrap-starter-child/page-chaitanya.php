@@ -12,6 +12,16 @@ body {
             <div class="container-chaitanya">
                 <!-- <h2 style="width: 100%; text-align: center;">Chaitanya Powle</h2> -->
                 <div class="single-background chaitanya">
+                    <span id="view-btn" class="view-res-btn">View Details</span>
+                    <div id="content-popup" class="white-popup mfp-hide">
+                      <h4>Name: Chaitanya Powle</h4>
+                      <h4>Institute: Vasai Vikasini College of Visual Art</h4>
+                      <h4>Location: Mumbai</h4>
+                      <h4>Title: grown fungus</h4>
+                      <h4>Medium: Photographs and Video</h4>
+                      <p>The whole world has been under lockdown due to the COVID-19 pandemic. Since many of us have been locked indoors for so long, objects such as outdoor footwear have been rendered quite useless. This is despite the fact that footwear is an essential in everyday life.<br>This has led to many of us sleeping more or feeling lethargic, and has even caused some of us to put on weight. It has set us in a very different routine. Months and months of being at home have begun to manifest as fungus and mould growing on our footwear. 
+</p>
+                    </div>
                     <div class="single-row one">
                         <div class="single-row-left popup-gallery">
 							<h3 class="single-name">Chaitanya Powle</h3>
@@ -89,6 +99,16 @@ get_footer();
                 preloader: false,
 
                 fixedContentPos: false
+            });
+
+            jQuery('#view-btn').on("click", function(){
+                jQuery.magnificPopup.open({
+                  items: {
+                      src: '#content-popup',
+                      type:'inline'
+                  },
+                  modal: false
+              });
             });
 
             

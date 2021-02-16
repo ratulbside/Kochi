@@ -11,6 +11,15 @@ body {
     <div class="container-kumar-mishal">
                 <!-- <h2 style="width: 100%; text-align: center;">Kumar Misal</h2> -->
                 <div class="single-background kumar-mishal">
+                    <span id="view-btn" class="view-res-btn">View Details</span>
+                    <div id="content-popup" class="white-popup mfp-hide">
+                      <h4>Name: Kumar Pandurang Misal</h4>
+                      <h4>Institute: Sir JJ School of Art, Mumbai.</h4>
+                      <h4>Location: Mumbai</h4>
+                      <h4>Title: STICK OUT</h4>
+                      <h4>Medium: Photograph</h4>
+                      <p>In the midst of the pandemic, the importance of nature, for humans has heightened. And home has been a safe space for many of us through this crisis. I have, in the course of this crisis, developed a deep conversation and relationship with everyday objects such as the sofa, fan, window, chair while sketching them.<br>Many things become dear to us in this time, and many others have stopped being objects of affection. I have attempted to talk about these experiences through my work.</p>
+                    </div>
                     <div class="single-row one">
                         <div class="single-row-left popup-gallery">
                             <a href="<?php echo get_theme_file_uri(); ?>/images/KumarMisal/1.jpeg">
@@ -93,7 +102,15 @@ get_footer();
                     tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
                 }
             });
-
+            jQuery('#view-btn').on("click", function(){
+                jQuery.magnificPopup.open({
+                  items: {
+                      src: '#content-popup',
+                      type:'inline'
+                  },
+                  modal: false
+              });
+            });
             
         });
     </script>

@@ -7,6 +7,16 @@ get_header();
 
 <div class="container-neha">
     <div class="single-background neha">
+        <span id="view-btn" class="view-res-btn">View Details</span>
+        <div id="content-popup" class="white-popup mfp-hide">
+            <h4>Name: Neha Zode</h4>
+            <h4>Institute: Government college of art and design</h4>
+            <h4>Location: Nagpur</h4>
+            <h4>Title: Home Corners</h4>
+            <h4>Medium: Video</h4>
+            <h4>Duration: 46sec</h4>
+            <p>A lockdown is a restriction policy for people or a community to stay where they are, usually due to specific risks to themselves or to others if they moved and interacted freely.<br>The term " stay-at-home" or "shelter-in-place" is often used for lockdowns that affect an area rather than specific locations. So I thought that a full lockdown would mean you must stay where you are, and not exit or enter a building or a given area. I used corners of the home to quarantine myself, because I believe corners, with a borderline drawn, are also alike rooms.</p>
+        </div>
         <div class="single-row one">
             <div class="single-row-left">
                 <h3 class="single-name">Neha Zode</h3>
@@ -70,6 +80,15 @@ jQuery(function() {
         preloader: false,
 
         fixedContentPos: false
+    });
+    jQuery('#view-btn').on("click", function(){
+        jQuery.magnificPopup.open({
+            items: {
+                src: '#content-popup',
+                type:'inline'
+            },
+            modal: false
+        });
     });
 });
 </script>

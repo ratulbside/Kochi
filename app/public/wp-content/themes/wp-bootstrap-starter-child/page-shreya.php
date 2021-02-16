@@ -11,6 +11,15 @@ body {
     
             <div class="container-shreya">
                 <div class="single-background shreya">
+                    <span id="view-btn" class="view-res-btn shreya-btn">View Details</span>
+                    <div id="content-popup" class="white-popup mfp-hide">
+                      <h4>Name: Shreya Rohamare</h4>
+                      <h4>Institute: Sndt Women’s University Pune</h4>
+                      <h4>Location: Pune</h4>
+                      <h4>Title: Paper drawings on digital photograph</h4>
+                      <h4>Medium: Photos</h4>
+                      <p>Truth that explodes within Like an elephant herd stampeded by ants, a miserable unimaginable happening to someone who thought he was god, now just a man behind walls. We have two truths- one that we see other that we know, idle are both as we are shunned into tenebrism by the germ that swept us inside our homes.Home is that space of familiar direction to feel everything around to a heighten sense of sunken personal expression, disinfecting the streets from us. We inscrutably loom around, almost compelled to fantasize scenarios and human faces that we missed, being the owner of inside its the outer that we seek. The truth out there is black and white and the inner almost a impression of tranquillity from a monk that exuberates limitless thoughts and fearsome abyss. That explodes within.</p>
+                    </div>
                     <div class="single-row one">
                         <div class="single-row-left popup-gallery">
                             <a class="shreya-one-img" href="<?php echo get_theme_file_uri(); ?>/images/Shreya/1.jpeg">
@@ -114,6 +123,15 @@ get_footer();
                 }
             });
 
+            jQuery('#view-btn').on("click", function(){
+                jQuery.magnificPopup.open({
+                  items: {
+                      src: '#content-popup',
+                      type:'inline'
+                  },
+                  modal: false
+              });
+            });
             
         });
     </script>

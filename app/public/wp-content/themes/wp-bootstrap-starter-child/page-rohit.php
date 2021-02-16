@@ -11,6 +11,14 @@ body {
     <div class="container-rohit">
                 
                 <div class="single-background rohit">
+                    <span id="view-btn" class="view-res-btn">View Details</span>
+                    <div id="content-popup" class="white-popup mfp-hide">
+                      <h4>Name: Rohit Varekar</h4>
+                      <h4>Institute: Sir J. J School of Art</h4>
+                      <h4>Location: Mumbai</h4>
+                      <p>The pandemic has urged us to be concerned about our health and safety, whether it be through government regulations or self-discipline. We distance ourselves from each other physically as we crave closeness to others, mentally and emotionally. We have been caged in our homes- while animals and birds seemingly move freely.<br>Through this workshop, I have created two objects- one is a headgear, and the other, a two-ringed neck accessory. The headgear is symbolic of being confined, as if our thoughts are in lockdown too. And the neck accessory is a wearable object that one can use while with another individual, outdoors, to maintain social distancing. The images document the objects, and the videos show their implementation in the everyday.
+</p>
+                    </div>
                     <div class="single-row one">
                         <div class="single-row-left">
                             <h3 class="single-name">Rohit Varekar</h3>
@@ -88,6 +96,16 @@ get_footer();
                 preloader: false,
 
                 fixedContentPos: false
+            });
+
+            jQuery('#view-btn').on("click", function(){
+                jQuery.magnificPopup.open({
+                  items: {
+                      src: '#content-popup',
+                      type:'inline'
+                  },
+                  modal: false
+              });
             });
         });
     </script>

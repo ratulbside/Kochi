@@ -10,6 +10,13 @@ body {
 </style>
             <div class="container-muktakumar">
                 <div class="single-background muktakumar">
+                    <span id="view-btn" class="view-res-btn muktakumar-btn">View Details</span>
+                    <div id="content-popup" class="white-popup mfp-hide">
+                      <h4>Name: Mukta Vaidya + Kumar Misal</h4>
+                      <h4>Title: Spun Candy</h4>
+                      <h4>Medium: Multimedia</h4>
+                      <p>Spun Candy is a metaphorical rendering. It is associated with the characteristics of cotton candy- pink, soft, sensitive, dense and layered. It represents the various overlapping incidents faced by women at home.</p>
+                    </div>
                     <div class="single-row one">
                         <div class="single-row-left">
                             <h3 class="single-name">Mukta Vaidya + Kumar Misal</h3>
@@ -100,7 +107,15 @@ get_footer();
                     tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
                 }
             });
-
+            jQuery('#view-btn').on("click", function(){
+                jQuery.magnificPopup.open({
+                  items: {
+                      src: '#content-popup',
+                      type:'inline'
+                  },
+                  modal: false
+              });
+            });
             
         });
     </script>
