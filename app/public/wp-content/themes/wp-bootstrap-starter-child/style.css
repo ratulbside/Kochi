@@ -521,6 +521,9 @@ h3.single-name.title, h3.single-name.artist{
   width: 70%;
   margin-left: 30px;
 }
+.container-siddhant .single-switch img{
+  width: 48%;
+}
 .container-siddhant .single-row.three {
     padding-top: 83px;
 }

@@ -26,11 +26,13 @@ body {
                             <h3 class="single-name">Mansi Rathod</h3>
                             <h3 class="single-name-col">Vasai Vikasini College of Visual Art.</h3>
                         </div>
-                        <div class="single-row-right popup-gallery">
-                            <a href="<?php echo get_theme_file_uri(); ?>/images/Mansi/Mansi-img2.jpg">
-                                <img src="<?php echo get_theme_file_uri(); ?>/images/Mansi/Mansi-img2.jpg">
-                            </a>
-                            <a class="popup-video" href="https://www.youtube.com/watch?v=HpSM1n2Yzu0">
+                        <div class="single-row-right">
+                            <span class="popup-gallery">
+                                <a href="<?php echo get_theme_file_uri(); ?>/images/Mansi/Mansi-img2.jpg">
+                                    <img src="<?php echo get_theme_file_uri(); ?>/images/Mansi/Mansi-img2.jpg">
+                                </a>
+                            </span>
+                            <a class="popup-video" href="https://www.youtube.com/watch?v=zbp3hYyNt9k">
                                 <img id="mansi-vid-1" src="<?php echo get_theme_file_uri(); ?>/images/Mansi1.jpg">
                             </a>
                             <h3 class="single-location">Mumbai</h3>
@@ -57,25 +59,21 @@ body {
                         </div>
                     </div>
                     <div class="single-row three">
-                        <div class="single-row-left popup-gallery">
-                            <a href="<?php echo get_theme_file_uri(); ?>/images/Mansi/Mansi-img6.jpg">
-                                <img id="mansi-img-6" src="<?php echo get_theme_file_uri(); ?>/images/Mansi/Mansi-img6.jpg">
-                            </a>
-                            <a class="popup-video" href="https://www.youtube.com/watch?v=ayMDUHoeA98">
+                        <div class="single-row-left">
+                            <span class="popup-gallery">
+                                <a href="<?php echo get_theme_file_uri(); ?>/images/Mansi/Mansi-img6.jpg">
+                                    <img id="mansi-img-6" src="<?php echo get_theme_file_uri(); ?>/images/Mansi/Mansi-img6.jpg">
+                                </a>
+                            </span>
+                            <a class="popup-video" href="https://www.youtube.com/watch?v=yN98BvkTyw8">
                                 <img id="mansi-vid-2" src="<?php echo get_theme_file_uri(); ?>/images/Mansi2.jpg">
                             </a>
                         </div>
-                        <div class="single-row-right popup-gallery">
-                            <a class="popup-video" href="https://www.youtube.com/watch?v=Vfmj3_3YidA">
+                        <div class="single-row-right">
+                            <a class="popup-video" href="https://www.youtube.com/watch?v=nd5CQrmKYF8">
                                 <img id="mansi-vid-3" src="<?php echo get_theme_file_uri(); ?>/images/Mansi3.jpg">
                             </a>
-                        </div>
-                    </div>
-                    <div class="single-row four">
-                        <div class="single-row-left popup-gallery">
-                            
-                        </div>
-                        <div class="single-row-right">
+
                             <div class="single-concept-note">
                             <p> The pandemic has hit us all in ways we could never have imagined.  Much like a thread can bind two pieces of cloth, the pandemic has, for me, acted as a thread that strengthened my relationship with many important people in my life.     
 
@@ -85,6 +83,14 @@ The lockdown allowed me to learn sewing from my mother. And at a time when we ar
 
                             </p>
                             </div>
+                        </div>
+                    </div>
+                    <div class="single-row four">
+                        <div class="single-row-left popup-gallery">
+                            
+                        </div>
+                        <div class="single-row-right">
+                            
                         </div>
                     </div>
                 </div>
@@ -116,6 +122,15 @@ get_footer();
                 image: {
                     tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
                 }
+            });
+            jQuery('.popup-video').magnificPopup({
+                disableOn: 700,
+                type: 'iframe',
+                mainClass: 'mfp-fade',
+                removalDelay: 160,
+                preloader: false,
+
+                fixedContentPos: false
             });
             jQuery('#view-btn').on("click", function(){
                 jQuery.magnificPopup.open({
